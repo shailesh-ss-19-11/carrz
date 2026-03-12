@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: var(--primary-color);
+  --color-primary-dark: var(--primary-dark-color);
+
+  --color-background: var(--bg-color);
+  --color-foreground: var(--fg-color);
+  --color-surface: var(--surface-color);
+  --color-surface-border: var(--border-color);
+  --color-surface-hover: var(--hover-color);
+  --color-muted: var(--muted-color);
+}
+
+:root {
+  --bg-color: #f8fafc;
+  --fg-color: #0f172a;
+  --surface-color: #ffffff;
+  --border-color: #e2e8f0;
+  --hover-color: #f1f5f9;
+  --muted-color: #4b5563;
+
+  /* Darker, richer green for light mode contrast */
+  --primary-color: #16a34a;
+  --primary-dark-color: #15803d;
+
+  /* Glow utility variables */
+  --glow-rgb: 22, 163, 74;
+}
+
+.dark {
+  --bg-color: #0a1128;
+  /* Deep Navy Blue */
+  --fg-color: #ffffff;
+  --surface-color: #111d40;
+  --border-color: #1c2b5e;
+  --hover-color: #1e293b;
+  --muted-color: #9ca3af;
+
+  /* Bright Neon Green for dark mode */
+  --primary-color: #39ff14;
+  --primary-dark-color: #2ee60b;
+
+  --glow-rgb: 57, 255, 20;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--fg-color);
+  font-family: var(--font-inter), sans-serif;
+  overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Neon glow utility using dynamic rgb */
+@utility glow-text {
+  text-shadow: 0 0 10px rgba(var(--glow-rgb), 0.7), 0 0 20px rgba(var(--glow-rgb), 0.5);
+}
+
+@utility glow-box {
+  box-shadow: 0 0 15px rgba(var(--glow-rgb), 0.4), 0 0 30px rgba(var(--glow-rgb), 0.2);
+}
+
+@utility glow-box-hover {
+  &:hover {
+    box-shadow: 0 0 20px rgba(var(--glow-rgb), 0.6), 0 0 40px rgba(var(--glow-rgb), 0.3);
+  }
+}
+
+::selection {
+  background: rgba(var(--glow-rgb), 0.3);
+  color: var(--fg-color);
+}
+
+/* 3D Flip Card Utilities */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.group:hover .group-hover\:rotate-y-180 {
+  transform: rotateY(180deg);
+}
