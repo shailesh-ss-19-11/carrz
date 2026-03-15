@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import MobileBottomNav from "@/components/MobileBottomNav";
 import "./globals.css";
 
 const inter = Inter({
@@ -114,6 +115,7 @@ export default function RootLayout({
           </main>
           <Footer />
         </ThemeProvider>
+        <MobileBottomNav />
       </body>
     </html>
   );

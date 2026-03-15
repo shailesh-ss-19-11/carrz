@@ -13,35 +13,34 @@
 }
 
 :root {
-  --bg-color: #f8fafc;
-  --fg-color: #0f172a;
+  --bg-color: #ffffff;
+  --fg-color: #000000;
   --surface-color: #ffffff;
   --border-color: #e2e8f0;
   --hover-color: #f1f5f9;
   --muted-color: #4b5563;
 
-  /* Darker, richer green for light mode contrast */
-  --primary-color: #16a34a;
-  --primary-dark-color: #15803d;
+  /* Red for icons and primary theme elements */
+  --primary-color: #ff0000;
+  --primary-dark-color: #dc2626;
 
   /* Glow utility variables */
-  --glow-rgb: 22, 163, 74;
+  --glow-rgb: 255, 0, 0;
 }
 
 .dark {
-  --bg-color: #0a1128;
-  /* Deep Navy Blue */
-  --fg-color: #ffffff;
-  --surface-color: #111d40;
-  --border-color: #1c2b5e;
-  --hover-color: #1e293b;
-  --muted-color: #9ca3af;
+  --bg-color: #ffffff;
+  --fg-color: #000000;
+  --surface-color: #f8fafc;
+  --border-color: #e2e8f0;
+  --hover-color: #f1f5f9;
+  --muted-color: #4b5563;
 
-  /* Bright Neon Green for dark mode */
-  --primary-color: #39ff14;
-  --primary-dark-color: #2ee60b;
+  /* Red for icons and primary theme elements */
+  --primary-color: #ff0000;
+  --primary-dark-color: #dc2626;
 
-  --glow-rgb: 57, 255, 20;
+  --glow-rgb: 255, 0, 0;
 }
 
 body {

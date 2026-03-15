@@ -2,8 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { CarFront, Menu, X } from "lucide-react";
-import { ThemeToggle } from "@/components/ThemeToggle";
+import { Menu, X } from "lucide-react";
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -17,72 +16,75 @@ export default function Navbar() {
     ];
 
     return (
-        <nav className="fixed w-full z-50 bg-background/80 backdrop-blur-md border-b border-[#111d40]">
+        <nav className="fixed top-0 w-full z-50 bg-surface border-b border-surface-border">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-between items-center h-20">
+                <div className="flex justify-between items-center h-16">
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-2 group">
                         <img
                             src="/logo.png"
-                            alt="Rediance Logo"
-                            className="h-12 w-auto object-contain drop-shadow-[0_0_8px_rgba(255,255,255,0.1)] group-hover:drop-shadow-[0_0_12px_rgba(255,0,0,0.6)] transition-all duration-300"
+                            alt="Carrz Car Care Logo"
+                            className="h-10 w-auto object-contain transition-all duration-300"
                         />
+                        <span className="font-bold text-lg tracking-tight text-foreground">Carrz Car Care</span>
                     </Link>
 
                     {/* Desktop Nav */}
-                    <div className="hidden md:flex items-center space-x-8">
+                    <div className="hidden md:flex items-center space-x-6">
                         {navLinks.map((link) => (
                             <Link
                                 key={link.name}
                                 href={link.href}
-                                className="text-muted hover:text-primary hover:glow-text transition-colors duration-300 font-medium"
+                                className="text-muted hover:text-primary transition-colors duration-300 font-medium text-sm"
                             >
                                 {link.name}
                             </Link>
                         ))}
-                        <ThemeToggle />
                         <Link
                             href="/contact"
-                            className="px-6 py-2.5 bg-primary/10 text-primary border border-primary/50 rounded-full font-semibold hover:bg-primary hover:text-black hover:glow-box transition-all duration-300"
+                            className="px-5 py-2 bg-primary text-white rounded-md font-semibold hover:bg-primary-dark transition-all duration-300 text-sm"
                         >
-                            Book Now
+                            Log in / Sign up
                         </Link>
                     </div>
 
                     {/* Mobile Menu Button */}
                     <div className="md:hidden flex items-center space-x-4">
-                        <ThemeToggle />
+                        {/* <Link
+                            href="/contact"
+                            className="text-sm font-semibold text-primary"
+                        >
+                            Login
+                        </Link> */}
                         <button
                             onClick={() => setIsOpen(!isOpen)}
-                            className="text-muted hover:text-primary focus:outline-none"
+                            className="p-2 -mr-2 rounded-md text-foreground focus:outline-none"
+                            aria-label="Toggle menu"
                         >
-                            {isOpen ? <X className="h-7 w-7" /> : <Menu className="h-7 w-7" />}
+                            {isOpen ? (
+                                <X className="h-6 w-6" />
+                            ) : (
+                                <Menu className="h-6 w-6" />
+                            )}
                         </button>
                     </div>
                 </div>
             </div>
 
-            {/* Mobile Nav */}
+            {/* Mobile Nav Menu */}
             {isOpen && (
-                <div className="md:hidden bg-background border-b border-[#111d40]">
-                    <div className="px-4 pt-2 pb-6 space-y-2 flex flex-col items-center">
+                <div className="md:hidden bg-surface border-t border-surface-border shadow-lg">
+                    <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                         {navLinks.map((link) => (
                             <Link
                                 key={link.name}
                                 href={link.href}
                                 onClick={() => setIsOpen(false)}
-                                className="block px-3 py-2 text-base font-medium text-muted hover:text-primary hover:glow-text"
+                                className="block px-3 py-2 rounded-md text-base font-medium text-foreground hover:bg-muted/10 hover:text-primary transition-colors"
                             >
                                 {link.name}
                             </Link>
                         ))}
-                        <Link
-                            onClick={() => setIsOpen(false)}
-                            href="/contact"
-                            className="mt-4 inline-block w-full text-center px-6 py-3 bg-primary/10 text-primary border border-primary/50 rounded-full font-semibold"
-                        >
-                            Book Now
-                        </Link>
                     </div>
                 </div>
             )}

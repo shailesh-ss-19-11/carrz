@@ -1,0 +1,7 @@
+{
+  "/contact/page": "app/contact/page.js",
+  "/handbucket-wash/page": "app/handbucket-wash/page.js",
+  "/page": "app/page.js",
+  "/pressure-wash/page": "app/pressure-wash/page.js",
+  "/services/page": "app/services/page.js"
+}

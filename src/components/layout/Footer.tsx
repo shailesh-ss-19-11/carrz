@@ -8,12 +8,13 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
                     {/* Brand Col */}
                     <div className="space-y-4">
-                        <Link href="/" className="flex items-center gap-2 group w-fit">
+                        <Link href="/" className="flex items-center gap-3 group w-fit">
                             <img
                                 src="/logo.png"
-                                alt="Rediance Logo"
-                                className="h-16 w-auto object-contain drop-shadow-[0_0_8px_rgba(255,255,255,0.1)] group-hover:drop-shadow-[0_0_12px_rgba(255,0,0,0.6)] transition-all duration-300"
+                                alt="Carrz Car Care Logo"
+                                className="h-16 w-auto object-contain drop-shadow-[0_0_8px_rgba(255,0,0,0.1)] group-hover:drop-shadow-[0_0_12px_rgba(255,0,0,0.6)] transition-all duration-300"
                             />
+                            <span className="font-bold text-2xl tracking-tight text-foreground group-hover:text-primary transition-colors">Carrz Car Care</span>
                         </Link>
                         <p className="text-muted leading-relaxed text-sm">
                             Premium doorstep car cleaning and detailing services in Nagpur.
@@ -86,7 +87,7 @@ export default function Footer() {
 
                 <div className="border-t border-[#111d40] pt-8 mt-8 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-muted text-sm text-center md:text-left">
-                        &copy; {new Date().getFullYear()} Rediance Carwash. All rights reserved.
+                        &copy; {new Date().getFullYear()} Carrz Car Care. All rights reserved.
                     </p>
                     <div className="flex gap-4 text-sm text-muted">
                         <Link href="#" className="hover:text-foreground transition-colors">Privacy Policy</Link>
