@@ -10,7 +10,7 @@ export default function Navbar() {
     const navLinks = [
         { name: "Home", href: "/" },
         { name: "Services", href: "/services" },
-        { name: "Packages", href: "/packages" },
+        // { name: "Packages", href: "/packages" },
         { name: "Gallery", href: "/gallery" },
         { name: "Contact", href: "/contact" },
     ];
@@ -40,12 +40,12 @@ export default function Navbar() {
                                 {link.name}
                             </Link>
                         ))}
-                        <Link
+                        {/* <Link
                             href="/contact"
                             className="px-5 py-2 bg-primary text-white rounded-md font-semibold hover:bg-primary-dark transition-all duration-300 text-sm"
                         >
                             Log in / Sign up
-                        </Link>
+                        </Link> */}
                     </div>
 
                     {/* Mobile Menu Button */}
