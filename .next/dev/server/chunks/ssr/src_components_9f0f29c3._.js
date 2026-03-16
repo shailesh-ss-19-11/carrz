@@ -53,7 +53,7 @@ function HeroSlider() {
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "jsx-d85a9e251b1d0aef" + " " + "w-full rounded-2xl overflow-hidden shadow-2xl relative group",
+        className: "jsx-d85a9e251b1d0aef" + " " + "w-full md:rounded-2xl overflow-hidden md:shadow-2xl relative group",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Swiper"], {
                 modules: [
@@ -76,16 +76,16 @@ function HeroSlider() {
                     delay: 5000,
                     disableOnInteraction: false
                 },
-                className: "w-full aspect-[3132/2088] md:max-h-[600px] mt-4",
+                className: "w-full aspect-[3132/2088] md:max-h-[600px] mt-0 md:mt-4",
                 children: [
                     slides.map((slide)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SwiperSlide"], {
-                            className: "p-2 sm:p-4 pb-10",
+                            className: "p-0 md:p-4 pb-10",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 onClick: ()=>{
                                     const url = `https://wa.me/917709959881?text=${encodeURIComponent(slide.message)}`;
                                     window.open(url, "_blank");
                                 },
-                                className: "jsx-d85a9e251b1d0aef" + " " + "relative w-full h-full cursor-pointer rounded-2xl md:rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.12)] dark:shadow-[0_8px_30px_rgba(255,0,0,0.15)] ring-1 ring-black/5 dark:ring-white/10 group-hover:shadow-[0_8px_30px_rgba(255,0,0,0.3)] transition-all duration-300",
+                                className: "jsx-d85a9e251b1d0aef" + " " + "relative w-full h-full cursor-pointer rounded-none md:rounded-3xl overflow-hidden shadow-none md:shadow-[0_8px_30px_rgb(0,0,0,0.12)] md:dark:shadow-[0_8px_30px_rgba(255,0,0,0.15)] md:ring-1 ring-black/5 dark:ring-white/10 group-hover:shadow-[0_8px_30px_rgba(255,0,0,0.3)] transition-all duration-300",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                     src: slide.image,
                                     alt: slide.title,

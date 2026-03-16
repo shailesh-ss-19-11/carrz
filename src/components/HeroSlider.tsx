@@ -38,7 +38,7 @@ export default function HeroSlider() {
     ];
 
     return (
-        <div className="w-full rounded-2xl overflow-hidden shadow-2xl relative group">
+        <div className="w-full md:rounded-2xl overflow-hidden md:shadow-2xl relative group">
             <Swiper
                 modules={[Navigation, Pagination, Autoplay, EffectFade]}
                 effect="fade"
@@ -50,11 +50,11 @@ export default function HeroSlider() {
                 }}
                 pagination={{ clickable: true }}
                 autoplay={{ delay: 5000, disableOnInteraction: false }}
-                className="w-full aspect-[3132/2088] md:max-h-[600px] mt-4"
+                className="w-full aspect-[3132/2088] md:max-h-[600px] mt-0 md:mt-4"
             >
                 {slides.map((slide) => (
-                    <SwiperSlide key={slide.id} className="p-2 sm:p-4 pb-10">
-                        <div className="relative w-full h-full cursor-pointer rounded-2xl md:rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.12)] dark:shadow-[0_8px_30px_rgba(255,0,0,0.15)] ring-1 ring-black/5 dark:ring-white/10 group-hover:shadow-[0_8px_30px_rgba(255,0,0,0.3)] transition-all duration-300" onClick={() => {
+                    <SwiperSlide key={slide.id} className="p-0 md:p-4 pb-10">
+                        <div className="relative w-full h-full cursor-pointer rounded-none md:rounded-3xl overflow-hidden shadow-none md:shadow-[0_8px_30px_rgb(0,0,0,0.12)] md:dark:shadow-[0_8px_30px_rgba(255,0,0,0.15)] md:ring-1 ring-black/5 dark:ring-white/10 group-hover:shadow-[0_8px_30px_rgba(255,0,0,0.3)] transition-all duration-300" onClick={() => {
                             const url = `https://wa.me/917709959881?text=${encodeURIComponent(slide.message)}`;
                             window.open(url, "_blank");
                         }}>
