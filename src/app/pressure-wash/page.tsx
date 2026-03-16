@@ -8,7 +8,7 @@ const washPackages = [
     {
         id: 'basic',
         name: 'Basic Pressure Wash',
-        price: '₹799',
+        price: '₹599',
         description: 'High-pressure water deep cleaning to remove mud and grime.',
         popular: false,
         features: [
@@ -22,12 +22,27 @@ const washPackages = [
     },
     {
         id: 'elite',
-        name: 'Elite Pressure Wash',
-        price: '₹1299',
+        name: 'Elite Pressure Wash (Monthly 2 times)',
+        price: '₹1099',
         description: 'Complete inside-out pressure washing and deep vacuuming.',
         popular: true,
         features: [
-            'High Pressure Exterior Wash',
+            'High Pressure Exterior Wash(2 times)',
+            'Foam Shampoo Washing',
+            'Interior Vacuum Cleaning',
+            'Dashboard Polish',
+            'Underbody Cleaning',
+            'Tyre Polish'
+        ]
+    },
+    {
+        id: 'premium',
+        name: 'Premium Pressure Wash (Monthly 3 times)',
+        price: '₹1499',
+        description: 'Complete inside-out pressure washing and deep vacuuming.',
+        popular: false,
+        features: [
+            'High Pressure Exterior Wash(3 times)',
             'Foam Shampoo Washing',
             'Interior Vacuum Cleaning',
             'Dashboard Polish',
@@ -72,7 +87,7 @@ export default function PressureWashPage() {
 
                 {/* Package Cards (Triggers) */}
                 <div className="w-full overflow-x-auto pt-6 pb-10 mb-6 md:mb-16 -mx-4 px-4 sm:mx-0 sm:px-0 hide-scrollbar scroll-smooth snap-x snap-mandatory">
-                    <div className="flex sm:grid sm:grid-cols-2 gap-4 md:gap-6 w-fit sm:w-full max-w-4xl mx-auto">
+                    <div className="flex sm:grid sm:grid-cols-3 gap-4 md:gap-6 w-fit sm:w-full max-w-4xl mx-auto">
                         {washPackages.map((pkg) => {
                             const isSelected = selectedPackage.id === pkg.id;
                             return (

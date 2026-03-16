@@ -23,7 +23,7 @@ const washPackages = [
     {
         id: 'basic',
         name: 'Basic Pressure Wash',
-        price: '₹799',
+        price: '₹599',
         description: 'High-pressure water deep cleaning to remove mud and grime.',
         popular: false,
         features: [
@@ -37,12 +37,27 @@ const washPackages = [
     },
     {
         id: 'elite',
-        name: 'Elite Pressure Wash',
-        price: '₹1299',
+        name: 'Elite Pressure Wash (Monthly 2 times)',
+        price: '₹1099',
         description: 'Complete inside-out pressure washing and deep vacuuming.',
         popular: true,
         features: [
-            'High Pressure Exterior Wash',
+            'High Pressure Exterior Wash(2 times)',
+            'Foam Shampoo Washing',
+            'Interior Vacuum Cleaning',
+            'Dashboard Polish',
+            'Underbody Cleaning',
+            'Tyre Polish'
+        ]
+    },
+    {
+        id: 'premium',
+        name: 'Premium Pressure Wash (Monthly 3 times)',
+        price: '₹1499',
+        description: 'Complete inside-out pressure washing and deep vacuuming.',
+        popular: false,
+        features: [
+            'High Pressure Exterior Wash(3 times)',
             'Foam Shampoo Washing',
             'Interior Vacuum Cleaning',
             'Dashboard Polish',
@@ -72,12 +87,12 @@ function PressureWashPage() {
                             }
                         }, void 0, false, {
                             fileName: "[project]/src/app/pressure-wash/page.tsx",
-                            lineNumber: 48,
+                            lineNumber: 63,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/pressure-wash/page.tsx",
-                        lineNumber: 47,
+                        lineNumber: 62,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -90,14 +105,14 @@ function PressureWashPage() {
                                         className: "w-4 h-4"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                        lineNumber: 58,
+                                        lineNumber: 73,
                                         columnNumber: 25
                                     }, this),
                                     "Deep Cleaning Power"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                lineNumber: 57,
+                                lineNumber: 72,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -108,7 +123,7 @@ function PressureWashPage() {
                                         className: "hidden md:block"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                        lineNumber: 61,
+                                        lineNumber: 76,
                                         columnNumber: 130
                                     }, this),
                                     " ",
@@ -117,13 +132,13 @@ function PressureWashPage() {
                                         children: "Wash Packages"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                        lineNumber: 61,
+                                        lineNumber: 76,
                                         columnNumber: 165
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                lineNumber: 61,
+                                lineNumber: 76,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -131,19 +146,19 @@ function PressureWashPage() {
                                 children: "Experience a powerful, deep-cleaning water pressure wash at your doorstep. We efficiently lift stubborn mud, dust, and grime to give your car a beautifully restored look."
                             }, void 0, false, {
                                 fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                lineNumber: 62,
+                                lineNumber: 77,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/pressure-wash/page.tsx",
-                        lineNumber: 56,
+                        lineNumber: 71,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/pressure-wash/page.tsx",
-                lineNumber: 46,
+                lineNumber: 61,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -161,13 +176,13 @@ function PressureWashPage() {
                                         children: "Plan"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                        lineNumber: 69,
+                                        lineNumber: 84,
                                         columnNumber: 106
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                lineNumber: 69,
+                                lineNumber: 84,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -175,19 +190,19 @@ function PressureWashPage() {
                                 children: "Select a package to view its detailed offerings below."
                             }, void 0, false, {
                                 fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                lineNumber: 70,
+                                lineNumber: 85,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/pressure-wash/page.tsx",
-                        lineNumber: 68,
+                        lineNumber: 83,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "w-full overflow-x-auto pt-6 pb-10 mb-6 md:mb-16 -mx-4 px-4 sm:mx-0 sm:px-0 hide-scrollbar scroll-smooth snap-x snap-mandatory",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex sm:grid sm:grid-cols-2 gap-4 md:gap-6 w-fit sm:w-full max-w-4xl mx-auto",
+                            className: "flex sm:grid sm:grid-cols-3 gap-4 md:gap-6 w-fit sm:w-full max-w-4xl mx-auto",
                             children: washPackages.map((pkg)=>{
                                 const isSelected = selectedPackage.id === pkg.id;
                                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -201,12 +216,12 @@ function PressureWashPage() {
                                                 className: `absolute top-0 right-0 w-32 h-32 bg-primary/20 blur-3xl rounded-full transition-opacity duration-500 ${isSelected ? 'opacity-100' : 'opacity-0 group-hover:opacity-50'}`
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                                lineNumber: 89,
+                                                lineNumber: 104,
                                                 columnNumber: 41
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                            lineNumber: 88,
+                                            lineNumber: 103,
                                             columnNumber: 37
                                         }, this),
                                         pkg.popular && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -214,7 +229,7 @@ function PressureWashPage() {
                                             children: "Value Pick"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                            lineNumber: 93,
+                                            lineNumber: 108,
                                             columnNumber: 41
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -228,17 +243,17 @@ function PressureWashPage() {
                                                             className: "w-2 h-2 rounded-full bg-black"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                                            lineNumber: 101,
+                                                            lineNumber: 116,
                                                             columnNumber: 64
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                                        lineNumber: 100,
+                                                        lineNumber: 115,
                                                         columnNumber: 45
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                                    lineNumber: 99,
+                                                    lineNumber: 114,
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -247,12 +262,12 @@ function PressureWashPage() {
                                                         className: "w-8 h-8 md:w-10 md:h-10"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                                        lineNumber: 106,
+                                                        lineNumber: 121,
                                                         columnNumber: 45
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                                    lineNumber: 105,
+                                                    lineNumber: 120,
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -263,7 +278,7 @@ function PressureWashPage() {
                                                             children: pkg.name
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                                            lineNumber: 110,
+                                                            lineNumber: 125,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -273,41 +288,41 @@ function PressureWashPage() {
                                                                 children: pkg.price
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                                                lineNumber: 115,
+                                                                lineNumber: 130,
                                                                 columnNumber: 49
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                                            lineNumber: 114,
+                                                            lineNumber: 129,
                                                             columnNumber: 45
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                                    lineNumber: 109,
+                                                    lineNumber: 124,
                                                     columnNumber: 41
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                            lineNumber: 98,
+                                            lineNumber: 113,
                                             columnNumber: 37
                                         }, this)
                                     ]
                                 }, pkg.id, true, {
                                     fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                    lineNumber: 79,
+                                    lineNumber: 94,
                                     columnNumber: 33
                                 }, this);
                             })
                         }, void 0, false, {
                             fileName: "[project]/src/app/pressure-wash/page.tsx",
-                            lineNumber: 75,
+                            lineNumber: 90,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/pressure-wash/page.tsx",
-                        lineNumber: 74,
+                        lineNumber: 89,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -323,7 +338,7 @@ function PressureWashPage() {
                                             children: "Selected Package"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                            lineNumber: 131,
+                                            lineNumber: 146,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -331,7 +346,7 @@ function PressureWashPage() {
                                             children: selectedPackage.name
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                            lineNumber: 134,
+                                            lineNumber: 149,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -339,7 +354,7 @@ function PressureWashPage() {
                                             children: selectedPackage.description
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                            lineNumber: 137,
+                                            lineNumber: 152,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -351,13 +366,13 @@ function PressureWashPage() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                            lineNumber: 141,
+                                            lineNumber: 156,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                    lineNumber: 130,
+                                    lineNumber: 145,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -370,7 +385,7 @@ function PressureWashPage() {
                                                     className: "w-5 h-5 text-primary"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                                    lineNumber: 152,
+                                                    lineNumber: 167,
                                                     columnNumber: 33
                                                 }, this),
                                                 "What's included in ",
@@ -378,7 +393,7 @@ function PressureWashPage() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                            lineNumber: 151,
+                                            lineNumber: 166,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -395,12 +410,12 @@ function PressureWashPage() {
                                                                 className: "w-4 h-4 text-primary stroke-[3]"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                                                lineNumber: 159,
+                                                                lineNumber: 174,
                                                                 columnNumber: 45
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                                            lineNumber: 158,
+                                                            lineNumber: 173,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -408,35 +423,35 @@ function PressureWashPage() {
                                                             children: feature
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                                            lineNumber: 161,
+                                                            lineNumber: 176,
                                                             columnNumber: 41
                                                         }, this)
                                                     ]
                                                 }, idx, true, {
                                                     fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                                    lineNumber: 157,
+                                                    lineNumber: 172,
                                                     columnNumber: 37
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                            lineNumber: 155,
+                                            lineNumber: 170,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                    lineNumber: 150,
+                                    lineNumber: 165,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/pressure-wash/page.tsx",
-                            lineNumber: 127,
+                            lineNumber: 142,
                             columnNumber: 21
                         }, this)
                     }, selectedPackage.id, false, {
                         fileName: "[project]/src/app/pressure-wash/page.tsx",
-                        lineNumber: 126,
+                        lineNumber: 141,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -448,12 +463,12 @@ function PressureWashPage() {
                                     className: "w-8 h-8 text-primary"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                    lineNumber: 172,
+                                    lineNumber: 187,
                                     columnNumber: 25
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                lineNumber: 171,
+                                lineNumber: 186,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -463,7 +478,7 @@ function PressureWashPage() {
                                         children: "Important Information"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                        lineNumber: 175,
+                                        lineNumber: 190,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -471,31 +486,31 @@ function PressureWashPage() {
                                         children: "Prices are applicable for hatchback and compact sedan cars. SUVs, MUVs, and luxury vehicles might incur a small extra charge due to the increased surface area. Pressure washing requires a minimal amount of space and a verified power and water source at your location."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                        lineNumber: 176,
+                                        lineNumber: 191,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/pressure-wash/page.tsx",
-                                lineNumber: 174,
+                                lineNumber: 189,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/pressure-wash/page.tsx",
-                        lineNumber: 170,
+                        lineNumber: 185,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/pressure-wash/page.tsx",
-                lineNumber: 67,
+                lineNumber: 82,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/pressure-wash/page.tsx",
-        lineNumber: 44,
+        lineNumber: 59,
         columnNumber: 9
     }, this);
 }

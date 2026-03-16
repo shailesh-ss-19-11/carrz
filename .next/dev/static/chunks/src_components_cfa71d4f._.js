@@ -14,7 +14,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$mo
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$pagination$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Pagination$3e$__ = __turbopack_context__.i("[project]/node_modules/swiper/modules/pagination.mjs [app-client] (ecmascript) <export default as Pagination>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$autoplay$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Autoplay$3e$__ = __turbopack_context__.i("[project]/node_modules/swiper/modules/autoplay.mjs [app-client] (ecmascript) <export default as Autoplay>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$effect$2d$fade$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__EffectFade$3e$__ = __turbopack_context__.i("[project]/node_modules/swiper/modules/effect-fade.mjs [app-client] (ecmascript) <export default as EffectFade>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 "use client";
+;
 ;
 ;
 ;
@@ -27,21 +29,24 @@ function HeroSlider() {
     const slides = [
         {
             id: 1,
-            image: "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=2070&auto=format&fit=crop",
+            image: "/offers/offer1.jpeg",
+            // image: "https://images.unsplash.com/photo-1580757468214-c73f7062a5cb?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             title: "Showroom Shine",
             subtitle: "Delivered to Your Door.",
             message: "Hello Carrz Care! Can we get more info about your Showroom Shine service?"
         },
         {
             id: 2,
-            image: "https://images.unsplash.com/photo-1518987048-93e29699e79a?q=80&w=2070&auto=format&fit=crop",
+            // image: "https://images.unsplash.com/photo-1518987048-93e29699e79a?q=80&w=2070&h=1164&auto=format&fit=crop",
+            image: "/offers/offer2.jpeg",
             title: "Premium Ceramic Coating",
             subtitle: "Long-lasting Protection & Gloss.",
             message: "Hello Carrz Care! Can we get more info about Ceramic Coating?"
         },
         {
             id: 3,
-            image: "https://images.unsplash.com/photo-1600539714886-f40ceb681cb9?q=80&w=2070&auto=format&fit=crop",
+            // image: "https://images.unsplash.com/photo-1558637845-c8b7ead71a3e?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: "/offers/offer3.jpeg",
             title: "Deep Interior Detailing",
             subtitle: "Spotless inside Out.",
             message: "Hello Carrz Care! Can we get more info about Interior Detailing?"
@@ -71,8 +76,7 @@ function HeroSlider() {
                     delay: 5000,
                     disableOnInteraction: false
                 },
-                loop: true,
-                className: "h-[250px] sm:h-[400px] md:h-[500px] w-full mt-4",
+                className: "w-full aspect-[3132/2088] md:max-h-[600px] mt-4",
                 children: [
                     slides.map((slide)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SwiperSlide"], {
                             className: "p-2 sm:p-4 pb-10",
@@ -81,24 +85,26 @@ function HeroSlider() {
                                     const url = `https://wa.me/917709959881?text=${encodeURIComponent(slide.message)}`;
                                     window.open(url, "_blank");
                                 },
-                                className: "jsx-d85a9e251b1d0aef" + " " + "relative w-full h-full cursor-pointer rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.12)] dark:shadow-[0_8px_30px_rgba(255,0,0,0.15)] ring-1 ring-black/5 dark:ring-white/10 group-hover:shadow-[0_8px_30px_rgba(255,0,0,0.3)] transition-all duration-300",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                className: "jsx-d85a9e251b1d0aef" + " " + "relative w-full h-full cursor-pointer rounded-2xl md:rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.12)] dark:shadow-[0_8px_30px_rgba(255,0,0,0.15)] ring-1 ring-black/5 dark:ring-white/10 group-hover:shadow-[0_8px_30px_rgba(255,0,0,0.3)] transition-all duration-300",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     src: slide.image,
                                     alt: slide.title,
-                                    className: "jsx-d85a9e251b1d0aef" + " " + "w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                                    fill: true,
+                                    className: "object-cover hover:scale-105 transition-transform duration-700",
+                                    priority: slide.id === 1
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HeroSlider.tsx",
-                                    lineNumber: 58,
+                                    lineNumber: 62,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroSlider.tsx",
-                                lineNumber: 54,
+                                lineNumber: 57,
                                 columnNumber: 25
                             }, this)
                         }, slide.id, false, {
                             fileName: "[project]/src/components/HeroSlider.tsx",
-                            lineNumber: 53,
+                            lineNumber: 56,
                             columnNumber: 21
                         }, this)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -117,17 +123,17 @@ function HeroSlider() {
                                 className: "jsx-d85a9e251b1d0aef"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroSlider.tsx",
-                                lineNumber: 69,
+                                lineNumber: 76,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/HeroSlider.tsx",
-                            lineNumber: 68,
+                            lineNumber: 75,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/HeroSlider.tsx",
-                        lineNumber: 67,
+                        lineNumber: 74,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -146,23 +152,23 @@ function HeroSlider() {
                                 className: "jsx-d85a9e251b1d0aef"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroSlider.tsx",
-                                lineNumber: 74,
+                                lineNumber: 81,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/HeroSlider.tsx",
-                            lineNumber: 73,
+                            lineNumber: 80,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/HeroSlider.tsx",
-                        lineNumber: 72,
+                        lineNumber: 79,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/HeroSlider.tsx",
-                lineNumber: 38,
+                lineNumber: 42,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -172,7 +178,7 @@ function HeroSlider() {
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/HeroSlider.tsx",
-        lineNumber: 37,
+        lineNumber: 41,
         columnNumber: 9
     }, this);
 }

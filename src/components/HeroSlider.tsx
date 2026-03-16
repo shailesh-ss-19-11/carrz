@@ -7,26 +7,30 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 import { MessageCircle } from "lucide-react";
+import Image from "next/image";
 
 export default function HeroSlider() {
     const slides = [
         {
             id: 1,
-            image: "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=2070&auto=format&fit=crop",
+            image: "/offers/offer1.jpeg",
+            // image: "https://images.unsplash.com/photo-1580757468214-c73f7062a5cb?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             title: "Showroom Shine",
             subtitle: "Delivered to Your Door.",
             message: "Hello Carrz Care! Can we get more info about your Showroom Shine service?",
         },
         {
             id: 2,
-            image: "https://images.unsplash.com/photo-1518987048-93e29699e79a?q=80&w=2070&auto=format&fit=crop",
+            // image: "https://images.unsplash.com/photo-1518987048-93e29699e79a?q=80&w=2070&h=1164&auto=format&fit=crop",
+            image: "/offers/offer2.jpeg",
             title: "Premium Ceramic Coating",
             subtitle: "Long-lasting Protection & Gloss.",
             message: "Hello Carrz Care! Can we get more info about Ceramic Coating?",
         },
         {
             id: 3,
-            image: "https://images.unsplash.com/photo-1600539714886-f40ceb681cb9?q=80&w=2070&auto=format&fit=crop",
+            // image: "https://images.unsplash.com/photo-1558637845-c8b7ead71a3e?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: "/offers/offer3.jpeg",
             title: "Deep Interior Detailing",
             subtitle: "Spotless inside Out.",
             message: "Hello Carrz Care! Can we get more info about Interior Detailing?",
@@ -46,20 +50,23 @@ export default function HeroSlider() {
                 }}
                 pagination={{ clickable: true }}
                 autoplay={{ delay: 5000, disableOnInteraction: false }}
-                loop={true}
-                className="h-[250px] sm:h-[400px] md:h-[500px] w-full mt-4"
+                className="w-full aspect-[3132/2088] md:max-h-[600px] mt-4"
             >
                 {slides.map((slide) => (
                     <SwiperSlide key={slide.id} className="p-2 sm:p-4 pb-10">
-                        <div className="relative w-full h-full cursor-pointer rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.12)] dark:shadow-[0_8px_30px_rgba(255,0,0,0.15)] ring-1 ring-black/5 dark:ring-white/10 group-hover:shadow-[0_8px_30px_rgba(255,0,0,0.3)] transition-all duration-300" onClick={() => {
+                        <div className="relative w-full h-full cursor-pointer rounded-2xl md:rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.12)] dark:shadow-[0_8px_30px_rgba(255,0,0,0.15)] ring-1 ring-black/5 dark:ring-white/10 group-hover:shadow-[0_8px_30px_rgba(255,0,0,0.3)] transition-all duration-300" onClick={() => {
                             const url = `https://wa.me/917709959881?text=${encodeURIComponent(slide.message)}`;
                             window.open(url, "_blank");
                         }}>
-                            <img
+                            {/* Main prominent uncropped banner image */}
+                            <Image
                                 src={slide.image}
                                 alt={slide.title}
-                                className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                                fill
+                                className="object-cover hover:scale-105 transition-transform duration-700"
+                                priority={slide.id === 1}
                             />
+
                         </div>
                     </SwiperSlide>
                 ))}
