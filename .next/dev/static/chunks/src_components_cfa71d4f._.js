@@ -85,12 +85,12 @@ function HeroSlider() {
                                     const url = `https://wa.me/917709959881?text=${encodeURIComponent(slide.message)}`;
                                     window.open(url, "_blank");
                                 },
-                                className: "jsx-d85a9e251b1d0aef" + " " + "relative w-full h-full cursor-pointer rounded-none md:rounded-3xl overflow-hidden shadow-none md:shadow-[0_8px_30px_rgb(0,0,0,0.12)] md:dark:shadow-[0_8px_30px_rgba(255,0,0,0.15)] md:ring-1 ring-black/5 dark:ring-white/10 group-hover:shadow-[0_8px_30px_rgba(255,0,0,0.3)] transition-all duration-300",
+                                className: "jsx-d85a9e251b1d0aef" + " " + "relative w-[89%] md:w-full h-full mx-auto cursor-pointer rounded-[10px] md:rounded-3xl overflow-hidden shadow-none md:shadow-[0_8px_30px_rgb(0,0,0,0.12)] md:dark:shadow-[0_8px_30px_rgba(255,0,0,0.15)] md:ring-1 ring-black/5 dark:ring-white/10 group-hover:shadow-[0_8px_30px_rgba(255,0,0,0.3)] transition-all duration-300",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     src: slide.image,
                                     alt: slide.title,
                                     fill: true,
-                                    className: "object-cover hover:scale-105 transition-transform duration-700",
+                                    className: "w-[89%] mx-auto rounded-[20px] object-cover hover:scale-105 transition-transform duration-700 sm:w-full sm:mx-0 sm:rounded-none",
                                     priority: slide.id === 1
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HeroSlider.tsx",
@@ -213,19 +213,19 @@ function ServiceGrid() {
     const services = [
         {
             title: "Hand Bucket Wash Packages",
-            image: "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=600&auto=format&fit=crop",
+            image: "/service-cards/image1.jpeg",
             desc: "Premium hand wash with premium products.",
             link: "/handbucket-wash"
         },
         {
             title: "Pressure Wash Packages",
-            image: "https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?q=80&w=600&auto=format&fit=crop",
+            image: "/service-cards/image2.jpeg",
             desc: "Deep interior & exterior pressure wash.",
             link: "/pressure-wash"
         },
         {
             title: "Detailing Studio Packages",
-            image: "https://images.unsplash.com/photo-1600539714886-f40ceb681cb9?q=80&w=600&auto=format&fit=crop",
+            image: "/service-cards/image3.jpeg",
             desc: "Premium detailing packages for your car.",
             link: "/detailing-studio"
         }

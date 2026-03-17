@@ -54,7 +54,7 @@ export default function HeroSlider() {
             >
                 {slides.map((slide) => (
                     <SwiperSlide key={slide.id} className="p-0 md:p-4 pb-10">
-                        <div className="relative w-full h-full cursor-pointer rounded-none md:rounded-3xl overflow-hidden shadow-none md:shadow-[0_8px_30px_rgb(0,0,0,0.12)] md:dark:shadow-[0_8px_30px_rgba(255,0,0,0.15)] md:ring-1 ring-black/5 dark:ring-white/10 group-hover:shadow-[0_8px_30px_rgba(255,0,0,0.3)] transition-all duration-300" onClick={() => {
+                        <div className="relative w-[89%] md:w-full h-full mx-auto cursor-pointer rounded-[10px] md:rounded-3xl overflow-hidden shadow-none md:shadow-[0_8px_30px_rgb(0,0,0,0.12)] md:dark:shadow-[0_8px_30px_rgba(255,0,0,0.15)] md:ring-1 ring-black/5 dark:ring-white/10 group-hover:shadow-[0_8px_30px_rgba(255,0,0,0.3)] transition-all duration-300" onClick={() => {
                             const url = `https://wa.me/917709959881?text=${encodeURIComponent(slide.message)}`;
                             window.open(url, "_blank");
                         }}>
@@ -63,7 +63,7 @@ export default function HeroSlider() {
                                 src={slide.image}
                                 alt={slide.title}
                                 fill
-                                className="object-cover hover:scale-105 transition-transform duration-700"
+                                className="w-[89%] mx-auto rounded-[20px] object-cover hover:scale-105 transition-transform duration-700 sm:w-full sm:mx-0 sm:rounded-none"
                                 priority={slide.id === 1}
                             />
 

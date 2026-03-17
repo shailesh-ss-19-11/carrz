@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="w-full md:w-[85%] mx-auto md:pt-4 relative z-10">
+      <section className="w-full md:w-[80%] mx-auto md:pt-4 relative z-10">
         <HeroSlider />
       </section>
 

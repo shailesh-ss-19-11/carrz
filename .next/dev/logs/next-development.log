@@ -1,2 +1,96 @@
-[00:00:00.756] Server  LOG     ✓ Ready in 579ms
-[00:03:41.629] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:00.795] Server  LOG     ✓ Ready in 604ms
+[00:00:03.350] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:15.986] Server  LOG     ✓ Compiled in 253ms
+[00:05:44.978] Server  LOG     ✓ Compiled in 34ms
+[00:07:34.597] Server  LOG     ✓ Compiled in 94ms
+[00:08:21.380] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:58.131] Server  LOG     ✓ Compiled in 17ms
+[00:10:26.803] Server  LOG     ✓ Compiled in 18ms
+[00:11:17.131] Server  LOG     ✓ Compiled in 24ms
+[00:11:17.388] Browser ERROR   uncaughtError: Error: Invalid src prop (https://as1.ftcdn.net/v2/jpg/19/00/82/88/1000_F_1900828805_Cu68aVAcFIrATUbDHAuOxetQjbYDKzba.jpg) on `next/image`, hostname "as1.ftcdn.net" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:11:22.017] Server  ERROR   ⨯ Error: Invalid src prop (https://as1.ftcdn.net/v2/jpg/19/00/82/88/1000_F_1900828805_Cu68aVAcFIrATUbDHAuOxetQjbYDKzba.jpg) on `next/image`, hostname "as1.ftcdn.net" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:11:22.193] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:22.374] Browser ERROR   uncaughtError: Error: Invalid src prop (https://as1.ftcdn.net/v2/jpg/19/00/82/88/1000_F_1900828805_Cu68aVAcFIrATUbDHAuOxetQjbYDKzba.jpg) on `next/image`, hostname "as1.ftcdn.net" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:11:28.385] Server  ERROR   ⨯ Error: Invalid src prop (https://as1.ftcdn.net/v2/jpg/19/00/82/88/1000_F_1900828805_Cu68aVAcFIrATUbDHAuOxetQjbYDKzba.jpg) on `next/image`, hostname "as1.ftcdn.net" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:11:28.571] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:28.702] Browser ERROR   uncaughtError: Error: Invalid src prop (https://as1.ftcdn.net/v2/jpg/19/00/82/88/1000_F_1900828805_Cu68aVAcFIrATUbDHAuOxetQjbYDKzba.jpg) on `next/image`, hostname "as1.ftcdn.net" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:11:43.313] Server  ERROR   Received `true` for a non-boolean attribute `fill`.
+
+If you want to write it to the DOM, pass a string instead: fill="true" or fill={value.toString()}.
+[00:11:43.313] Server  ERROR   Received `true` for a non-boolean attribute `priority`.
+
+If you want to write it to the DOM, pass a string instead: priority="true" or priority={value.toString()}.
+[00:11:43.326] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:11:43.396] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:43.506] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
+[00:11:43.506] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
+[00:16:12.147] Server  LOG     ✓ Compiled in 17ms
+[00:23:16.787] Server  LOG     ✓ Compiled in 24ms
+[00:23:26.106] Server  LOG     ✓ Compiled in 20ms
+[00:28:22.404] Server  LOG     ✓ Compiled in 41ms
+[00:28:23.388] Browser ERROR   uncaughtError: Error: Invalid src prop (https://template.canva.com/EAGyuxbZYgk/3/0/800w-DjvdsI1mbqM.jpg) on `next/image`, hostname "template.canva.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:29:18.854] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:29:19.347] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:31.551] Server  LOG     ✓ Compiled in 31ms
+[00:31:45.664] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:54.611] Browser ERROR   uncaughtError: Error: Invalid src prop (https://template.canva.com/EAGyuxbZYgk/3/0/800w-DjvdsI1mbqM.jpg) on `next/image`, hostname "template.canva.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:33:11.231] Server  ERROR   ⨯ Error: Invalid src prop (https://template.canva.com/EAGyuxbZYgk/3/0/800w-DjvdsI1mbqM.jpg) on `next/image`, hostname "template.canva.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:33:11.382] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:11.540] Browser ERROR   uncaughtError: Error: Invalid src prop (https://template.canva.com/EAGyuxbZYgk/3/0/800w-DjvdsI1mbqM.jpg) on `next/image`, hostname "template.canva.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:33:24.936] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:33:25.221] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:25.361] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
+[00:33:25.361] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
+[00:33:44.720] Server  LOG     ✓ Compiled in 24ms
+[00:33:49.936] Server  LOG     ✓ Compiled in 16ms
+[00:34:13.927] Browser ERROR   uncaughtError: Error: Invalid src prop (https://template.canva.com/EAGyuxbZYgk/3/0/800w-DjvdsI1mbqM.jpg) on `next/image`, hostname "template.canva.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:34:15.720] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:34:15.982] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:29.567] Browser ERROR   uncaughtError: Error: Invalid src prop (https://template.canva.com/EAGyuxbZYgk/3/0/800w-DjvdsI1mbqM.jpg) on `next/image`, hostname "template.canva.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:34:33.355] Server  ERROR   ⨯ Error: Invalid src prop (https://template.canva.com/EAGyuxbZYgk/3/0/800w-DjvdsI1mbqM.jpg) on `next/image`, hostname "template.canva.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:34:33.556] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:33.746] Browser ERROR   uncaughtError: Error: Invalid src prop (https://template.canva.com/EAGyuxbZYgk/3/0/800w-DjvdsI1mbqM.jpg) on `next/image`, hostname "template.canva.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:34:59.951] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:35:00.038] Server  LOG     ✓ Compiled in 29ms
+[00:35:00.244] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:16.753] Server  LOG     ✓ Compiled in 21ms
+[00:35:17.919] Server  LOG     ✓ Compiled in 11ms
+[00:35:20.913] Server  LOG     ✓ Compiled in 15ms
+[00:35:22.066] Server  LOG     ✓ Compiled in 16ms
+[00:35:36.463] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:53.503] Server  LOG     ✓ Compiled in 69ms
+[00:35:58.569] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:00.878] Server  LOG     ✓ Compiled in 51ms
+[00:45:17.774] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:26.671] Server  LOG     ✓ Compiled in 47ms
+[00:47:26.797] Server  LOG     ✓ Compiled in 101ms
+[00:47:41.512] Server  LOG     ✓ Compiled in 18ms
+[00:48:03.081] Server  LOG     ✓ Compiled in 18ms
+[00:48:39.311] Server  LOG     ✓ Compiled in 25ms
+[00:48:48.036] Server  LOG     ✓ Compiled in 40ms
+[00:49:29.189] Server  LOG     ✓ Compiled in 29ms
+[00:49:54.379] Server  LOG     ✓ Compiled in 43ms
+[00:52:27.936] Server  LOG     ✓ Compiled in 71ms
+[00:52:48.441] Server  LOG     ✓ Compiled in 30ms
+[00:53:35.585] Server  LOG     ✓ Compiled in 42ms

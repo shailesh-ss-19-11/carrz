@@ -7,19 +7,19 @@ export default function ServiceGrid() {
     const services = [
         {
             title: "Hand Bucket Wash Packages",
-            image: "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=600&auto=format&fit=crop",
+            image: "/service-cards/image1.jpeg",
             desc: "Premium hand wash with premium products.",
             link: "/handbucket-wash"
         },
         {
             title: "Pressure Wash Packages",
-            image: "https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?q=80&w=600&auto=format&fit=crop",
+            image: "/service-cards/image2.jpeg",
             desc: "Deep interior & exterior pressure wash.",
             link: "/pressure-wash"
         },
         {
             title: "Detailing Studio Packages",
-            image: "https://images.unsplash.com/photo-1600539714886-f40ceb681cb9?q=80&w=600&auto=format&fit=crop",
+            image: "/service-cards/image3.jpeg",
             desc: "Premium detailing packages for your car.",
             link: "/detailing-studio"
         }
