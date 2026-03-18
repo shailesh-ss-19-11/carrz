@@ -6,7 +6,7 @@ import { ArrowRight, ShieldCheck, Gem, Clock, ThumbsUp, Wallet, Leaf } from "luc
 export default function ServiceGrid() {
     const services = [
         {
-            title: "Hand Bucket Wash Packages",
+            title: "Bucket / Hand Wash Packages",
             image: "/service-cards/image1.jpeg",
             desc: "Premium hand wash with premium products.",
             link: "/handbucket-wash"
@@ -124,7 +124,7 @@ export default function ServiceGrid() {
                                     className="inline-flex items-center justify-center gap-1 md:gap-2 px-1 py-1.5 sm:px-3 sm:py-2 md:px-6 md:py-3 bg-primary/10 text-primary hover:bg-primary hover:text-white rounded-lg md:rounded-xl text-[9px] sm:text-sm md:text-base font-semibold transition-colors duration-300 w-full mt-auto"
                                 >
                                     <span className="hidden sm:inline">See More</span>
-                                    <span className="sm:hidden">View</span>
+                                    <span className="sm:hidden">View Packages</span>
                                     <ArrowRight className="w-2 h-2 sm:w-3 h-3 md:w-4 md:h-4" />
                                 </Link>
                             </div>

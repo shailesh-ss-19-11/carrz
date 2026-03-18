@@ -40,7 +40,7 @@ export default function HeroSlider() {
     return (
         <div className="w-full md:rounded-2xl overflow-hidden md:shadow-2xl relative group">
             <Swiper
-                modules={[Navigation, Pagination, Autoplay, EffectFade]}
+                modules={[Navigation, Pagination, EffectFade]}
                 effect="fade"
                 spaceBetween={0}
                 slidesPerView={1}
