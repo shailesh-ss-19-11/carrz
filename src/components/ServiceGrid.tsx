@@ -121,7 +121,7 @@ export default function ServiceGrid() {
                                 {/* Card Footer / Button */}
                                 <Link
                                     href={service.link}
-                                    className="inline-flex items-center justify-center gap-1 md:gap-2 px-1 py-1.5 sm:px-3 sm:py-2 md:px-6 md:py-3 bg-primary/10 text-primary hover:bg-primary hover:text-white rounded-lg md:rounded-xl text-[9px] sm:text-sm md:text-base font-semibold transition-colors duration-300 w-full mt-auto"
+                                    className="inline-flex bg-[#ff0000] text-white items-center justify-center gap-1 md:gap-2 px-1 py-1.5 sm:px-3 sm:py-2 md:px-6 md:py-3 text-primary hover:bg-primary hover:text-white rounded-lg md:rounded-xl text-[9px] sm:text-sm md:text-base font-semibold transition-colors duration-300 w-full mt-auto"
                                 >
                                     <span className="hidden sm:inline">See More</span>
                                     <span className="sm:hidden">View Packages</span>

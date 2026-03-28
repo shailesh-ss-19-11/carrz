@@ -37,7 +37,7 @@ export default function Footer() {
                     <div>
                         <h3 className="text-foreground font-semibold text-lg tracking-wide mb-6">Quick Links</h3>
                         <ul className="space-y-3">
-                            {['Home', 'Services', 'Packages', 'Gallery', 'Contact'].map((item) => (
+                            {['Home', 'Services', 'Packages', 'Blog', 'Gallery', 'Contact'].map((item) => (
                                 <li key={item}>
                                     <Link href={item === 'Home' ? '/' : `/${item.toLowerCase()}`} className="text-muted hover:text-primary transition-colors inline-block">
                                         {item}
@@ -82,6 +82,27 @@ export default function Footer() {
                                 <span>Mon-Sun: 8:00 AM - 8:00 PM</span>
                             </li>
                         </ul>
+                    </div>
+                </div>
+
+                <div className="border-t border-[#111d40]/50 pt-12 mt-12 overflow-hidden">
+                    <h3 className="text-foreground font-semibold text-lg tracking-wide mb-8">Areas We Serve in Nagpur</h3>
+                    <div className="flex flex-wrap gap-2 md:gap-3">
+                        {[
+                            "Sitabuldi", "Mahal", "Itwari", "Mominpura", "Dharampeth", "Civil Lines", "Ramdaspeth", "Sadar",
+                            "Manish Nagar", "Narendra Nagar", "Besa", "Trimurti Nagar", "MIHAN", "Wardha Road", "Butibori",
+                            "Hingna", "Gorewada", "Seminary Hills", "Pratap Nagar", "Laxmi Nagar", "Shankar Nagar", "Hanuman Nagar",
+                            "Ayodhya Nagar", "Nandanvan", "Jaripatka", "Kamptee Road", "Koradi Road", "Hudkeshwar", "Pardi",
+                            "Kalamna", "Wadi", "Amravati Road", "Friends Colony", "Indora", "Teka Naka", "Gittikhadan",
+                            "Zingabai Takli", "Omkar Nagar", "Chinchbhavan", "Sonegaon"
+                        ].map((area) => (
+                            <span
+                                key={area}
+                                className="px-3 md:px-4 py-1.5 md:py-2 bg-surface/40 hover:bg-surface/60 border border-surface-border hover:border-primary/40 text-muted hover:text-primary text-[11px] md:text-[13px] rounded-full transition-all duration-300 cursor-default whitespace-nowrap shadow-sm font-medium"
+                            >
+                                {area}
+                            </span>
+                        ))}
                     </div>
                 </div>
 

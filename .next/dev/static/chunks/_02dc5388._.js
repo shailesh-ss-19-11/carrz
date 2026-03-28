@@ -64,7 +64,7 @@ const washPackages = [
             '4 Dashboard Polish',
             '4 Tyre Polish',
             '2 Greasing Services',
-            'Interior Sanitization'
+            'Car Perfume'
         ]
     }
 ];
