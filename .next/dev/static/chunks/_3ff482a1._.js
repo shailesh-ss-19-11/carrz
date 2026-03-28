@@ -61,7 +61,7 @@ function ContactPage() {
                             children: [
                                 "Book Your ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-primary glow-text",
+                                    className: "text-primary ",
                                     children: "Slot"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/contact/page.tsx",
@@ -111,7 +111,7 @@ function ContactPage() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     type: "button",
                                                     onClick: handleCall,
-                                                    className: "w-full bg-primary text-black font-extrabold text-xl rounded-2xl px-6 py-5 hover:bg-white transition-all shadow-lg hover:shadow-primary/50 flex justify-center items-center gap-3 animate-pulse-slow border border-primary/50",
+                                                    className: "w-full bg-primary text-white font-extrabold text-xl rounded-2xl px-6 py-5 hover:bg-white transition-all shadow-lg hover:shadow-primary/50 flex justify-center items-center gap-3 animate-pulse-slow border border-primary/50",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2d$call$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__PhoneCall$3e$__["PhoneCall"], {
                                                             className: "w-7 h-7"
@@ -568,6 +568,64 @@ function ContactPage() {
                                                     fileName: "[project]/src/app/contact/page.tsx",
                                                     lineNumber: 180,
                                                     columnNumber: 33
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    className: "flex items-start gap-4 text-muted",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: "w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
+                                                                className: "w-5 h-5 text-primary"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/app/contact/page.tsx",
+                                                                lineNumber: 191,
+                                                                columnNumber: 41
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/contact/page.tsx",
+                                                            lineNumber: 190,
+                                                            columnNumber: 37
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    className: "block text-sm text-muted font-medium mb-1",
+                                                                    children: "Our Studio"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/app/contact/page.tsx",
+                                                                    lineNumber: 194,
+                                                                    columnNumber: 41
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    className: "text-lg",
+                                                                    children: "Carrz Care Nagpur"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/app/contact/page.tsx",
+                                                                    lineNumber: 195,
+                                                                    columnNumber: 41
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                                    href: "https://share.google/BULSstNk8zMjcB7JF",
+                                                                    target: "_blank",
+                                                                    rel: "noopener noreferrer",
+                                                                    className: "block text-sm text-primary mt-1 hover:underline",
+                                                                    children: "Get Directions"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/app/contact/page.tsx",
+                                                                    lineNumber: 196,
+                                                                    columnNumber: 41
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/src/app/contact/page.tsx",
+                                                            lineNumber: 193,
+                                                            columnNumber: 37
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/src/app/contact/page.tsx",
+                                                    lineNumber: 189,
+                                                    columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
@@ -591,80 +649,131 @@ function ContactPage() {
                                                     className: "w-5 h-5 text-primary"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/contact/page.tsx",
-                                                    lineNumber: 194,
+                                                    lineNumber: 204,
                                                     columnNumber: 33
                                                 }, this),
                                                 "Service Areas in Nagpur"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/contact/page.tsx",
-                                            lineNumber: 193,
+                                            lineNumber: 203,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "flex flex-wrap gap-2",
                                             children: [
-                                                'Dharampeth',
-                                                'Manish Nagar',
-                                                'Sadar',
-                                                'Wardhaman Nagar',
-                                                'New Nandanvan',
-                                                'Hingna',
-                                                'Katol Road',
-                                                'Seminary Hills'
+                                                "Sitabuldi",
+                                                "Mahal",
+                                                "Itwari",
+                                                "Mominpura",
+                                                "Dharampeth",
+                                                "Civil Lines",
+                                                "Ramdaspeth",
+                                                "Sadar",
+                                                "Manish Nagar",
+                                                "Narendra Nagar",
+                                                "Besa",
+                                                "Trimurti Nagar",
+                                                "MIHAN",
+                                                "Wardha Road",
+                                                "Butibori",
+                                                "Hingna",
+                                                "Gorewada",
+                                                "Seminary Hills",
+                                                "Pratap Nagar",
+                                                "Laxmi Nagar",
+                                                "Shankar Nagar",
+                                                "Hanuman Nagar",
+                                                "Ayodhya Nagar",
+                                                "Nandanvan",
+                                                "Jaripatka",
+                                                "Kamptee Road",
+                                                "Koradi Road",
+                                                "Hudkeshwar",
+                                                "Pardi",
+                                                "Kalamna",
+                                                "Wadi",
+                                                "Amravati Road",
+                                                "Friends Colony",
+                                                "Indora",
+                                                "Teka Naka",
+                                                "Gittikhadan",
+                                                "Zingabai Takli",
+                                                "Omkar Nagar",
+                                                "Chinchbhavan",
+                                                "Sonegaon"
                                             ].map((area)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "px-3 py-1 bg-background rounded-md text-sm text-muted border border-surface-border",
-                                                    children: area
-                                                }, area, false, {
+                                                    className: "text-xs md:text-sm px-3 md:px-4 py-1.5 md:py-2 bg-background border border-surface-border rounded-full text-muted hover:text-primary hover:bg-primary/5 hover:border-primary/30 transition-all duration-300 shadow-[0_2px_10px_rgba(0,0,0,0.1)] hover:shadow-[0_4px_15px_rgba(0,240,255,0.15)] hover:-translate-y-0.5 cursor-default flex items-center gap-1.5",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
+                                                            className: "w-3 h-3 text-primary/70"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/contact/page.tsx",
+                                                            lineNumber: 220,
+                                                            columnNumber: 41
+                                                        }, this),
+                                                        area
+                                                    ]
+                                                }, area, true, {
                                                     fileName: "[project]/src/app/contact/page.tsx",
-                                                    lineNumber: 199,
+                                                    lineNumber: 216,
                                                     columnNumber: 37
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/contact/page.tsx",
-                                            lineNumber: 197,
+                                            lineNumber: 207,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/contact/page.tsx",
-                                    lineNumber: 192,
+                                    lineNumber: 202,
                                     columnNumber: 25
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                    href: "https://maps.app.goo.gl/oXbBNDL897RSxH776",
-                                    target: "_blank",
-                                    rel: "noopener noreferrer",
-                                    className: "w-full h-48 bg-surface-hover rounded-3xl border border-surface-border overflow-hidden flex items-center justify-center text-muted relative hover:border-primary/50 transition-all group block",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "w-full h-64 md:h-80 rounded-3xl border border-surface-border overflow-hidden relative shadow-lg group",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "z-10 bg-background/80 px-6 py-3 rounded-full backdrop-blur text-sm font-bold group-hover:bg-primary group-hover:text-black transition-all flex items-center gap-2",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
+                                            title: "Studio Location",
+                                            src: "https://maps.google.com/maps?q=Carrz+Care+Nagpur&t=&z=14&ie=UTF8&iwloc=&output=embed",
+                                            width: "100%",
+                                            height: "100%",
+                                            style: {
+                                                border: 0
+                                            },
+                                            allowFullScreen: true,
+                                            loading: "lazy",
+                                            referrerPolicy: "no-referrer-when-downgrade",
+                                            className: "absolute inset-0 opacity-80 dark:opacity-70 dark:grayscale-[0.4] dark:contrast-[1.1] group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-500"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/contact/page.tsx",
+                                            lineNumber: 229,
+                                            columnNumber: 29
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: "https://share.google/BULSstNk8zMjcB7JF",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            className: "absolute bottom-4 right-4 z-20 bg-primary text-black px-4 py-2 rounded-full shadow-lg font-bold text-sm flex items-center gap-2 hover:scale-105 transition-transform",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
                                                     className: "w-4 h-4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/contact/page.tsx",
-                                                    lineNumber: 209,
+                                                    lineNumber: 248,
                                                     columnNumber: 33
                                                 }, this),
-                                                "Open in Google Maps"
+                                                "Navigate"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/contact/page.tsx",
-                                            lineNumber: 208,
-                                            columnNumber: 29
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "absolute inset-0 opacity-20 bg-[url('https://maps.googleapis.com/maps/api/staticmap?center=Nagpur&zoom=12&size=600x300&maptype=roadmap')] bg-cover bg-center mix-blend-overlay group-hover:opacity-40 transition-opacity"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/contact/page.tsx",
-                                            lineNumber: 212,
+                                            lineNumber: 242,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/contact/page.tsx",
-                                    lineNumber: 207,
+                                    lineNumber: 228,
                                     columnNumber: 25
                                 }, this)
                             ]

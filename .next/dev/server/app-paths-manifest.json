@@ -1,6 +1,8 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
+  "/additional-services/page": "app/additional-services/page.js",
   "/blog/page": "app/blog/page.js",
+  "/contact/page": "app/contact/page.js",
   "/detailing-studio/ceramic-coating/page": "app/detailing-studio/ceramic-coating/page.js",
   "/detailing-studio/graphene-coating/page": "app/detailing-studio/graphene-coating/page.js",
   "/detailing-studio/ppf/page": "app/detailing-studio/ppf/page.js",

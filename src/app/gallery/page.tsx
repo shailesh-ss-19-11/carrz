@@ -1,5 +1,7 @@
 import { Metadata } from 'next';
 import { Camera, Sparkles } from 'lucide-react';
+import fs from 'fs';
+import path from 'path';
 
 export const metadata: Metadata = {
     title: 'Car Detailing Portfolio & Gallery Nagpur',
@@ -7,40 +9,74 @@ export const metadata: Metadata = {
     keywords: ['car detailing gallery', 'ceramic coating before after', 'interior deep clean results nagpur', 'best car wash nagpur photos']
 };
 
-const images = [
-    {
-        src: "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=2070&auto=format&fit=crop",
-        alt: "Ceramic Coating Gloss",
-        category: "Ceramic Coating"
-    },
-    {
-        src: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=2070&auto=format&fit=crop",
-        alt: "Interior Detailing After",
-        category: "Interior Detailing"
-    },
-    {
-        src: "https://images.unsplash.com/photo-1510419350481-3e05a3fc3a52?q=80&w=2072&auto=format&fit=crop",
-        alt: "Exterior Snow Foam Wash",
-        category: "Doorstep Wash"
-    },
-    {
-        src: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=2183&auto=format&fit=crop",
-        alt: "Sports Car After Polish",
-        category: "Full Detailing"
-    },
-    {
-        src: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=2070&auto=format&fit=crop",
-        alt: "Alloy Wheel Cleaning",
-        category: "Doorstep Wash"
-    },
-    {
-        src: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=2070&auto=format&fit=crop",
-        alt: "Dashboard Polish Shine",
-        category: "Interior Detailing"
-    }
-];
+export const dynamic = 'force-dynamic';
 
 export default function GalleryPage() {
+    // Dynamically read the public/gallery folder
+    const galleryDirectory = path.join(process.cwd(), 'public/gallery');
+    let localImages: string[] = [];
+
+    try {
+        if (fs.existsSync(galleryDirectory)) {
+            const files = fs.readdirSync(galleryDirectory);
+            localImages = files
+                .filter(file => /\.(jpg|jpeg|png|webp|gif|avif)$/i.test(file))
+                .map(file => `/gallery/${file}`);
+        }
+    } catch (error) {
+        console.error("Failed to read gallery directory", error);
+    }
+
+    // Default placeholder images if the folder is empty
+    const defaultImages = [
+        {
+            src: "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=2070&auto=format&fit=crop",
+            alt: "Ceramic Coating Gloss",
+            category: "Ceramic Coating"
+        },
+        {
+            src: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=2070&auto=format&fit=crop",
+            alt: "Interior Detailing After",
+            category: "Interior Detailing"
+        },
+        {
+            src: "https://images.unsplash.com/photo-1510419350481-3e05a3fc3a52?q=80&w=2072&auto=format&fit=crop",
+            alt: "Exterior Snow Foam Wash",
+            category: "Doorstep Wash"
+        },
+        {
+            src: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=2183&auto=format&fit=crop",
+            alt: "Sports Car After Polish",
+            category: "Full Detailing"
+        },
+        {
+            src: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=2070&auto=format&fit=crop",
+            alt: "Alloy Wheel Cleaning",
+            category: "Doorstep Wash"
+        },
+        {
+            src: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=2070&auto=format&fit=crop",
+            alt: "Dashboard Polish Shine",
+            category: "Interior Detailing"
+        }
+    ];
+
+    // Map local images to the same display format
+    const dynamicImages = localImages.map((src, index) => {
+        // Create a nicer alt text from filename, removing extensions and hyphens
+        const filename = src.split('/').pop()?.split('.')[0] || '';
+        const cleanName = filename.replace(/[-_]/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+
+        return {
+            src,
+            alt: cleanName || `Gallery Image ${index + 1}`,
+            category: "Portfolio Work"
+        };
+    });
+
+    // If there are specific local images, use them. Otherwise, fallback to placeholders.
+    const displayImages = dynamicImages.length > 0 ? dynamicImages : defaultImages;
+
     return (
         <div className="bg-background min-h-screen py-20 relative">
             <div className="absolute top-[30%] left-[-10%] w-[40%] h-[40%] bg-blue-700/10 blur-[150px] rounded-full pointer-events-none"></div>
@@ -53,23 +89,29 @@ export default function GalleryPage() {
                 </div>
 
                 {/* Gallery Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
-                    {images.map((img, idx) => (
-                        <div key={idx} className="group relative rounded-2xl overflow-hidden aspect-[4/3] border border-surface-border hover:border-primary/50 transition-colors">
-                            <img
-                                src={img.src}
-                                alt={img.alt}
-                                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                            />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300"></div>
+                {displayImages.length === 0 ? (
+                    <div className="text-center py-20 text-muted">
+                        <p>No gallery images uploaded yet. Upload images to public/gallery.</p>
+                    </div>
+                ) : (
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
+                        {displayImages.map((img, idx) => (
+                            <div key={idx} className="group relative rounded-2xl overflow-hidden aspect-[4/3] border border-surface-border hover:border-primary/50 transition-colors">
+                                <img
+                                    src={img.src}
+                                    alt={img.alt}
+                                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                                />
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300"></div>
 
-                            <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <span className="text-primary text-xs font-bold uppercase tracking-wider mb-2 block">{img.category}</span>
-                                <h3 className="text-foreground font-medium text-lg">{img.alt}</h3>
+                                <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                                    <span className="text-primary text-xs font-bold uppercase tracking-wider mb-2 block">{img.category}</span>
+                                    <h3 className="text-foreground font-medium text-lg">{img.alt}</h3>
+                                </div>
                             </div>
-                        </div>
-                    ))}
-                </div>
+                        ))}
+                    </div>
+                )}
 
                 {/* Before/After Section (Conceptual mockup) */}
                 <div className="bg-gradient-to-r from-surface to-surface-border rounded-3xl p-8 md:p-12 border border-primary/20 flex flex-col items-center text-center relative overflow-hidden">

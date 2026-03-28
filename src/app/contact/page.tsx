@@ -55,7 +55,7 @@ export default function ContactPage() {
                                 <button
                                     type="button"
                                     onClick={handleCall}
-                                    className="w-full bg-primary text-black font-extrabold text-xl rounded-2xl px-6 py-5 hover:bg-white transition-all shadow-lg hover:shadow-primary/50 flex justify-center items-center gap-3 animate-pulse-slow border border-primary/50"
+                                    className="w-full bg-primary text-white font-extrabold text-xl rounded-2xl px-6 py-5 hover:bg-white transition-all shadow-lg hover:shadow-primary/50 flex justify-center items-center gap-3 animate-pulse-slow border border-primary/50"
                                 >
                                     <PhoneCall className="w-7 h-7" />
                                     Call Now
@@ -186,6 +186,16 @@ export default function ContactPage() {
                                         <span className="text-lg">Mon - Sun: 8:00 AM - 8:00 PM</span>
                                     </div>
                                 </li>
+                                <li className="flex items-start gap-4 text-muted">
+                                    <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+                                        <MapPin className="w-5 h-5 text-primary" />
+                                    </div>
+                                    <div>
+                                        <span className="block text-sm text-muted font-medium mb-1">Our Studio</span>
+                                        <span className="text-lg">Carrz Care Nagpur</span>
+                                        <a href="https://share.google/BULSstNk8zMjcB7JF" target="_blank" rel="noopener noreferrer" className="block text-sm text-primary mt-1 hover:underline">Get Directions</a>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
 
@@ -195,22 +205,50 @@ export default function ContactPage() {
                                 Service Areas in Nagpur
                             </h3>
                             <div className="flex flex-wrap gap-2">
-                                {['Dharampeth', 'Manish Nagar', 'Sadar', 'Wardhaman Nagar', 'New Nandanvan', 'Hingna', 'Katol Road', 'Seminary Hills'].map(area => (
-                                    <span key={area} className="px-3 py-1 bg-background rounded-md text-sm text-muted border border-surface-border">
+                                {[
+                                    "Sitabuldi", "Mahal", "Itwari", "Mominpura", "Dharampeth", "Civil Lines", "Ramdaspeth", "Sadar",
+                                    "Manish Nagar", "Narendra Nagar", "Besa", "Trimurti Nagar", "MIHAN", "Wardha Road", "Butibori",
+                                    "Hingna", "Gorewada", "Seminary Hills", "Pratap Nagar", "Laxmi Nagar", "Shankar Nagar", "Hanuman Nagar",
+                                    "Ayodhya Nagar", "Nandanvan", "Jaripatka", "Kamptee Road", "Koradi Road", "Hudkeshwar", "Pardi",
+                                    "Kalamna", "Wadi", "Amravati Road", "Friends Colony", "Indora", "Teka Naka", "Gittikhadan",
+                                    "Zingabai Takli", "Omkar Nagar", "Chinchbhavan", "Sonegaon"
+                                ].map((area) => (
+                                    <span
+                                        key={area}
+                                        className="text-xs md:text-sm px-3 md:px-4 py-1.5 md:py-2 bg-background border border-surface-border rounded-full text-muted hover:text-primary hover:bg-primary/5 hover:border-primary/30 transition-all duration-300 shadow-[0_2px_10px_rgba(0,0,0,0.1)] hover:shadow-[0_4px_15px_rgba(0,240,255,0.15)] hover:-translate-y-0.5 cursor-default flex items-center gap-1.5"
+                                    >
+                                        <MapPin className="w-3 h-3 text-primary/70" />
                                         {area}
                                     </span>
                                 ))}
                             </div>
                         </div>
 
-                        {/* Google Map */}
-                        <a href="https://maps.app.goo.gl/oXbBNDL897RSxH776" target="_blank" rel="noopener noreferrer" className="w-full h-48 bg-surface-hover rounded-3xl border border-surface-border overflow-hidden flex items-center justify-center text-muted relative hover:border-primary/50 transition-all group block">
-                            <span className="z-10 bg-background/80 px-6 py-3 rounded-full backdrop-blur text-sm font-bold group-hover:bg-primary group-hover:text-black transition-all flex items-center gap-2">
+                        {/* Interactive Google Map */}
+                        <div className="w-full h-64 md:h-80 rounded-3xl border border-surface-border overflow-hidden relative shadow-lg group">
+                            <iframe
+                                title="Studio Location"
+                                src="https://maps.google.com/maps?q=Carrz+Care+Nagpur&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                                width="100%"
+                                height="100%"
+                                style={{ border: 0 }}
+                                allowFullScreen
+                                loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade"
+                                className="absolute inset-0 opacity-80 dark:opacity-70 dark:grayscale-[0.4] dark:contrast-[1.1] group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-500"
+                            ></iframe>
+
+                            {/* Overlay button for direct navigation */}
+                            <a
+                                href="https://share.google/BULSstNk8zMjcB7JF"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="absolute bottom-4 right-4 z-20 bg-primary text-black px-4 py-2 rounded-full shadow-lg font-bold text-sm flex items-center gap-2 hover:scale-105 transition-transform"
+                            >
                                 <MapPin className="w-4 h-4" />
-                                Open in Google Maps
-                            </span>
-                            <div className="absolute inset-0 opacity-20 bg-[url('https://maps.googleapis.com/maps/api/staticmap?center=Nagpur&zoom=12&size=600x300&maptype=roadmap')] bg-cover bg-center mix-blend-overlay group-hover:opacity-40 transition-opacity"></div>
-                        </a>
+                                Navigate
+                            </a>
+                        </div>
 
                     </div>
                 </div>
