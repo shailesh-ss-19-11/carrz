@@ -73,7 +73,7 @@ export default function PressureWashPage() {
                         <Droplets className="w-4 h-4" />
                         Deep Cleaning Power
                     </div>
-                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-foreground mb-6 tracking-tight">Pressure <br className="hidden md:block" /> <span className="text-primary glow-text">Wash Packages</span></h1>
+                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-foreground mb-6 tracking-tight">Pressure <br className="hidden md:block" /> <span className="text-primary ">Wash Packages</span></h1>
                     <p className="text-muted max-w-2xl mx-auto text-lg md:text-xl font-light leading-relaxed">Experience a powerful, deep-cleaning water pressure wash at your doorstep. We efficiently lift stubborn mud, dust, and grime to give your car a beautifully restored look.</p>
                 </div>
             </div>

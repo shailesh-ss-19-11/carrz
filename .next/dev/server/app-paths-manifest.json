@@ -1,3 +1,11 @@
 {
-  "/page": "app/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/detailing-studio/ceramic-coating/page": "app/detailing-studio/ceramic-coating/page.js",
+  "/detailing-studio/graphene-coating/page": "app/detailing-studio/graphene-coating/page.js",
+  "/detailing-studio/ppf/page": "app/detailing-studio/ppf/page.js",
+  "/gallery/page": "app/gallery/page.js",
+  "/handbucket-wash/page": "app/handbucket-wash/page.js",
+  "/page": "app/page.js",
+  "/services/page": "app/services/page.js"
 }

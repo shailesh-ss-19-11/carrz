@@ -64,7 +64,7 @@ export default function ServicesPage() {
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="text-center mb-16">
-                    <h1 className="text-4xl md:text-6xl font-extrabold text-foreground mb-6">Our <span className="text-primary glow-text">Premium Services</span></h1>
+                    <h1 className="text-4xl md:text-6xl font-extrabold text-foreground mb-6">Our <span className="text-primary ">Premium Services</span></h1>
                     <p className="text-muted max-w-2xl mx-auto text-lg">We bring the best equipment and products right to your home in Nagpur to ensure your car gets unparalleled treatment.</p>
                 </div>
 
@@ -95,9 +95,6 @@ export default function ServicesPage() {
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link href="/contact" className="px-8 py-3 bg-primary text-black font-bold rounded-full hover:bg-foreground hover:text-background hover:glow-box transition-all">
                                 Contact Us via WhatsApp
-                            </Link>
-                            <Link href="/packages" className="px-8 py-3 bg-transparent text-foreground border border-gray-600 font-bold rounded-full hover:border-primary transition-all">
-                                View Pricing Packages
                             </Link>
                         </div>
                     </div>

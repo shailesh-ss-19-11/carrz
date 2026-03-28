@@ -75,7 +75,7 @@ export default function HandBucketWashPage() {
                         <Droplets className="w-4 h-4" />
                         Gentle & Safe Cleaning
                     </div>
-                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-foreground mb-6 tracking-tight">Hand Bucket <br className="hidden md:block" /> <span className="text-primary glow-text">Wash Packages</span></h1>
+                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-foreground mb-6 tracking-tight">Hand Bucket <br className="hidden md:block" /> <span className="text-primary ">Wash Packages</span></h1>
                     <p className="text-muted max-w-2xl mx-auto text-lg md:text-xl font-light leading-relaxed">Experience the safest way to clean your car. Our premium two-bucket wash method prevents swirl marks and scratches, leaving a brilliant showroom shine right at your doorstep.</p>
                 </div>
             </div>

@@ -33,7 +33,10 @@ function Navbar() {
             name: "Services",
             href: "/services"
         },
-        // { name: "Packages", href: "/packages" },
+        {
+            name: "Additional Services",
+            href: "/additional-services"
+        },
         {
             name: "Blog",
             href: "/blog"

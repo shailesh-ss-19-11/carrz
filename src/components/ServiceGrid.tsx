@@ -28,27 +28,33 @@ export default function ServiceGrid() {
     const detailingServices = [
         {
             title: "PPF",
-            image: "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=200&auto=format&fit=crop",
+            image: "/car-detailing-icons/ppf.jpeg",
+            link: "/detailing-studio/ppf"
         },
         {
             title: "Ceramic Coating",
-            image: "https://images.unsplash.com/photo-1600539714886-f40ceb681cb9?q=80&w=200&auto=format&fit=crop",
+            image: "/car-detailing-icons/ceramic-coating.jpeg",
+            link: "/detailing-studio/ceramic-coating"
         },
         {
-            title: "Deep Cleaning",
-            image: "https://images.unsplash.com/photo-1518987048-93e29699e79a?q=80&w=200&auto=format&fit=crop",
+            title: "Graphene Coating",
+            image: "/car-detailing-icons/graphene-coating.jpeg",
+            link: "/detailing-studio/graphene-coating"
         },
         {
-            title: "Rubbing & Polishing",
-            image: "https://plus.unsplash.com/premium_photo-1664302152996-22442bd23b7e?q=80&w=200&auto=format&fit=crop",
+            title: "Interior Detailing",
+            image: "/car-detailing-icons/interior-cleaning.jpeg",
+            link: "/detailing-studio/interior-detailing"
         },
         {
-            title: "Pressure Wash",
-            image: "https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?q=80&w=200&auto=format&fit=crop",
+            title: "Exterior Polishing",
+            image: "/car-detailing-icons/exterior-polishing.jpeg",
+            link: "/detailing-studio/exterior-polishing"
         },
         {
-            title: "Engine Cleaning",
-            image: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=200&auto=format&fit=crop",
+            title: "premium Car Wash",
+            image: "/car-detailing-icons/premium-car-wash.jpeg",
+            link: "/detailing-studio/premium-car-wash"
         }
     ];
 
@@ -138,7 +144,7 @@ export default function ServiceGrid() {
 
                 <div className="grid grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-6 justify-items-center max-w-5xl mx-auto">
                     {detailingServices.map((service, index) => (
-                        <Link href={`/services#${service.title.toLowerCase().replace(/\s+/g, '-')}`} key={index} className="flex flex-col items-center group w-full">
+                        <Link href={service.link || `/services#${service.title.toLowerCase().replace(/\s+/g, '-')}`} key={index} className="flex flex-col items-center group w-full">
                             <div className="w-[72px] h-[72px] sm:w-[100px] sm:h-[100px] md:w-[120px] md:h-[120px] rounded-full overflow-hidden shadow-[0_4px_20px_rgb(0,0,0,0.08)] dark:shadow-[0_4px_20px_rgba(0,0,0,0.3)] group-hover:shadow-[0_8px_30px_rgba(255,0,0,0.2)] transition-all duration-300 mb-2 sm:mb-3 ring-1 ring-black/5 dark:ring-white/10 group-hover:ring-primary/50 relative">
                                 <img
                                     src={service.image}

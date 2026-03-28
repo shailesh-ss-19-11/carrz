@@ -23,7 +23,7 @@ export default function OfferBanner() {
                             className="object-cover md:object-[center_30%] lg:object-center transform group-hover:scale-105 transition-transform duration-700 ease-out"
                         />
                         <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-6 md:p-8 md:hidden">
-                            <h3 className="text-2xl font-black text-white shadow-sm glow-text">Exclusive Deal</h3>
+                            <h3 className="text-2xl font-black text-white shadow-sm ">Exclusive Deal</h3>
                             <p className="text-white/90 font-medium">Rubbing Polishing in just ₹1999</p>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ export default function OfferBanner() {
                             </div>
 
                             <h2 className="text-3xl lg:text-4xl font-extrabold text-foreground mb-4 leading-tight tracking-tight hidden md:block">
-                                Restore Your <br /><span className="text-primary glow-text">Car's Glory</span>
+                                Restore Your <br /><span className="text-primary ">Car's Glory</span>
                             </h2>
 
                             <p className="text-muted text-sm lg:text-base mb-8 leading-relaxed font-medium">

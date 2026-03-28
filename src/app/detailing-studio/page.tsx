@@ -58,28 +58,21 @@ export default function DetailingStudioPage() {
     return (
         <div className="bg-background min-h-screen relative overflow-hidden">
             {/* Hero Section */}
-            <div className="relative py-16 md:py-24 lg:py-32 overflow-hidden border-b border-surface-border">
-                <div className="absolute inset-0 z-0">
-                    <img
-                        src="https://images.unsplash.com/photo-1600539714886-f40ceb681cb9?q=80&w=2070&auto=format&fit=crop"
-                        alt="Detailing Studio"
-                        className="w-full h-full object-cover opacity-10 dark:opacity-20 mask-image-b"
-                        style={{ maskImage: 'linear-gradient(to bottom, black 40%, transparent 100%)', WebkitMaskImage: 'linear-gradient(to bottom, black 40%, transparent 100%)' }}
-                    />
-                </div>
+            <div className="relative py-12 md:py-24 lg:py-32 overflow-hidden border-b border-surface-border">
+
 
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
                     <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary font-semibold text-sm mb-6 border border-primary/20 backdrop-blur-sm">
                         <Stars className="w-4 h-4" />
                         Premium Quality Care
                     </div>
-                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-foreground mb-6 tracking-tight">Car Detailing <br className="hidden md:block" /> <span className="text-primary glow-text">Services</span></h1>
+                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-foreground mb-6 tracking-tight">Car Detailing <br className="hidden md:block" /> <span className="text-primary ">Services</span></h1>
                     <p className="text-muted max-w-2xl mx-auto text-lg md:text-xl font-light leading-relaxed">Elevate your vehicle's gloss, protection, and interior comfort to the absolute highest standard with our expert studio services.</p>
                 </div>
             </div>
 
             {/* Packages Section */}
-            <div className="py-16 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div className="py-10 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-extrabold text-foreground mb-4">Choose Your <span className="text-primary">Plan</span></h2>
                     <p className="text-muted max-w-xl mx-auto text-lg font-light">Select a detailing package to view its comprehensive inclusions below.</p>
