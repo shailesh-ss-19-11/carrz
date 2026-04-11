@@ -98,7 +98,7 @@ export default function ServiceGrid() {
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="text-center mb-6 md:mb-10">
-                    <h2 className="text-3xl md:text-5xl font-extrabold text-foreground mb-4"> <span className="text-primary"> Doorstep Car care services</span></h2>
+                    <h2 className="text-3xl md:text-5xl font-extrabold text-primary mb-4"> Doorstep Car care services</h2>
                     {/* <p className="text-muted max-w-2xl mx-auto text-lg">Comprehensive car care solutions tailored to your vehicle's exact needs, right at your doorstep.</p> */}
                 </div>
 
@@ -139,7 +139,7 @@ export default function ServiceGrid() {
                 </div>
 
                 <div className="text-center mt-12 md:mt-20 mb-6 md:mb-10">
-                    <h2 className="text-2xl md:text-4xl font-extrabold tracking-tight text-foreground mb-2 md:mb-4"> <span className="text-primary"> Car Detailing Studio</span></h2>
+                    <h2 className="text-2xl md:text-4xl font-extrabold tracking-tight text-primary mb-2 md:mb-4"> Car Detailing Studio</h2>
                 </div>
 
                 <div className="grid grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-6 justify-items-center max-w-5xl mx-auto">
@@ -163,7 +163,7 @@ export default function ServiceGrid() {
                 {/* why choose us */}
                 <div className="mt-12 md:mt-24 w-full">
                     <div className="text-center mb-10 md:mb-16">
-                        <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight text-foreground mb-4"> <span className="text-primary">Why Choose Us?</span></h2>
+                        <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight text-primary mb-4">Why Choose Us?</h2>
                         <p className="text-muted max-w-xl mx-auto text-sm md:text-base px-4">Experience the difference with Carrz premium doorstep services and expert care.</p>
                     </div>
 

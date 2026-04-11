@@ -1544,10 +1544,6 @@
     background-color: red;
   }
 
-  .bg-\[\#ff4d4d\] {
-    background-color: #ff4d4d;
-  }
-
   .bg-background {
     background-color: var(--color-background);
   }
@@ -2379,6 +2375,10 @@
 
   .opacity-10 {
     opacity: .1;
+  }
+
+  .opacity-40 {
+    opacity: .4;
   }
 
   .opacity-50 {
@@ -4083,6 +4083,12 @@
   @media (prefers-color-scheme: dark) {
     .dark\:opacity-20 {
       opacity: .2;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .dark\:opacity-50 {
+      opacity: .5;
     }
   }
 

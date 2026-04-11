@@ -78,9 +78,9 @@ function HandBucketWashPage() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0 z-0",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                            src: "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=2070&auto=format&fit=crop",
+                            src: "/bgs/car-wash-bg.jpeg",
                             alt: "Hand Bucket Wash",
-                            className: "w-full h-full object-cover opacity-10 dark:opacity-20 mask-image-b",
+                            className: "w-full h-full object-cover opacity-40 dark:opacity-50 mask-image-b",
                             style: {
                                 maskImage: 'linear-gradient(to bottom, black 40%, transparent 100%)',
                                 WebkitMaskImage: 'linear-gradient(to bottom, black 40%, transparent 100%)'
@@ -116,25 +116,17 @@ function HandBucketWashPage() {
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                className: "text-4xl md:text-5xl lg:text-7xl font-extrabold text-foreground mb-6 tracking-tight",
+                                className: "text-4xl md:text-5xl lg:text-7xl font-extrabold text-primary mb-6 tracking-tight",
                                 children: [
-                                    "Hand Bucket ",
+                                    " ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
                                         className: "hidden md:block"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/handbucket-wash/page.tsx",
                                         lineNumber: 78,
-                                        columnNumber: 133
+                                        columnNumber: 119
                                     }, this),
-                                    " ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-primary ",
-                                        children: "Wash Packages"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                        lineNumber: 78,
-                                        columnNumber: 168
-                                    }, this)
+                                    " Hand Bucket Wash Packages"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/handbucket-wash/page.tsx",
@@ -168,19 +160,9 @@ function HandBucketWashPage() {
                         className: "text-center mb-12",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-3xl md:text-4xl font-extrabold text-foreground mb-4",
-                                children: [
-                                    "Choose Your ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-primary",
-                                        children: "Plan"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                        lineNumber: 86,
-                                        columnNumber: 106
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                className: "text-3xl md:text-4xl font-extrabold text-primary mb-4",
+                                children: "Choose Your Plan"
+                            }, void 0, false, {
                                 fileName: "[project]/src/app/handbucket-wash/page.tsx",
                                 lineNumber: 86,
                                 columnNumber: 21

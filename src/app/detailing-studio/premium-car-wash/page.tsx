@@ -16,7 +16,7 @@ export default function PremiumCarWashPage() {
                         <Shield className="w-4 h-4" />
                         Ultimate Safe Wash
                     </div>
-                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-foreground mb-6 tracking-tight">Premium <span className="text-primary ">Car Wash</span></h1>
+                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-primary mb-6 tracking-tight">Premium Car Wash</h1>
                     <p className="text-muted max-w-2xl mx-auto text-lg md:text-xl font-light leading-relaxed"> Advanced, ultra-safe exterior cleaning service designed to prevent swirl marks while leaving your car completely spotless.</p>
                 </div>
             </div>

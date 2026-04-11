@@ -64,7 +64,7 @@ export default function ServicesPage() {
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="text-center mb-16">
-                    <h1 className="text-4xl md:text-6xl font-extrabold text-foreground mb-6">Our <span className="text-primary ">Premium Services</span></h1>
+                    <h1 className="text-4xl md:text-6xl font-extrabold text-primary mb-6">Our Premium Services</h1>
                     <p className="text-muted max-w-2xl mx-auto text-lg">We bring the best equipment and products right to your home in Nagpur to ensure your car gets unparalleled treatment.</p>
                 </div>
 

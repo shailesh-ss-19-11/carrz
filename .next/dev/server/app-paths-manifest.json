@@ -1,11 +1,10 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/additional-services/page": "app/additional-services/page.js",
-  "/contact/page": "app/contact/page.js",
+  "/detailing-studio/ceramic-coating/page": "app/detailing-studio/ceramic-coating/page.js",
+  "/detailing-studio/exterior-polishing/page": "app/detailing-studio/exterior-polishing/page.js",
+  "/detailing-studio/graphene-coating/page": "app/detailing-studio/graphene-coating/page.js",
+  "/detailing-studio/interior-detailing/page": "app/detailing-studio/interior-detailing/page.js",
   "/detailing-studio/ppf/page": "app/detailing-studio/ppf/page.js",
-  "/detailing-studio/premium-car-wash/page": "app/detailing-studio/premium-car-wash/page.js",
-  "/gallery/page": "app/gallery/page.js",
   "/handbucket-wash/page": "app/handbucket-wash/page.js",
-  "/page": "app/page.js",
-  "/services/page": "app/services/page.js"
+  "/page": "app/page.js"
 }

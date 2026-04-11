@@ -63,9 +63,9 @@ export default function HandBucketWashPage() {
             <div className="relative py-16 md:py-24 lg:py-32 overflow-hidden border-b border-surface-border">
                 <div className="absolute inset-0 z-0">
                     <img
-                        src="https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=2070&auto=format&fit=crop"
+                        src="/bgs/car-wash-bg.jpeg"
                         alt="Hand Bucket Wash"
-                        className="w-full h-full object-cover opacity-10 dark:opacity-20 mask-image-b"
+                        className="w-full h-full object-cover opacity-40 dark:opacity-50 mask-image-b"
                         style={{ maskImage: 'linear-gradient(to bottom, black 40%, transparent 100%)', WebkitMaskImage: 'linear-gradient(to bottom, black 40%, transparent 100%)' }}
                     />
                 </div>
@@ -75,7 +75,7 @@ export default function HandBucketWashPage() {
                         <Droplets className="w-4 h-4" />
                         Gentle & Safe Cleaning
                     </div>
-                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-foreground mb-6 tracking-tight">Hand Bucket <br className="hidden md:block" /> <span className="text-primary ">Wash Packages</span></h1>
+                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-primary mb-6 tracking-tight"> <br className="hidden md:block" /> Hand Bucket Wash Packages</h1>
                     <p className="text-muted max-w-2xl mx-auto text-lg md:text-xl font-light leading-relaxed">Experience the safest way to clean your car. Our premium two-bucket wash method prevents swirl marks and scratches, leaving a brilliant showroom shine right at your doorstep.</p>
                 </div>
             </div>
@@ -83,7 +83,7 @@ export default function HandBucketWashPage() {
             {/* Packages Selection Section */}
             <div className="py-16 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-extrabold text-foreground mb-4">Choose Your <span className="text-primary">Plan</span></h2>
+                    <h2 className="text-3xl md:text-4xl font-extrabold text-primary mb-4">Choose Your Plan</h2>
                     <p className="text-muted max-w-xl mx-auto text-lg font-light">Select a package to view its detailed offerings below.</p>
                 </div>
 

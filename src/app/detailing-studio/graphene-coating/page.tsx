@@ -16,7 +16,7 @@ export default function GrapheneCoatingPage() {
                         <Shield className="w-4 h-4" />
                         Next-Gen Protection
                     </div>
-                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-foreground mb-6 tracking-tight">Graphene <span className="text-primary ">Coating</span></h1>
+                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-primary mb-6 tracking-tight">Graphene Coating</h1>
                     <p className="text-muted max-w-2xl mx-auto text-lg md:text-xl font-light leading-relaxed">Advanced next-generation coating utilizing graphene for superior durability, heat resistance, and long-lasting performance.</p>
                 </div>
             </div>

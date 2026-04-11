@@ -16,7 +16,7 @@ export default function PPFPage() {
                         <Shield className="w-4 h-4" />
                         Ultimate Visual Protection
                     </div>
-                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-foreground mb-6 tracking-tight">Paint Protection <span className="text-primary ">Film (PPF)</span></h1>
+                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-primary mb-6 tracking-tight">Paint Protection Film (PPF)</h1>
                     <p className="text-muted max-w-2xl mx-auto text-lg md:text-xl font-light leading-relaxed">Protect your car's original paint from scratches, stone chips, and environmental damage with our invisible self-healing armor.</p>
                 </div>
             </div>

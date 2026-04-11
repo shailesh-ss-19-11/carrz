@@ -16,7 +16,7 @@ export default function InteriorDetailingPage() {
                         <Shield className="w-4 h-4" />
                         Complete Cabin Restoration
                     </div>
-                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-foreground mb-6 tracking-tight">Interior <span className="text-primary ">Detailing</span></h1>
+                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-primary mb-6 tracking-tight">Interior Detailing</h1>
                     <p className="text-muted max-w-2xl mx-auto text-lg md:text-xl font-light leading-relaxed">Experience a like-new cabin with our deep cleaning service that removes stains, odors, and bacteria.</p>
                 </div>
             </div>

@@ -16,7 +16,7 @@ export default function CeramicCoatingPage() {
                         <Shield className="w-4 h-4" />
                         Ultimate Liquid Armor
                     </div>
-                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-foreground mb-6 tracking-tight">Ceramic <span className="text-primary ">Coating</span></h1>
+                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-primary mb-6 tracking-tight">Ceramic Coating</h1>
                     <p className="text-muted max-w-2xl mx-auto text-lg md:text-xl font-light leading-relaxed">A liquid polymer applied on your vehicle's paint for long-lasting protection and a brilliant gloss finish.</p>
                 </div>
             </div>

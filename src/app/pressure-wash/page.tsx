@@ -73,7 +73,7 @@ export default function PressureWashPage() {
                         <Droplets className="w-4 h-4" />
                         Deep Cleaning Power
                     </div>
-                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-foreground mb-6 tracking-tight">Pressure <br className="hidden md:block" /> <span className="text-primary ">Wash Packages</span></h1>
+                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-primary mb-6 tracking-tight">Pressure <br className="hidden md:block" /> Wash Packages</h1>
                     <p className="text-muted max-w-2xl mx-auto text-lg md:text-xl font-light leading-relaxed">Experience a powerful, deep-cleaning water pressure wash at your doorstep. We efficiently lift stubborn mud, dust, and grime to give your car a beautifully restored look.</p>
                 </div>
             </div>
@@ -81,7 +81,7 @@ export default function PressureWashPage() {
             {/* Packages Section */}
             <div className="py-16 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-extrabold text-foreground mb-4">Choose Your <span className="text-primary">Plan</span></h2>
+                    <h2 className="text-3xl md:text-4xl font-extrabold text-primary mb-4">Choose Your Plan</h2>
                     <p className="text-muted max-w-xl mx-auto text-lg font-light">Select a package to view its detailed offerings below.</p>
                 </div>
 

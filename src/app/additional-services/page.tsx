@@ -16,7 +16,7 @@ export default function AdditionalServicesPage() {
                         <Sparkles className="w-4 h-4" />
                         Premium Care Solutions
                     </div>
-                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-foreground mb-6 tracking-tight">Additional <span className="text-primary ">Services</span></h1>
+                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-primary mb-6 tracking-tight">Additional Services</h1>
                     <p className="text-muted max-w-2xl mx-auto text-lg md:text-xl font-light leading-relaxed">Elevate your cars appearance and hygiene with our specialized rubbing, polishing, and deep interior cleaning processes.</p>
                 </div>
             </div>

@@ -307,19 +307,9 @@ function ServiceGrid() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "text-center mb-6 md:mb-10",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-3xl md:text-5xl font-extrabold text-foreground mb-4",
-                            children: [
-                                " ",
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-primary",
-                                    children: " Doorstep Car care services"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/ServiceGrid.tsx",
-                                    lineNumber: 101,
-                                    columnNumber: 95
-                                }, this)
-                            ]
-                        }, void 0, true, {
+                            className: "text-3xl md:text-5xl font-extrabold text-primary mb-4",
+                            children: " Doorstep Car care services"
+                        }, void 0, false, {
                             fileName: "[project]/src/components/ServiceGrid.tsx",
                             lineNumber: 101,
                             columnNumber: 21
@@ -431,19 +421,9 @@ function ServiceGrid() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "text-center mt-12 md:mt-20 mb-6 md:mb-10",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-2xl md:text-4xl font-extrabold tracking-tight text-foreground mb-2 md:mb-4",
-                            children: [
-                                " ",
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-primary",
-                                    children: " Car Detailing Studio"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/ServiceGrid.tsx",
-                                    lineNumber: 142,
-                                    columnNumber: 118
-                                }, this)
-                            ]
-                        }, void 0, true, {
+                            className: "text-2xl md:text-4xl font-extrabold tracking-tight text-primary mb-2 md:mb-4",
+                            children: " Car Detailing Studio"
+                        }, void 0, false, {
                             fileName: "[project]/src/components/ServiceGrid.tsx",
                             lineNumber: 142,
                             columnNumber: 21
@@ -510,19 +490,9 @@ function ServiceGrid() {
                                 className: "text-center mb-10 md:mb-16",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "text-3xl md:text-5xl font-extrabold tracking-tight text-foreground mb-4",
-                                        children: [
-                                            " ",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "text-primary",
-                                                children: "Why Choose Us?"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/ServiceGrid.tsx",
-                                                lineNumber: 166,
-                                                columnNumber: 114
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
+                                        className: "text-3xl md:text-5xl font-extrabold tracking-tight text-primary mb-4",
+                                        children: "Why Choose Us?"
+                                    }, void 0, false, {
                                         fileName: "[project]/src/components/ServiceGrid.tsx",
                                         lineNumber: 166,
                                         columnNumber: 25
