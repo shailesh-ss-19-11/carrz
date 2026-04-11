@@ -100,8 +100,8 @@ function Footer() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                             src: "/logo.png",
-                                            alt: "Carrz Car Care Logo",
-                                            className: "h-16 w-auto object-contain drop-shadow-[0_0_8px_rgba(255,0,0,0.1)] group-hover:drop-shadow-[0_0_12px_rgba(255,0,0,0.6)] transition-all duration-300"
+                                            alt: "Rediance Car Care Services Logo",
+                                            className: "rounded-full h-16 w-auto object-contain drop-shadow-[0_0_8px_rgba(255,0,0,0.1)] group-hover:drop-shadow-[0_0_12px_rgba(255,0,0,0.6)] transition-all duration-300"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/layout/Footer.tsx",
                                             lineNumber: 12,
@@ -109,7 +109,7 @@ function Footer() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "font-bold text-2xl tracking-tight text-foreground group-hover:text-primary transition-colors",
-                                            children: "Carrz Car Care"
+                                            children: "Rediance Car Care Services"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/layout/Footer.tsx",
                                             lineNumber: 17,
@@ -489,7 +489,7 @@ function Footer() {
                             children: [
                                 "© ",
                                 new Date().getFullYear(),
-                                " Carrz Car Care. All rights reserved."
+                                " Rediance Car Care Services. All rights reserved."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/layout/Footer.tsx",
@@ -638,14 +638,14 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$MobileB
 ;
 const metadata = {
     title: {
-        default: "Carrz Car Care | Premium Doorstep Car Detailing in Nagpur",
-        template: "%s | Carrz Car Care Nagpur"
+        default: "Rediance Car Care Services | Premium Doorstep Car Detailing in Nagpur",
+        template: "%s | Rediance Car Care Services Nagpur"
     },
     description: "Nagpur's #1 professional doorstep car cleaning, interior deep detailing, and premium ceramic coating services. Book your slot today for a showroom shine at home.",
     keywords: [
         "car washing nagpur",
         "doorstep car detailing nagpur",
-        "carrz car care",
+        "Rediance Car Care Services",
         "ceramic coating nagpur",
         "car wash at home nagpur",
         "interior deep cleaning nagpur",
@@ -653,19 +653,19 @@ const metadata = {
     ],
     authors: [
         {
-            name: "Carrz Car Care"
+            name: "Rediance Car Care Services"
         }
     ],
-    creator: "Carrz Car Care",
-    publisher: "Carrz Car Care",
+    creator: "Rediance Car Care Services",
+    publisher: "Rediance Car Care Services",
     alternates: {
         canonical: 'https://carrzcare.in'
     },
     openGraph: {
-        title: "Carrz Car Care | Premium Doorstep Car Detailing in Nagpur",
+        title: "Rediance Car Care Services | Premium Doorstep Car Detailing in Nagpur",
         description: "Professional doorstep car cleaning, detailing, and ceramic coating services in Nagpur. Book your slot today for a showroom shine at home.",
         url: "https://carrzcare.in",
-        siteName: "Carrz Car Care",
+        siteName: "Rediance Car Care Services",
         locale: "en_IN",
         type: "website"
     },
@@ -681,7 +681,7 @@ const metadata = {
         }
     },
     twitter: {
-        title: "Carrz Car Care Nagpur",
+        title: "Rediance Car Care Services Nagpur",
         card: "summary_large_image"
     }
 };
@@ -690,7 +690,7 @@ function RootLayout({ children }) {
     const jsonLd = {
         '@context': 'https://schema.org',
         '@type': 'AutomotiveBusiness',
-        name: 'Carrz Car Care',
+        name: 'Rediance Car Care Services',
         image: 'https://carrzcare.in/logo.png',
         '@id': 'https://carrzcare.in',
         url: 'https://carrzcare.in',

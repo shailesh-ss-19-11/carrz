@@ -24,10 +24,10 @@ export default function Navbar() {
                     <Link href="/" className="flex items-center gap-2 group">
                         <img
                             src="/logo.png"
-                            alt="Carrz Car Care Logo"
-                            className="h-10 w-auto object-contain transition-all duration-300"
+                            alt="Rediance Car Care Services Logo"
+                            className="h-10 w-auto object-contain transition-all duration-300 rounded-full"
                         />
-                        <span className="font-bold text-lg tracking-tight text-foreground">Carrz Car Care</span>
+                        <span className="font-bold text-lg tracking-tight text-foreground">Rediance Car Care Services</span>
                     </Link>
 
                     {/* Desktop Nav */}

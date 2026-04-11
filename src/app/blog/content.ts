@@ -1,7 +1,7 @@
 export const blogContent = {
   title: "The Ultimate Guide to Car Care: Why Weekly and Monthly Services are Non-Negotiable",
   subtitle: "Nagpur's most comprehensive guide to car detailing, protection, and maintenance for a lifetime of showroom shine.",
-  author: "Carrz Car Care Team",
+  author: "Rediance Car Care Services Team",
   date: "March 24, 2026",
   readTime: "45 min read",
   sections: [
@@ -17,7 +17,7 @@ export const blogContent = {
     {
       id: "weekly-maintenance-deep-dive",
       title: "1. The Weekly Wash: More Than Just Surface Cleaning",
-      content: `When we talk about a weekly wash at Carrz Car Care, we aren't talking about a splash of water and a dirty rag. A weekly wash is a strategic decontamination process.
+      content: `When we talk about a weekly wash at Rediance Car Care Services, we aren't talking about a splash of water and a dirty rag. A weekly wash is a strategic decontamination process.
 
       ### The Nagpur Dust Factor: Abrasives in Every Breeze
       Nagpur sits in the heart of India, subject to high temperatures and significant dust levels from construction and red soil. This dust consists of silica and other hard minerals. When this dust settles on your car's clear coat, it doesn't just sit there; it bonds. If you wipe it with a dry cloth or use an improper washing technique, you are essentially rubbing sandpaper over your paint. This creates "micro-marring" or "swirl marks," those spider-web patterns you see under direct sunlight.
@@ -84,8 +84,8 @@ export const blogContent = {
     },
     {
       id: "carrz-commitment",
-      title: "6. The Carrz Car Care Commitment",
-      content: `At Carrz Car Care, we've spent years perfecting the art of doorstep car detailing. We understand the specific challenges of the Nagpur environment. Our team uses only the finest pH-neutral soaps, imported microfiber towels, and premium coatings to ensure your car gets nothing but the best.
+      title: "6. The Rediance Car Care Services Commitment",
+      content: `At Rediance Car Care Services, we've spent years perfecting the art of doorstep car detailing. We understand the specific challenges of the Nagpur environment. Our team uses only the finest pH-neutral soaps, imported microfiber towels, and premium coatings to ensure your car gets nothing but the best.
 
       - **Doorstep Convenience**: We save you time and fuel.
       - **Professional Expertise**: Our detailers are trained in the latest techniques.
@@ -109,7 +109,7 @@ export const blogContent = {
       title: "Final Thoughts: Your Journey Begins with Care",
       content: `A car is more than a tool; it's a partner in your life's journey. By committing to a weekly and monthly care routine, you aren't just cleaning a machine; you're preserving a memory-maker. 
 
-      Don't let Nagpur's dust and sun steal your car's soul. Join the community of car enthusiasts who trust Carrz Car Care for their premium car care needs. Book your slot today and experience the difference of professional detailing.`
+      Don't let Nagpur's dust and sun steal your car's soul. Join the community of car enthusiasts who trust Rediance Car Care Services for their premium car care needs. Book your slot today and experience the difference of professional detailing.`
     }
   ]
 };

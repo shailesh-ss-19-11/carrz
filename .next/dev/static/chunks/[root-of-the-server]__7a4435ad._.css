@@ -932,10 +932,6 @@
     height: calc(var(--spacing) * 32);
   }
 
-  .h-48 {
-    height: calc(var(--spacing) * 48);
-  }
-
   .h-64 {
     height: calc(var(--spacing) * 64);
   }
@@ -1302,18 +1298,6 @@
     margin-block-end: calc(calc(var(--spacing) * 10) * calc(1 - var(--tw-space-y-reverse)));
   }
 
-  :where(.space-y-12 > :not(:last-child)) {
-    --tw-space-y-reverse: 0;
-    margin-block-start: calc(calc(var(--spacing) * 12) * var(--tw-space-y-reverse));
-    margin-block-end: calc(calc(var(--spacing) * 12) * calc(1 - var(--tw-space-y-reverse)));
-  }
-
-  :where(.space-y-16 > :not(:last-child)) {
-    --tw-space-y-reverse: 0;
-    margin-block-start: calc(calc(var(--spacing) * 16) * var(--tw-space-y-reverse));
-    margin-block-end: calc(calc(var(--spacing) * 16) * calc(1 - var(--tw-space-y-reverse)));
-  }
-
   :where(.space-x-4 > :not(:last-child)) {
     --tw-space-x-reverse: 0;
     margin-inline-start: calc(calc(var(--spacing) * 4) * var(--tw-space-x-reverse));
@@ -1568,16 +1552,6 @@
     background-color: var(--color-background);
   }
 
-  .bg-background\/80 {
-    background-color: var(--color-background);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-background\/80 {
-      background-color: color-mix(in oklab, var(--color-background) 80%, transparent);
-    }
-  }
-
   .bg-black {
     background-color: var(--color-black);
   }
@@ -1726,6 +1700,10 @@
     }
   }
 
+  .bg-transparent {
+    background-color: #0000;
+  }
+
   .bg-white {
     background-color: var(--color-white);
   }
@@ -1760,10 +1738,6 @@
 
   .bg-\[radial-gradient\(circle_at_50\%_120\%\,rgba\(var\(--primary\)\,0\.2\)\,transparent\)\] {
     background-image: radial-gradient(circle at 50% 120%, rgba(var(--primary), .2), transparent);
-  }
-
-  .bg-\[url\(\'https\:\/\/maps\.googleapis\.com\/maps\/api\/staticmap\?center\=Nagpur\&zoom\=12\&size\=600x300\&maptype\=roadmap\'\)\] {
-    background-image: url("https://maps.googleapis.com/maps/api/staticmap?center=Nagpur&zoom=12&size=600x300&maptype=roadmap");
   }
 
   .from-black\/40 {
@@ -1908,14 +1882,6 @@
   .to-transparent {
     --tw-gradient-to: transparent;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
-  }
-
-  .bg-cover {
-    background-size: cover;
-  }
-
-  .bg-center {
-    background-position: center;
   }
 
   .fill-primary {
@@ -2415,10 +2381,6 @@
     opacity: .1;
   }
 
-  .opacity-20 {
-    opacity: .2;
-  }
-
   .opacity-50 {
     opacity: .5;
   }
@@ -2433,10 +2395,6 @@
 
   .opacity-\[0\.03\] {
     opacity: .03;
-  }
-
-  .mix-blend-overlay {
-    mix-blend-mode: overlay;
   }
 
   .shadow {
@@ -2728,12 +2686,6 @@
   }
 
   @media (hover: hover) {
-    .group-hover\:bg-primary:is(:where(.group):hover *) {
-      background-color: var(--color-primary);
-    }
-  }
-
-  @media (hover: hover) {
     .group-hover\:bg-primary\/20:is(:where(.group):hover *) {
       background-color: var(--color-primary);
     }
@@ -2792,12 +2744,6 @@
   }
 
   @media (hover: hover) {
-    .group-hover\:text-black:is(:where(.group):hover *) {
-      color: var(--color-black);
-    }
-  }
-
-  @media (hover: hover) {
     .group-hover\:text-primary:is(:where(.group):hover *) {
       color: var(--color-primary);
     }
@@ -2812,12 +2758,6 @@
       .group-hover\:text-primary\/80:is(:where(.group):hover *) {
         color: color-mix(in oklab, var(--color-primary) 80%, transparent);
       }
-    }
-  }
-
-  @media (hover: hover) {
-    .group-hover\:opacity-40:is(:where(.group):hover *) {
-      opacity: .4;
     }
   }
 

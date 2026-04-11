@@ -3,13 +3,13 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { 
-  Calendar, 
-  Clock, 
-  User, 
-  ChevronRight, 
-  MessageCircle, 
-  PhoneCall, 
+import {
+  Calendar,
+  Clock,
+  User,
+  ChevronRight,
+  MessageCircle,
+  PhoneCall,
   ArrowUp,
   BookOpen,
   CheckCircle2,
@@ -69,7 +69,7 @@ export default function BlogPage() {
             priority
           />
         </div>
-        
+
         <div className="container mx-auto px-4 relative z-20 text-center max-w-4xl">
           <span className="inline-block px-4 py-1.5 rounded-full bg-primary/20 text-primary text-sm font-semibold mb-6 animate-fade-in">
             Expert Car Care Guide
@@ -100,10 +100,10 @@ export default function BlogPage() {
               <span>{blogContent.readTime}</span>
             </div>
           </div>
-          
+
           <div className="flex items-center gap-4">
-            <Link 
-              href="https://wa.me/917709959881" 
+            <Link
+              href="https://wa.me/917709959881"
               className="flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition-all text-sm font-semibold"
             >
               <MessageCircle size={18} />
@@ -115,7 +115,7 @@ export default function BlogPage() {
 
       <div className="container mx-auto px-4 py-12">
         <div className="flex flex-col lg:flex-row gap-12">
-          
+
           {/* Table of Contents - Left Sidebar */}
           <aside className="lg:w-1/4 hidden lg:block sticky top-40 h-fit">
             <div className="bg-card p-6 rounded-2xl border border-white/10 shadow-xl">
@@ -128,11 +128,10 @@ export default function BlogPage() {
                   <button
                     key={section.id}
                     onClick={() => scrollToSection(section.id)}
-                    className={`text-left text-sm block w-full transition-colors duration-200 ${
-                      activeSection === section.id 
-                        ? "text-primary font-bold pl-2 border-l-2 border-primary" 
+                    className={`text-left text-sm block w-full transition-colors duration-200 ${activeSection === section.id
+                        ? "text-primary font-bold pl-2 border-l-2 border-primary"
                         : "text-gray-400 hover:text-white pl-2 border-l-2 border-transparent"
-                    }`}
+                      }`}
                   >
                     {section.title.split(":")[0]}
                   </button>
@@ -163,7 +162,7 @@ export default function BlogPage() {
                     {section.title}
                     <div className="mt-2 w-16 h-1 bg-primary rounded-full" />
                   </h2>
-                  
+
                   <div className="prose prose-zinc max-w-none text-zinc-800 leading-normal font-normal">
                     {section.content.split('\n\n').map((paragraph, idx) => {
                       // Check for headers within content
@@ -205,18 +204,18 @@ export default function BlogPage() {
               <div className="relative z-10">
                 <h2 className="text-3xl md:text-5xl font-bold mb-4 text-white leading-tight">Ready to Give Your Car<br />the Attention it Deserves?</h2>
                 <p className="text-[14px] md:text-[16px] text-zinc-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-                  Join 1000+ satisfied luxury car owners in Nagpur. Experience the Carrz Car Care premium doorstep service and witness the showroom shine today.
+                  Join 1000+ satisfied luxury car owners in Nagpur. Experience the Rediance Car Care Services premium doorstep service and witness the showroom shine today.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Link 
-                    href="tel:+917709959881" 
+                  <Link
+                    href="tel:+917709959881"
                     className="flex items-center justify-center gap-2 bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-xl transition-all font-bold text-lg shadow-[0_10px_30px_rgba(var(--primary),0.4)] hover:-translate-y-1"
                   >
                     <PhoneCall size={18} />
                     Call Now: 77099 59881
                   </Link>
-                  <Link 
-                    href="https://wa.me/917709959881" 
+                  <Link
+                    href="https://wa.me/917709959881"
                     className="flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20ba59] text-white px-8 py-4 rounded-xl transition-all font-bold text-lg shadow-[0_10px_30px_rgba(37,211,102,0.3)] hover:-translate-y-1"
                   >
                     <MessageCircle size={18} />
@@ -231,7 +230,7 @@ export default function BlogPage() {
 
       {/* Floating Action Button for Scroll to Top */}
       {showScrollTop && (
-        <button 
+        <button
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           className="fixed bottom-24 right-8 z-50 p-4 bg-primary text-white rounded-full shadow-2xl hover:scale-110 transition-all animate-bounce"
         >

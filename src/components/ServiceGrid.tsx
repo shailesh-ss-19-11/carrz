@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { ArrowRight, ShieldCheck, Gem, Clock, ThumbsUp, Wallet, Leaf } from "lucide-react";
+import { title } from "process";
 
 export default function ServiceGrid() {
     const services = [
@@ -27,19 +28,9 @@ export default function ServiceGrid() {
 
     const detailingServices = [
         {
-            title: "PPF",
-            image: "/car-detailing-icons/ppf.jpeg",
-            link: "/detailing-studio/ppf"
-        },
-        {
-            title: "Ceramic Coating",
-            image: "/car-detailing-icons/ceramic-coating.jpeg",
-            link: "/detailing-studio/ceramic-coating"
-        },
-        {
-            title: "Graphene Coating",
-            image: "/car-detailing-icons/graphene-coating.jpeg",
-            link: "/detailing-studio/graphene-coating"
+            title: "premium Foam Wash",
+            image: "/car-detailing-icons/premium-car-wash.jpeg",
+            link: "/detailing-studio/premium-car-wash"
         },
         {
             title: "Interior Detailing",
@@ -52,9 +43,33 @@ export default function ServiceGrid() {
             link: "/detailing-studio/exterior-polishing"
         },
         {
-            title: "premium Car Wash",
-            image: "/car-detailing-icons/premium-car-wash.jpeg",
-            link: "/detailing-studio/premium-car-wash"
+            title: "Ceramic Coating",
+            image: "/car-detailing-icons/ceramic-coating.jpeg",
+            link: "/detailing-studio/ceramic-coating"
+        },
+        {
+            title: "Graphene Coating",
+            image: "/car-detailing-icons/graphene-coating.jpeg",
+            link: "/detailing-studio/graphene-coating"
+        },
+        {
+            title: "PPF",
+            image: "/car-detailing-icons/ppf.jpeg",
+            link: "/detailing-studio/ppf"
+        }, {
+            title: "Salt Cleaning",
+            image: "/car-detailing-icons/salt-cleaning.jpeg",
+            link: "/detailing-studio/salt-cleaning"
+        },
+        {
+            title: "Engine Restoration",
+            image: "/car-detailing-icons/engine-cleaning.jpg",
+            link: "/detailing-studio/engine-restoration"
+        },
+        {
+            title: "Glass Polishing / Coating",
+            image: "/car-detailing-icons/glass-polishing.png",
+            link: "/detailing-studio/glass-polishing-coating"
         }
     ];
 
@@ -71,23 +86,8 @@ export default function ServiceGrid() {
         },
         {
             icon: Clock,
-            title: "Time Saving",
+            title: "Time Saving & Affordable",
             desc: "We come to your doorstep at your convenience."
-        },
-        {
-            icon: ThumbsUp,
-            title: "Satisfaction Guaranteed",
-            desc: "We don't leave until your car looks perfect."
-        },
-        {
-            icon: Wallet,
-            title: "Transparent Pricing",
-            desc: "No hidden fees, just straightforward customized plans."
-        },
-        {
-            icon: Leaf,
-            title: "Eco-Friendly",
-            desc: "Water-efficient washing and safe sustainable chemicals."
         }
     ];
 
@@ -98,7 +98,7 @@ export default function ServiceGrid() {
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="text-center mb-6 md:mb-10">
-                    <h2 className="text-3xl md:text-5xl font-extrabold text-foreground mb-4">Doorstep <span className="text-primary">Car care services</span></h2>
+                    <h2 className="text-3xl md:text-5xl font-extrabold text-foreground mb-4"> <span className="text-primary"> Doorstep Car care services</span></h2>
                     {/* <p className="text-muted max-w-2xl mx-auto text-lg">Comprehensive car care solutions tailored to your vehicle's exact needs, right at your doorstep.</p> */}
                 </div>
 
@@ -127,7 +127,7 @@ export default function ServiceGrid() {
                                 {/* Card Footer / Button */}
                                 <Link
                                     href={service.link}
-                                    className="inline-flex bg-[#ff0000] text-white items-center justify-center gap-1 md:gap-2 px-1 py-1.5 sm:px-3 sm:py-2 md:px-6 md:py-3 text-primary hover:bg-primary hover:text-white rounded-lg md:rounded-xl text-[9px] sm:text-sm md:text-base font-semibold transition-colors duration-300 w-full mt-auto"
+                                    className="inline-flex bg-[#ff0000] font-semibold text-white items-center justify-center gap-1 md:gap-2 px-1 py-1.5 sm:px-3 sm:py-2 md:px-6 md:py-3 text-primary hover:bg-primary hover:text-white rounded-lg md:rounded-xl text-[9px] sm:text-sm md:text-base font-semibold transition-colors duration-300 w-full mt-auto"
                                 >
                                     <span className="hidden sm:inline">See More</span>
                                     <span className="sm:hidden">View Packages</span>
@@ -139,7 +139,7 @@ export default function ServiceGrid() {
                 </div>
 
                 <div className="text-center mt-12 md:mt-20 mb-6 md:mb-10">
-                    <h2 className="text-2xl md:text-4xl font-extrabold tracking-tight text-foreground mb-2 md:mb-4">Car <span className="text-primary">Detailing Studio</span></h2>
+                    <h2 className="text-2xl md:text-4xl font-extrabold tracking-tight text-foreground mb-2 md:mb-4"> <span className="text-primary"> Car Detailing Studio</span></h2>
                 </div>
 
                 <div className="grid grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-6 justify-items-center max-w-5xl mx-auto">
@@ -163,7 +163,7 @@ export default function ServiceGrid() {
                 {/* why choose us */}
                 <div className="mt-12 md:mt-24 w-full">
                     <div className="text-center mb-10 md:mb-16">
-                        <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight text-foreground mb-4">Why Choose <span className="text-primary">Us?</span></h2>
+                        <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight text-foreground mb-4"> <span className="text-primary">Why Choose Us?</span></h2>
                         <p className="text-muted max-w-xl mx-auto text-sm md:text-base px-4">Experience the difference with Carrz premium doorstep services and expert care.</p>
                     </div>
 

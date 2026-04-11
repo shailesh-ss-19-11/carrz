@@ -12,11 +12,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const metadata = {
     title: 'Contact Us | Book Car Wash in Nagpur',
-    description: 'Contact Carrz Car Care to book your doorstep car wash and detailing slot in Nagpur. Call or WhatsApp us today for premium service.',
+    description: 'Contact Rediance Car Care Services to book your doorstep car wash and detailing slot in Nagpur. Call or WhatsApp us today for premium service.',
     keywords: [
         'book car wash nagpur',
         'contact car detailing nagpur',
-        'carrz car care phone number',
+        'Rediance Car Care Services phone number',
         'mobile car wash booking nagpur'
     ]
 };

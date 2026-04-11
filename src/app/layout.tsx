@@ -13,22 +13,22 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Carrz Car Care | Premium Doorstep Car Detailing in Nagpur",
-    template: "%s | Carrz Car Care Nagpur",
+    default: "Rediance Car Care Services | Premium Doorstep Car Detailing in Nagpur",
+    template: "%s | Rediance Car Care Services Nagpur",
   },
   description: "Nagpur's #1 professional doorstep car cleaning, interior deep detailing, and premium ceramic coating services. Book your slot today for a showroom shine at home.",
-  keywords: ["car washing nagpur", "doorstep car detailing nagpur", "carrz car care", "ceramic coating nagpur", "car wash at home nagpur", "interior deep cleaning nagpur", "car polish nagpur"],
-  authors: [{ name: "Carrz Car Care" }],
-  creator: "Carrz Car Care",
-  publisher: "Carrz Car Care",
+  keywords: ["car washing nagpur", "doorstep car detailing nagpur", "Rediance Car Care Services", "ceramic coating nagpur", "car wash at home nagpur", "interior deep cleaning nagpur", "car polish nagpur"],
+  authors: [{ name: "Rediance Car Care Services" }],
+  creator: "Rediance Car Care Services",
+  publisher: "Rediance Car Care Services",
   alternates: {
     canonical: 'https://carrzcare.in',
   },
   openGraph: {
-    title: "Carrz Car Care | Premium Doorstep Car Detailing in Nagpur",
+    title: "Rediance Car Care Services | Premium Doorstep Car Detailing in Nagpur",
     description: "Professional doorstep car cleaning, detailing, and ceramic coating services in Nagpur. Book your slot today for a showroom shine at home.",
     url: "https://carrzcare.in",
-    siteName: "Carrz Car Care",
+    siteName: "Rediance Car Care Services",
     locale: "en_IN",
     type: "website",
   },
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Carrz Car Care Nagpur",
+    title: "Rediance Car Care Services Nagpur",
     card: "summary_large_image",
   },
 };
@@ -59,7 +59,7 @@ export default function RootLayout({
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'AutomotiveBusiness',
-    name: 'Carrz Car Care',
+    name: 'Rediance Car Care Services',
     image: 'https://carrzcare.in/logo.png', // Placeholder
     '@id': 'https://carrzcare.in',
     url: 'https://carrzcare.in',

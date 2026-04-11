@@ -19,12 +19,12 @@ export default function MobileBottomNav() {
             {/* Floating SOS/Call Button (prominent) */}
             <div className="relative -top-6">
                 <a
-                    href="tel:+917709959881"
-                    className="w-14 h-14 bg-[#ff4d4d] rounded-full flex flex-col items-center justify-center text-white shadow-[0_4px_15px_rgba(255,0,0,0.4)] border-4 border-background animate-pulse"
+                    href="https://wa.me/917709959881?text=Hello%20Carrz%20Care!%20I%20need%20help%20choosing%20a%20service."
+                    className="w-14 h-14 bg-transparent rounded-full flex flex-col items-center justify-center text-white shadow-[0_4px_15px_rgba(255,0,0,0.4)] border-4 border-background animate-pulse"
                 >
-                    <PhoneCall className="w-6 h-6" />
+                    <img src={"/whts-app.png"} className="w-full h-full rounded-full" />
                 </a>
-                <span className="text-[10px] font-bold text-[#ff4d4d] absolute -bottom-5 left-1/2 -translate-x-1/2 w-max">SOS</span>
+                <span className="text-[10px] font-bold text-[#ff4d4d] absolute -bottom-5 left-1/2 -translate-x-1/2 w-max">Whatts App</span>
             </div>
 
             <Link href="/contact" className="flex flex-col items-center gap-1 group">

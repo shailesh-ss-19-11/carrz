@@ -11,10 +11,10 @@ export default function Footer() {
                         <Link href="/" className="flex items-center gap-3 group w-fit">
                             <img
                                 src="/logo.png"
-                                alt="Carrz Car Care Logo"
-                                className="h-16 w-auto object-contain drop-shadow-[0_0_8px_rgba(255,0,0,0.1)] group-hover:drop-shadow-[0_0_12px_rgba(255,0,0,0.6)] transition-all duration-300"
+                                alt="Rediance Car Care Services Logo"
+                                className="rounded-full h-16 w-auto object-contain drop-shadow-[0_0_8px_rgba(255,0,0,0.1)] group-hover:drop-shadow-[0_0_12px_rgba(255,0,0,0.6)] transition-all duration-300"
                             />
-                            <span className="font-bold text-2xl tracking-tight text-foreground group-hover:text-primary transition-colors">Carrz Car Care</span>
+                            <span className="font-bold text-2xl tracking-tight text-foreground group-hover:text-primary transition-colors">Rediance Car Care Services</span>
                         </Link>
                         <p className="text-muted leading-relaxed text-sm">
                             Premium doorstep car cleaning and detailing services in Nagpur.
@@ -108,7 +108,7 @@ export default function Footer() {
 
                 <div className="border-t border-[#111d40] pt-8 mt-8 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-muted text-sm text-center md:text-left">
-                        &copy; {new Date().getFullYear()} Carrz Car Care. All rights reserved.
+                        &copy; {new Date().getFullYear()} Rediance Car Care Services. All rights reserved.
                     </p>
                     <div className="flex gap-4 text-sm text-muted">
                         <Link href="#" className="hover:text-foreground transition-colors">Privacy Policy</Link>

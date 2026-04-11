@@ -202,9 +202,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2d$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ShieldCheck$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/shield-check.js [app-client] (ecmascript) <export default as ShieldCheck>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$gem$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Gem$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/gem.js [app-client] (ecmascript) <export default as Gem>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/clock.js [app-client] (ecmascript) <export default as Clock>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$thumbs$2d$up$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ThumbsUp$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/thumbs-up.js [app-client] (ecmascript) <export default as ThumbsUp>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$wallet$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Wallet$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/wallet.js [app-client] (ecmascript) <export default as Wallet>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$leaf$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Leaf$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/leaf.js [app-client] (ecmascript) <export default as Leaf>");
 "use client";
 ;
 ;
@@ -232,19 +229,9 @@ function ServiceGrid() {
     ];
     const detailingServices = [
         {
-            title: "PPF",
-            image: "/car-detailing-icons/ppf.jpeg",
-            link: "/detailing-studio/ppf"
-        },
-        {
-            title: "Ceramic Coating",
-            image: "/car-detailing-icons/ceramic-coating.jpeg",
-            link: "/detailing-studio/ceramic-coating"
-        },
-        {
-            title: "Graphene Coating",
-            image: "/car-detailing-icons/graphene-coating.jpeg",
-            link: "/detailing-studio/graphene-coating"
+            title: "premium Foam Wash",
+            image: "/car-detailing-icons/premium-car-wash.jpeg",
+            link: "/detailing-studio/premium-car-wash"
         },
         {
             title: "Interior Detailing",
@@ -257,9 +244,34 @@ function ServiceGrid() {
             link: "/detailing-studio/exterior-polishing"
         },
         {
-            title: "premium Car Wash",
-            image: "/car-detailing-icons/premium-car-wash.jpeg",
-            link: "/detailing-studio/premium-car-wash"
+            title: "Ceramic Coating",
+            image: "/car-detailing-icons/ceramic-coating.jpeg",
+            link: "/detailing-studio/ceramic-coating"
+        },
+        {
+            title: "Graphene Coating",
+            image: "/car-detailing-icons/graphene-coating.jpeg",
+            link: "/detailing-studio/graphene-coating"
+        },
+        {
+            title: "PPF",
+            image: "/car-detailing-icons/ppf.jpeg",
+            link: "/detailing-studio/ppf"
+        },
+        {
+            title: "Salt Cleaning",
+            image: "/car-detailing-icons/salt-cleaning.jpeg",
+            link: "/detailing-studio/salt-cleaning"
+        },
+        {
+            title: "Engine Restoration",
+            image: "/car-detailing-icons/engine-cleaning.jpg",
+            link: "/detailing-studio/engine-restoration"
+        },
+        {
+            title: "Glass Polishing / Coating",
+            image: "/car-detailing-icons/glass-polishing.png",
+            link: "/detailing-studio/glass-polishing-coating"
         }
     ];
     const whyChooseUs = [
@@ -275,23 +287,8 @@ function ServiceGrid() {
         },
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__["Clock"],
-            title: "Time Saving",
+            title: "Time Saving & Affordable",
             desc: "We come to your doorstep at your convenience."
-        },
-        {
-            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$thumbs$2d$up$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ThumbsUp$3e$__["ThumbsUp"],
-            title: "Satisfaction Guaranteed",
-            desc: "We don't leave until your car looks perfect."
-        },
-        {
-            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$wallet$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Wallet$3e$__["Wallet"],
-            title: "Transparent Pricing",
-            desc: "No hidden fees, just straightforward customized plans."
-        },
-        {
-            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$leaf$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Leaf$3e$__["Leaf"],
-            title: "Eco-Friendly",
-            desc: "Water-efficient washing and safe sustainable chemicals."
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -312,14 +309,14 @@ function ServiceGrid() {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-3xl md:text-5xl font-extrabold text-foreground mb-4",
                             children: [
-                                "Doorstep ",
+                                " ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-primary",
-                                    children: "Car care services"
+                                    children: " Doorstep Car care services"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ServiceGrid.tsx",
                                     lineNumber: 101,
-                                    columnNumber: 103
+                                    columnNumber: 95
                                 }, this)
                             ]
                         }, void 0, true, {
@@ -383,7 +380,7 @@ function ServiceGrid() {
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                 href: service.link,
-                                                className: "inline-flex bg-[#ff0000] text-white items-center justify-center gap-1 md:gap-2 px-1 py-1.5 sm:px-3 sm:py-2 md:px-6 md:py-3 text-primary hover:bg-primary hover:text-white rounded-lg md:rounded-xl text-[9px] sm:text-sm md:text-base font-semibold transition-colors duration-300 w-full mt-auto",
+                                                className: "inline-flex bg-[#ff0000] font-semibold text-white items-center justify-center gap-1 md:gap-2 px-1 py-1.5 sm:px-3 sm:py-2 md:px-6 md:py-3 text-primary hover:bg-primary hover:text-white rounded-lg md:rounded-xl text-[9px] sm:text-sm md:text-base font-semibold transition-colors duration-300 w-full mt-auto",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "hidden sm:inline",
@@ -436,14 +433,14 @@ function ServiceGrid() {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-2xl md:text-4xl font-extrabold tracking-tight text-foreground mb-2 md:mb-4",
                             children: [
-                                "Car ",
+                                " ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-primary",
-                                    children: "Detailing Studio"
+                                    children: " Car Detailing Studio"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ServiceGrid.tsx",
                                     lineNumber: 142,
-                                    columnNumber: 121
+                                    columnNumber: 118
                                 }, this)
                             ]
                         }, void 0, true, {
@@ -515,14 +512,14 @@ function ServiceGrid() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: "text-3xl md:text-5xl font-extrabold tracking-tight text-foreground mb-4",
                                         children: [
-                                            "Why Choose ",
+                                            " ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-primary",
-                                                children: "Us?"
+                                                children: "Why Choose Us?"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/ServiceGrid.tsx",
                                                 lineNumber: 166,
-                                                columnNumber: 124
+                                                columnNumber: 114
                                             }, this)
                                         ]
                                     }, void 0, true, {
