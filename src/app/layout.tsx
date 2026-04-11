@@ -4,6 +4,8 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import MobileBottomNav from "@/components/MobileBottomNav";
+import Loader from "@/components/Loader";
+import ScrollAnimations from "@/components/ScrollAnimations";
 import "./globals.css";
 
 const inter = Inter({
@@ -159,6 +161,8 @@ export default function RootLayout({
       <body className={`${inter.variable} antialiased bg-background text-foreground min-h-screen flex flex-col transition-colors duration-300`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <Navbar />
+          <Loader />
+          <ScrollAnimations />
           <main className="flex-1 pt-20">
             {children}
           </main>
