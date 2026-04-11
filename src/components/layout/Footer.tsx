@@ -3,7 +3,7 @@ import { CarFront, Facebook, Instagram, Twitter, MapPin, Phone, Mail, Clock } fr
 
 export default function Footer() {
     return (
-        <footer className="bg-background border-t border-[#111d40] pt-16 pb-8">
+        <footer className="bg-background border-t border-[#111d40] pt-16 pb-24 md:pb-8">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
                     {/* Brand Col */}
@@ -89,12 +89,10 @@ export default function Footer() {
                     <h3 className="text-foreground font-semibold text-lg tracking-wide mb-8">Areas We Serve in Nagpur</h3>
                     <div className="flex flex-wrap gap-2 md:gap-3">
                         {[
-                            "Sitabuldi", "Mahal", "Itwari", "Mominpura", "Dharampeth", "Civil Lines", "Ramdaspeth", "Sadar",
-                            "Manish Nagar", "Narendra Nagar", "Besa", "Trimurti Nagar", "MIHAN", "Wardha Road", "Butibori",
-                            "Hingna", "Gorewada", "Seminary Hills", "Pratap Nagar", "Laxmi Nagar", "Shankar Nagar", "Hanuman Nagar",
-                            "Ayodhya Nagar", "Nandanvan", "Jaripatka", "Kamptee Road", "Koradi Road", "Hudkeshwar", "Pardi",
-                            "Kalamna", "Wadi", "Amravati Road", "Friends Colony", "Indora", "Teka Naka", "Gittikhadan",
-                            "Zingabai Takli", "Omkar Nagar", "Chinchbhavan", "Sonegaon"
+                            "Manish Nagar", "Besa-Pipla", "Belatrodi", "Manewada", "Ayodhya Nagar", "Uday Nagar",
+                            "Hudkeshwar", "Rameshwari", "Omkar Nagar", "Narendra Nagar", "Somalwada",
+                            "Chatrapati Nagar", "Deo Nagar", "Khamla", "Sonegaon", "Jaitala",
+                            "Lakshmi Nagar", "Pratap Nagar", "Trimurti Nagar", "Pandey Layout"
                         ].map((area) => (
                             <span
                                 key={area}
@@ -109,6 +107,8 @@ export default function Footer() {
                 <div className="border-t border-[#111d40] pt-8 mt-8 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-muted text-sm text-center md:text-left">
                         &copy; {new Date().getFullYear()} Rediance Car Care Services. All rights reserved.
+                        <br />
+                        <a href="https://wa.me/918208671941?text=Hi%20Shailesh!%20I%20saw%20your%20work%20and%20I%27m%20interested%20in%20a%20website." target="_blank" rel="noopener noreferrer" className="text-muted/70 text-xs hover:text-primary transition-colors">Designed & Developed by Shailesh Gokhale</a>
                     </p>
                     <div className="flex gap-4 text-sm text-muted">
                         <Link href="#" className="hover:text-foreground transition-colors">Privacy Policy</Link>

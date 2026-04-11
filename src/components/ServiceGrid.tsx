@@ -1,8 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight, ShieldCheck, Gem, Clock, ThumbsUp, Wallet, Leaf } from "lucide-react";
-import { title } from "process";
+import { ArrowRight } from "lucide-react";
 
 export default function ServiceGrid() {
     const services = [
@@ -30,17 +29,20 @@ export default function ServiceGrid() {
         {
             title: "premium Foam Wash",
             image: "/car-detailing-icons/premium-car-wash.jpeg",
-            link: "/detailing-studio/premium-car-wash"
+            link: "/detailing-studio/premium-car-wash",
+            startingFrom: "₹399"
         },
         {
             title: "Interior Detailing",
             image: "/car-detailing-icons/interior-cleaning.jpeg",
-            link: "/detailing-studio/interior-detailing"
+            link: "/detailing-studio/interior-detailing",
+            startingFrom: "₹1,999"
         },
         {
             title: "Exterior Polishing",
             image: "/car-detailing-icons/exterior-polishing.jpeg",
             link: "/detailing-studio/exterior-polishing"
+
         },
         {
             title: "Ceramic Coating",
@@ -73,23 +75,6 @@ export default function ServiceGrid() {
         }
     ];
 
-    const whyChooseUs = [
-        {
-            icon: ShieldCheck,
-            title: "Trusted Experts",
-            desc: "Highly trained professionals dedicated to detailing."
-        },
-        {
-            icon: Gem,
-            title: "Premium Products",
-            desc: "We use only the best to ensure a showroom finish."
-        },
-        {
-            icon: Clock,
-            title: "Time Saving & Affordable",
-            desc: "We come to your doorstep at your convenience."
-        }
-    ];
 
     return (
         <div className="pt-8 pb-16 md:pt-12 md:pb-24 bg-background relative overflow-hidden">
@@ -127,7 +112,7 @@ export default function ServiceGrid() {
                                 {/* Card Footer / Button */}
                                 <Link
                                     href={service.link}
-                                    className="inline-flex bg-[#ff0000] font-semibold text-white items-center justify-center gap-1 md:gap-2 px-1 py-1.5 sm:px-3 sm:py-2 md:px-6 md:py-3 text-primary hover:bg-primary hover:text-white rounded-lg md:rounded-xl text-[9px] sm:text-sm md:text-base font-semibold transition-colors duration-300 w-full mt-auto"
+                                    className="inline-flex bg-[#ff0000] text-white items-center justify-center gap-1 md:gap-2 px-1 py-1.5 sm:px-3 sm:py-2 md:px-6 md:py-3 hover:bg-primary hover:text-white rounded-lg md:rounded-xl text-[9px] sm:text-sm md:text-base font-semibold transition-colors duration-300 w-full mt-auto"
                                 >
                                     <span className="hidden sm:inline">See More</span>
                                     <span className="sm:hidden">View Packages</span>
@@ -162,25 +147,28 @@ export default function ServiceGrid() {
 
                 {/* why choose us */}
                 <div className="mt-12 md:mt-24 w-full">
-                    <div className="text-center mb-10 md:mb-16">
+                    <div className="text-center mb-8 md:mb-12">
                         <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight text-primary mb-4">Why Choose Us?</h2>
-                        <p className="text-muted max-w-xl mx-auto text-sm md:text-base px-4">Experience the difference with Carrz premium doorstep services and expert care.</p>
+                        <p className="text-muted max-w-xl mx-auto text-sm md:text-base px-4">Experience the difference with Rediance premium doorstep services and expert care.</p>
                     </div>
 
-                    <div className="w-full overflow-x-auto pb-8 -mx-4 px-4 sm:mx-0 sm:px-0 hide-scrollbar scroll-smooth snap-x snap-mandatory">
-                        <div className="flex sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 w-fit sm:w-full">
-                            {whyChooseUs.map((item, idx) => {
-                                const Icon = item.icon;
-                                return (
-                                    <div key={idx} className="bg-surface/50 border border-surface-border rounded-[2rem] p-8 flex flex-col items-center text-center w-[280px] sm:w-full shrink-0 snap-center hover:border-primary/50 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                        <div className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-primary/20 transition-all duration-300">
-                                            <Icon className="w-8 h-8 text-primary group-hover:drop-shadow-[0_0_15px_rgba(0,240,255,0.6)]" />
-                                        </div>
-                                        <h3 className="text-xl font-bold text-foreground tracking-tight mb-3 group-hover:text-primary transition-colors">{item.title}</h3>
-                                        <p className="text-sm text-muted font-light leading-relaxed">{item.desc}</p>
-                                    </div>
-                                );
-                            })}
+                    <div className="w-full overflow-x-auto pb-4 -mx-4 px-4 sm:mx-0 sm:px-0 hide-scrollbar scroll-smooth snap-x snap-mandatory">
+                        <div className="flex gap-4 md:gap-6 w-max">
+                            {[
+                                { image: "/why-choose-us/trusted.jpg", alt: "Trusted by 10,000+ Nagpur Car Owners", desc: "Trusted by 10,000+ Nagpur car owners for doorstep car care service." },
+                                { image: "/why-choose-us/trained-professionals.jpg", alt: "Highly Trained Professionals", desc: "Highly professional and trained boy's team." },
+                                { image: "/why-choose-us/at-your-place.jpg", alt: "At Your Time, At Your Place", desc: "Convenience & affordable car care service at your place and time." },
+                                { image: "/why-choose-us/premium-products.jpg", alt: "We Use Premium Products and Accessories", desc: "We use premium quality products and accessories." },
+                            ].map((item, idx) => (
+                                <div key={idx} className="w-[260px] sm:w-[300px] md:w-[320px] shrink-0 snap-center rounded-2xl overflow-hidden border border-surface-border shadow-lg hover:shadow-2xl hover:-translate-y-1 hover:border-primary/40 transition-all duration-300 bg-surface/50">
+                                    <img
+                                        src={item.image}
+                                        alt={item.alt}
+                                        className="w-full h-[340px] sm:h-[400px] md:h-[440px] object-cover"
+                                    />
+                                    <p className="text-center text-foreground font-semibold text-sm md:text-base px-4 py-3">{item.desc}</p>
+                                </div>
+                            ))}
                         </div>
                     </div>
                 </div>

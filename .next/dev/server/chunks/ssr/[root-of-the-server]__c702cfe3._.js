@@ -84,7 +84,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 ;
 function Footer() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-        className: "bg-background border-t border-[#111d40] pt-16 pb-8",
+        className: "bg-background border-t border-[#111d40] pt-16 pb-24 md:pb-8",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
             children: [
@@ -422,52 +422,32 @@ function Footer() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex flex-wrap gap-2 md:gap-3",
                             children: [
-                                "Sitabuldi",
-                                "Mahal",
-                                "Itwari",
-                                "Mominpura",
-                                "Dharampeth",
-                                "Civil Lines",
-                                "Ramdaspeth",
-                                "Sadar",
                                 "Manish Nagar",
-                                "Narendra Nagar",
-                                "Besa",
-                                "Trimurti Nagar",
-                                "MIHAN",
-                                "Wardha Road",
-                                "Butibori",
-                                "Hingna",
-                                "Gorewada",
-                                "Seminary Hills",
-                                "Pratap Nagar",
-                                "Laxmi Nagar",
-                                "Shankar Nagar",
-                                "Hanuman Nagar",
+                                "Besa-Pipla",
+                                "Belatrodi",
+                                "Manewada",
                                 "Ayodhya Nagar",
-                                "Nandanvan",
-                                "Jaripatka",
-                                "Kamptee Road",
-                                "Koradi Road",
+                                "Uday Nagar",
                                 "Hudkeshwar",
-                                "Pardi",
-                                "Kalamna",
-                                "Wadi",
-                                "Amravati Road",
-                                "Friends Colony",
-                                "Indora",
-                                "Teka Naka",
-                                "Gittikhadan",
-                                "Zingabai Takli",
+                                "Rameshwari",
                                 "Omkar Nagar",
-                                "Chinchbhavan",
-                                "Sonegaon"
+                                "Narendra Nagar",
+                                "Somalwada",
+                                "Chatrapati Nagar",
+                                "Deo Nagar",
+                                "Khamla",
+                                "Sonegaon",
+                                "Jaitala",
+                                "Lakshmi Nagar",
+                                "Pratap Nagar",
+                                "Trimurti Nagar",
+                                "Pandey Layout"
                             ].map((area)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "px-3 md:px-4 py-1.5 md:py-2 bg-surface/40 hover:bg-surface/60 border border-surface-border hover:border-primary/40 text-muted hover:text-primary text-[11px] md:text-[13px] rounded-full transition-all duration-300 cursor-default whitespace-nowrap shadow-sm font-medium",
                                     children: area
                                 }, area, false, {
                                     fileName: "[project]/src/components/layout/Footer.tsx",
-                                    lineNumber: 99,
+                                    lineNumber: 97,
                                     columnNumber: 29
                                 }, this))
                         }, void 0, false, {
@@ -489,11 +469,27 @@ function Footer() {
                             children: [
                                 "© ",
                                 new Date().getFullYear(),
-                                " Rediance Car Care Services. All rights reserved."
+                                " Rediance Car Care Services. All rights reserved.",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                    fileName: "[project]/src/components/layout/Footer.tsx",
+                                    lineNumber: 110,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                    href: "https://wa.me/918208671941?text=Hi%20Shailesh!%20I%20saw%20your%20work%20and%20I%27m%20interested%20in%20a%20website.",
+                                    target: "_blank",
+                                    rel: "noopener noreferrer",
+                                    className: "text-muted/70 text-xs hover:text-primary transition-colors",
+                                    children: "Designed & Developed by Shailesh Gokhale"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/layout/Footer.tsx",
+                                    lineNumber: 111,
+                                    columnNumber: 25
+                                }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/layout/Footer.tsx",
-                            lineNumber: 110,
+                            lineNumber: 108,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -526,7 +522,7 @@ function Footer() {
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/layout/Footer.tsx",
-                    lineNumber: 109,
+                    lineNumber: 107,
                     columnNumber: 17
                 }, this)
             ]
@@ -641,15 +637,59 @@ const metadata = {
         default: "Rediance Car Care Services | Premium Doorstep Car Detailing in Nagpur",
         template: "%s | Rediance Car Care Services Nagpur"
     },
-    description: "Nagpur's #1 professional doorstep car cleaning, interior deep detailing, and premium ceramic coating services. Book your slot today for a showroom shine at home.",
+    description: "Nagpur's #1 professional doorstep car cleaning, interior deep detailing, and premium ceramic coating services. Best doorstep car wash service in Manish Nagar, Narendra Nagar, Besa & all Nagpur areas. Affordable car detailing packages. Book your slot today!",
     keywords: [
-        "car washing nagpur",
-        "doorstep car detailing nagpur",
+        // Core brand & service
+        "best doorstep car wash service in Nagpur",
+        "best car care services near me",
+        "car wash near me Nagpur",
+        "car cleaning near me",
+        "car wash at home Nagpur",
         "Rediance Car Care Services",
-        "ceramic coating nagpur",
-        "car wash at home nagpur",
+        // Area-specific
+        "best doorstep car wash service in Manish Nagar",
+        "best doorstep car wash service in Narendra Nagar",
+        "car wash Besa",
+        "car wash Hudkeshwar",
+        "car detailing Pratap Nagar",
+        "car wash Trimurti Nagar",
+        "affordable car detailing services in Manish Nagar",
+        "affordable car detailing services in Narendra Nagar",
+        // Layman / common searches
+        "car dhulai Nagpur",
+        "gaadi dhona Nagpur",
+        "car wash price Nagpur",
+        "car wash charges Nagpur",
+        "cheap car wash Nagpur",
+        "best car wash Nagpur",
+        "car cleaning at home Nagpur",
+        "car wash home service Nagpur",
+        "car interior cleaning Nagpur",
+        "car seat cleaning Nagpur",
+        "car AC cleaning Nagpur",
+        "car foam wash Nagpur",
+        "car polish price Nagpur",
+        "car wax polish Nagpur",
+        "ceramic coating price Nagpur",
+        "graphene coating Nagpur",
+        "PPF Nagpur",
+        "paint protection film Nagpur",
+        "car scratch removal Nagpur",
+        "car buffing Nagpur",
+        "bike wash at home Nagpur",
+        "two wheeler wash Nagpur",
+        "car wash package Nagpur",
+        "monthly car wash plan Nagpur",
+        "car wash subscription Nagpur",
+        "waterless car wash Nagpur",
+        "steam car wash Nagpur",
+        "car underbody wash Nagpur",
+        "engine cleaning Nagpur",
+        "doorstep car detailing nagpur",
+        "car washing nagpur",
         "interior deep cleaning nagpur",
-        "car polish nagpur"
+        "car polish nagpur",
+        "doorstep car cleaning Nagpur"
     ],
     authors: [
         {
@@ -726,12 +766,41 @@ function RootLayout({ children }) {
             '@type': 'ContactPoint',
             telephone: '+917709959881',
             contactType: 'customer service',
-            areaServed: 'Nagpur',
+            areaServed: [
+                'Nagpur',
+                'Manish Nagar',
+                'Besa-Pipla',
+                'Belatrodi',
+                'Manewada',
+                'Ayodhya Nagar',
+                'Uday Nagar',
+                'Hudkeshwar',
+                'Rameshwari',
+                'Omkar Nagar',
+                'Narendra Nagar',
+                'Somalwada',
+                'Chatrapati Nagar',
+                'Deo Nagar',
+                'Khamla',
+                'Sonegaon',
+                'Jaitala',
+                'Lakshmi Nagar',
+                'Pratap Nagar',
+                'Trimurti Nagar',
+                'Pandey Layout'
+            ],
             availableLanguage: [
                 'English',
                 'Hindi',
                 'Marathi'
             ]
+        },
+        description: 'Best doorstep car wash and car detailing service in Nagpur. Affordable car care packages in Manish Nagar, Narendra Nagar, Besa, Hudkeshwar and all Nagpur areas.',
+        priceRange: '₹₹',
+        aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: '4.8',
+            reviewCount: '10000'
         }
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
@@ -747,12 +816,12 @@ function RootLayout({ children }) {
                     }
                 }, void 0, false, {
                     fileName: "[project]/src/app/layout.tsx",
-                    lineNumber: 105,
+                    lineNumber: 154,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/layout.tsx",
-                lineNumber: 104,
+                lineNumber: 153,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
@@ -765,7 +834,7 @@ function RootLayout({ children }) {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Navbar$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/src/app/layout.tsx",
-                                lineNumber: 112,
+                                lineNumber: 161,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -773,35 +842,35 @@ function RootLayout({ children }) {
                                 children: children
                             }, void 0, false, {
                                 fileName: "[project]/src/app/layout.tsx",
-                                lineNumber: 113,
+                                lineNumber: 162,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Footer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/src/app/layout.tsx",
-                                lineNumber: 116,
+                                lineNumber: 165,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/layout.tsx",
-                        lineNumber: 111,
+                        lineNumber: 160,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$MobileBottomNav$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/src/app/layout.tsx",
-                        lineNumber: 118,
+                        lineNumber: 167,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/layout.tsx",
-                lineNumber: 110,
+                lineNumber: 159,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/layout.tsx",
-        lineNumber: 103,
+        lineNumber: 152,
         columnNumber: 5
     }, this);
 }

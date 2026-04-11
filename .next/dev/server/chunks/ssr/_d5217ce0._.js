@@ -73,82 +73,41 @@ function HandBucketWashPage() {
         className: "bg-background min-h-screen relative overflow-hidden",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative py-16 md:py-24 lg:py-32 overflow-hidden border-b border-surface-border",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute inset-0 z-0",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                            src: "/bgs/car-wash-bg.jpeg",
-                            alt: "Hand Bucket Wash",
-                            className: "w-full h-full object-cover opacity-40 dark:opacity-50 mask-image-b",
-                            style: {
-                                maskImage: 'linear-gradient(to bottom, black 40%, transparent 100%)',
-                                WebkitMaskImage: 'linear-gradient(to bottom, black 40%, transparent 100%)'
-                            }
+                className: "pt-10 pb-10 md:pt-16 md:pb-16 border-b border-surface-border",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                            className: "text-3xl md:text-5xl lg:text-6xl font-extrabold text-primary mb-8 md:mb-10 tracking-tight text-center",
+                            children: "Hand Bucket Wash Packages"
                         }, void 0, false, {
                             fileName: "[project]/src/app/handbucket-wash/page.tsx",
                             lineNumber: 65,
                             columnNumber: 21
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                        lineNumber: 64,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary font-semibold text-sm mb-6 border border-primary/20 backdrop-blur-sm",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$droplets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Droplets$3e$__["Droplets"], {
-                                        className: "w-4 h-4"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                        lineNumber: 75,
-                                        columnNumber: 25
-                                    }, this),
-                                    "Gentle & Safe Cleaning"
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                lineNumber: 74,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                className: "text-4xl md:text-5xl lg:text-7xl font-extrabold text-primary mb-6 tracking-tight",
-                                children: [
-                                    " ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                        className: "hidden md:block"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                        lineNumber: 78,
-                                        columnNumber: 119
-                                    }, this),
-                                    " Hand Bucket Wash Packages"
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                lineNumber: 78,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-muted max-w-2xl mx-auto text-lg md:text-xl font-light leading-relaxed",
-                                children: "Experience the safest way to clean your car. Our premium two-bucket wash method prevents swirl marks and scratches, leaving a brilliant showroom shine right at your doorstep."
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "max-w-5xl mx-auto rounded-3xl overflow-hidden border-2 border-surface-border shadow-2xl",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                src: "/bgs/hand-bucket-wash-hero.jpg",
+                                alt: "Hand Bucket Wash",
+                                className: "w-full h-auto object-cover"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                lineNumber: 79,
-                                columnNumber: 21
+                                lineNumber: 67,
+                                columnNumber: 25
                             }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                        lineNumber: 73,
-                        columnNumber: 17
-                    }, this)
-                ]
-            }, void 0, true, {
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/handbucket-wash/page.tsx",
+                            lineNumber: 66,
+                            columnNumber: 21
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/app/handbucket-wash/page.tsx",
+                    lineNumber: 64,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
                 fileName: "[project]/src/app/handbucket-wash/page.tsx",
                 lineNumber: 63,
                 columnNumber: 13
@@ -164,7 +123,7 @@ function HandBucketWashPage() {
                                 children: "Choose Your Plan"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                lineNumber: 86,
+                                lineNumber: 79,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -172,13 +131,13 @@ function HandBucketWashPage() {
                                 children: "Select a package to view its detailed offerings below."
                             }, void 0, false, {
                                 fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                lineNumber: 87,
+                                lineNumber: 80,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                        lineNumber: 85,
+                        lineNumber: 78,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -198,12 +157,12 @@ function HandBucketWashPage() {
                                                 className: `absolute top-0 right-0 w-32 h-32 bg-primary/20 blur-3xl rounded-full transition-opacity duration-500 ${isSelected ? 'opacity-100' : 'opacity-0 group-hover:opacity-50'}`
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                                lineNumber: 106,
+                                                lineNumber: 99,
                                                 columnNumber: 41
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                            lineNumber: 105,
+                                            lineNumber: 98,
                                             columnNumber: 37
                                         }, this),
                                         pkg.popular && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -211,7 +170,7 @@ function HandBucketWashPage() {
                                             children: "Value Pick"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                            lineNumber: 110,
+                                            lineNumber: 103,
                                             columnNumber: 41
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -225,17 +184,17 @@ function HandBucketWashPage() {
                                                             className: "w-2 h-2 rounded-full bg-black"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                                            lineNumber: 118,
+                                                            lineNumber: 111,
                                                             columnNumber: 64
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                                        lineNumber: 117,
+                                                        lineNumber: 110,
                                                         columnNumber: 45
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                                    lineNumber: 116,
+                                                    lineNumber: 109,
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -244,12 +203,12 @@ function HandBucketWashPage() {
                                                         className: "w-8 h-8 md:w-10 md:h-10"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                                        lineNumber: 123,
+                                                        lineNumber: 116,
                                                         columnNumber: 45
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                                    lineNumber: 122,
+                                                    lineNumber: 115,
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -260,7 +219,7 @@ function HandBucketWashPage() {
                                                             children: pkg.name
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                                            lineNumber: 127,
+                                                            lineNumber: 120,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -271,7 +230,7 @@ function HandBucketWashPage() {
                                                                     children: pkg.price
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                                                    lineNumber: 132,
+                                                                    lineNumber: 125,
                                                                     columnNumber: 49
                                                                 }, this),
                                                                 pkg.name.includes('Monthly') && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -279,42 +238,42 @@ function HandBucketWashPage() {
                                                                     children: "/mo"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                                                    lineNumber: 133,
+                                                                    lineNumber: 126,
                                                                     columnNumber: 82
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                                            lineNumber: 131,
+                                                            lineNumber: 124,
                                                             columnNumber: 45
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                                    lineNumber: 126,
+                                                    lineNumber: 119,
                                                     columnNumber: 41
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                            lineNumber: 115,
+                                            lineNumber: 108,
                                             columnNumber: 37
                                         }, this)
                                     ]
                                 }, pkg.id, true, {
                                     fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                    lineNumber: 96,
+                                    lineNumber: 89,
                                     columnNumber: 33
                                 }, this);
                             })
                         }, void 0, false, {
                             fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                            lineNumber: 92,
+                            lineNumber: 85,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                        lineNumber: 91,
+                        lineNumber: 84,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -330,7 +289,7 @@ function HandBucketWashPage() {
                                             children: "Selected Package"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                            lineNumber: 149,
+                                            lineNumber: 142,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -338,7 +297,7 @@ function HandBucketWashPage() {
                                             children: selectedPackage.name
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                            lineNumber: 152,
+                                            lineNumber: 145,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -346,7 +305,7 @@ function HandBucketWashPage() {
                                             children: selectedPackage.description
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                            lineNumber: 155,
+                                            lineNumber: 148,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -358,13 +317,13 @@ function HandBucketWashPage() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                            lineNumber: 159,
+                                            lineNumber: 152,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                    lineNumber: 148,
+                                    lineNumber: 141,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -377,7 +336,7 @@ function HandBucketWashPage() {
                                                     className: "w-5 h-5 text-primary"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                                    lineNumber: 170,
+                                                    lineNumber: 163,
                                                     columnNumber: 33
                                                 }, this),
                                                 "What's included in ",
@@ -385,7 +344,7 @@ function HandBucketWashPage() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                            lineNumber: 169,
+                                            lineNumber: 162,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -402,12 +361,12 @@ function HandBucketWashPage() {
                                                                 className: "w-4 h-4 text-primary stroke-[3]"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                                                lineNumber: 177,
+                                                                lineNumber: 170,
                                                                 columnNumber: 45
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                                            lineNumber: 176,
+                                                            lineNumber: 169,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -415,35 +374,35 @@ function HandBucketWashPage() {
                                                             children: feature
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                                            lineNumber: 179,
+                                                            lineNumber: 172,
                                                             columnNumber: 41
                                                         }, this)
                                                     ]
                                                 }, idx, true, {
                                                     fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                                    lineNumber: 175,
+                                                    lineNumber: 168,
                                                     columnNumber: 37
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                            lineNumber: 173,
+                                            lineNumber: 166,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                    lineNumber: 168,
+                                    lineNumber: 161,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                            lineNumber: 145,
+                            lineNumber: 138,
                             columnNumber: 21
                         }, this)
                     }, selectedPackage.id, false, {
                         fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                        lineNumber: 144,
+                        lineNumber: 137,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -455,12 +414,12 @@ function HandBucketWashPage() {
                                     className: "w-8 h-8 text-primary"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                    lineNumber: 190,
+                                    lineNumber: 183,
                                     columnNumber: 25
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                lineNumber: 189,
+                                lineNumber: 182,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -470,7 +429,7 @@ function HandBucketWashPage() {
                                         children: "Important Information"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                        lineNumber: 193,
+                                        lineNumber: 186,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -478,25 +437,25 @@ function HandBucketWashPage() {
                                         children: "Prices are applicable for hatchback and compact sedan cars. SUVs, MUVs, and luxury vehicles might incur a small extra charge due to the increased surface area. We require access to a water connection and minimum clearance around the vehicle to perform the two-bucket wash properly."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                        lineNumber: 194,
+                                        lineNumber: 187,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                                lineNumber: 192,
+                                lineNumber: 185,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                        lineNumber: 188,
+                        lineNumber: 181,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/handbucket-wash/page.tsx",
-                lineNumber: 84,
+                lineNumber: 77,
                 columnNumber: 13
             }, this)
         ]

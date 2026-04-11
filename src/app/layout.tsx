@@ -16,8 +16,44 @@ export const metadata: Metadata = {
     default: "Rediance Car Care Services | Premium Doorstep Car Detailing in Nagpur",
     template: "%s | Rediance Car Care Services Nagpur",
   },
-  description: "Nagpur's #1 professional doorstep car cleaning, interior deep detailing, and premium ceramic coating services. Book your slot today for a showroom shine at home.",
-  keywords: ["car washing nagpur", "doorstep car detailing nagpur", "Rediance Car Care Services", "ceramic coating nagpur", "car wash at home nagpur", "interior deep cleaning nagpur", "car polish nagpur"],
+  description: "Nagpur's #1 professional doorstep car cleaning, interior deep detailing, and premium ceramic coating services. Best doorstep car wash service in Manish Nagar, Narendra Nagar, Besa & all Nagpur areas. Affordable car detailing packages. Book your slot today!",
+  keywords: [
+    // Core brand & service
+    "best doorstep car wash service in Nagpur",
+    "best car care services near me",
+    "car wash near me Nagpur",
+    "car cleaning near me",
+    "car wash at home Nagpur",
+    "Rediance Car Care Services",
+
+    // Area-specific
+    "best doorstep car wash service in Manish Nagar",
+    "best doorstep car wash service in Narendra Nagar",
+    "car wash Besa", "car wash Hudkeshwar",
+    "car detailing Pratap Nagar", "car wash Trimurti Nagar",
+    "affordable car detailing services in Manish Nagar",
+    "affordable car detailing services in Narendra Nagar",
+
+    // Layman / common searches
+    "car dhulai Nagpur", "gaadi dhona Nagpur",
+    "car wash price Nagpur", "car wash charges Nagpur",
+    "cheap car wash Nagpur", "best car wash Nagpur",
+    "car cleaning at home Nagpur", "car wash home service Nagpur",
+    "car interior cleaning Nagpur", "car seat cleaning Nagpur",
+    "car AC cleaning Nagpur", "car foam wash Nagpur",
+    "car polish price Nagpur", "car wax polish Nagpur",
+    "ceramic coating price Nagpur", "graphene coating Nagpur",
+    "PPF Nagpur", "paint protection film Nagpur",
+    "car scratch removal Nagpur", "car buffing Nagpur",
+    "bike wash at home Nagpur", "two wheeler wash Nagpur",
+    "car wash package Nagpur", "monthly car wash plan Nagpur",
+    "car wash subscription Nagpur",
+    "waterless car wash Nagpur", "steam car wash Nagpur",
+    "car underbody wash Nagpur", "engine cleaning Nagpur",
+    "doorstep car detailing nagpur", "car washing nagpur",
+    "interior deep cleaning nagpur", "car polish nagpur",
+    "doorstep car cleaning Nagpur"
+  ],
   authors: [{ name: "Rediance Car Care Services" }],
   creator: "Rediance Car Care Services",
   publisher: "Rediance Car Care Services",
@@ -95,8 +131,21 @@ export default function RootLayout({
       '@type': 'ContactPoint',
       telephone: '+917709959881',
       contactType: 'customer service',
-      areaServed: 'Nagpur',
+      areaServed: [
+        'Nagpur', 'Manish Nagar', 'Besa-Pipla', 'Belatrodi', 'Manewada',
+        'Ayodhya Nagar', 'Uday Nagar', 'Hudkeshwar', 'Rameshwari',
+        'Omkar Nagar', 'Narendra Nagar', 'Somalwada', 'Chatrapati Nagar',
+        'Deo Nagar', 'Khamla', 'Sonegaon', 'Jaitala', 'Lakshmi Nagar',
+        'Pratap Nagar', 'Trimurti Nagar', 'Pandey Layout'
+      ],
       availableLanguage: ['English', 'Hindi', 'Marathi']
+    },
+    description: 'Best doorstep car wash and car detailing service in Nagpur. Affordable car care packages in Manish Nagar, Narendra Nagar, Besa, Hudkeshwar and all Nagpur areas.',
+    priceRange: '₹₹',
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.8',
+      reviewCount: '10000'
     }
   };
   return (

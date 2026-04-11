@@ -4,26 +4,26 @@ import Link from 'next/link';
 import { Shield, CheckCircle2, PhoneCall, Info, LayoutList, ThumbsUp } from 'lucide-react';
 import CustomerReviews from '@/components/CustomerReviews';
 
-export default function PremiumCarWashPage() {
+export default function SaltCleaningPage() {
     return (
         <div className="bg-background min-h-screen relative overflow-hidden">
             {/* Hero Section */}
             <div className="pt-10 pb-10 md:pt-16 md:pb-16 border-b border-surface-border">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-primary mb-8 md:mb-10 tracking-tight text-center">Premium Foam Wash</h1>
+                    <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-primary mb-8 md:mb-10 tracking-tight text-center">Salt Cleaning</h1>
                     <div className="max-w-5xl mx-auto rounded-3xl overflow-hidden border-2 border-surface-border shadow-2xl">
                         <img
-                            src="/car-detailing-icons/premium-car-wash.jpeg"
-                            alt="Premium Foam Wash"
+                            src="/car-detailing-icons/salt-cleaning.jpeg"
+                            alt="Salt Cleaning"
                             className="w-full h-auto object-cover"
                         />
                     </div>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-6 md:mt-8">
                         <div className="bg-primary/10 border border-primary/30 rounded-full px-6 py-3">
-                            <span className="text-primary font-extrabold text-lg md:text-xl">Starting from ₹399</span>
+                            <span className="text-primary font-extrabold text-lg md:text-xl">Starting from ₹999</span>
                         </div>
                         <a
-                            href="https://wa.me/917709959881?text=Hi%2C%20I%27m%20interested%20in%20Premium%20Foam%20Wash.%20Please%20share%20more%20details."
+                            href="https://wa.me/917709959881?text=Hi%2C%20I%27m%20interested%20in%20Salt%20Cleaning.%20Please%20share%20more%20details."
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-2 px-6 py-3 bg-[#25D366] text-white font-bold text-lg rounded-full hover:bg-[#1ebe57] shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5"
@@ -39,14 +39,14 @@ export default function PremiumCarWashPage() {
             <div className="py-12 md:py-24 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="md:bg-surface/50 md:backdrop-blur-md md:rounded-[2.5rem] md:p-14 md:border md:border-surface-border md:shadow-xl space-y-10 md:space-y-16">
 
-                    {/* What is it? */}
+                    {/* What is Salt Cleaning? */}
                     <div>
                         <h2 className="text-3xl font-extrabold text-foreground mb-6 tracking-tight flex items-center gap-3">
                             <Info className="w-8 h-8 text-primary" />
-                            What is it?
+                            What is Salt Cleaning?
                         </h2>
                         <p className="text-muted text-lg leading-relaxed font-light">
-                            Our Premium Car Wash is an advanced and safe exterior cleaning service utilizing pH-neutral foams and two-bucket hand wash techniques. This removes dirt and grime without introducing micro-scratches to your clear coat.
+                            Salt cleaning is a specialized detailing process that removes stubborn salt deposits, mineral build-up, and white water stains from your car's body and underbody. These deposits, often caused by road conditions and hard water, corrode paint and metal over time. Our expert treatment neutralizes and eliminates these harmful residues, restoring your car's pristine finish.
                         </p>
                     </div>
 
@@ -54,11 +54,12 @@ export default function PremiumCarWashPage() {
                     <div>
                         <h2 className="text-3xl font-extrabold text-foreground mb-6 tracking-tight flex items-center gap-3">
                             <ThumbsUp className="w-8 h-8 text-primary" />
-                            Why choose it?
+                            Why choose Salt Cleaning?
                         </h2>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             {[
-                                { title: 'Better Than Regular Wash', desc: 'Prevents the swirl marks caused by improper local washing methods.' }
+                                { title: 'Prevents Corrosion', desc: 'Salt accelerates rust and corrosion on metal surfaces. Timely removal protects your car\'s structural integrity.' },
+                                { title: 'Restores Paint Finish', desc: 'Removes unsightly white stains and mineral deposits, bringing back the original gloss and color depth of your paint.' }
                             ].map((item, idx) => (
                                 <div key={idx} className="bg-background border border-surface-border rounded-2xl p-6 group hover:border-primary/50 transition-colors">
                                     <h3 className="text-lg font-bold text-foreground group-hover:text-primary mb-2 transition-colors">{item.title}</h3>
@@ -78,9 +79,10 @@ export default function PremiumCarWashPage() {
                             </h2>
                             <ul className="space-y-4">
                                 {[
-                                    '100% Safe Wash technique',
-                                    'Completely spotless finish',
-                                    'Quick and efficient service'
+                                    'Removes hard water & salt stains',
+                                    'Prevents long-term rust damage',
+                                    'Restores original paint shine',
+                                    'Protects underbody components'
                                 ].map((benefit, idx) => (
                                     <li key={idx} className="flex items-center gap-4">
                                         <div className="bg-primary/10 rounded-full p-1.5 shrink-0">
@@ -96,14 +98,14 @@ export default function PremiumCarWashPage() {
                         <div>
                             <h2 className="text-2xl font-bold text-foreground mb-6 tracking-tight flex items-center gap-2">
                                 <LayoutList className="w-6 h-6 text-primary" />
-                                Washing Process
+                                Cleaning Process
                             </h2>
                             <div className="space-y-6">
                                 {[
-                                    { step: 1, title: 'Foam', desc: 'Thick snow foam pre-wash to lift loose dirt.' },
-                                    { step: 2, title: 'Hand Wash', safe: true, desc: 'Two-bucket premium microfiber hand wash.' },
-                                    { step: 3, title: 'Dry', desc: 'Safe contact drying using premium soft towels.' },
-                                    { step: 4, title: 'Finish', desc: 'Tyre dressing and exterior glass cleaning.' },
+                                    { step: 1, title: 'Inspection', desc: 'Identify all areas with salt and mineral deposits.' },
+                                    { step: 2, title: 'Pre-rinse & Soak', desc: 'Apply a specialized salt-dissolving solution to loosen deposits.' },
+                                    { step: 3, title: 'Agitation & Cleaning', desc: 'Carefully scrub affected areas with soft brushes and detailing tools.' },
+                                    { step: 4, title: 'Rinse & Protect', desc: 'Thorough rinse followed by a protective sealant application.' },
                                 ].map((item) => (
                                     <div key={item.step} className="flex items-start gap-4">
                                         <div className="flex items-center justify-center w-8 h-8 rounded-full bg-surface border border-surface-border text-primary font-bold shrink-0">
@@ -129,9 +131,9 @@ export default function PremiumCarWashPage() {
                             className="inline-flex items-center justify-center gap-3 w-full md:w-auto px-10 py-5 bg-primary text-white font-bold text-xl rounded-full hover:bg-primary-dark shadow-[0_10px_30px_rgba(255,0,0,0.3)] hover:shadow-[0_15px_40px_rgba(255,0,0,0.5)] transition-all duration-300 hover:-translate-y-1"
                         >
                             <PhoneCall className="w-6 h-6" />
-                            Book Premium Wash
+                            Call Now to Book
                         </a>
-                        <p className="text-muted mt-4 text-sm font-light">Call us to schedule a safe, professional doorstep wash.</p>
+                        <p className="text-muted mt-4 text-sm font-light">Consult with our detailing experts directly for quotes & scheduling.</p>
                     </div>
 
                 </div>

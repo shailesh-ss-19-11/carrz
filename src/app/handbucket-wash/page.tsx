@@ -60,23 +60,16 @@ export default function HandBucketWashPage() {
     return (
         <div className="bg-background min-h-screen relative overflow-hidden">
             {/* Hero Section */}
-            <div className="relative py-16 md:py-24 lg:py-32 overflow-hidden border-b border-surface-border">
-                <div className="absolute inset-0 z-0">
-                    <img
-                        src="/bgs/car-wash-bg.jpeg"
-                        alt="Hand Bucket Wash"
-                        className="w-full h-full object-cover opacity-40 dark:opacity-50 mask-image-b"
-                        style={{ maskImage: 'linear-gradient(to bottom, black 40%, transparent 100%)', WebkitMaskImage: 'linear-gradient(to bottom, black 40%, transparent 100%)' }}
-                    />
-                </div>
-
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary font-semibold text-sm mb-6 border border-primary/20 backdrop-blur-sm">
-                        <Droplets className="w-4 h-4" />
-                        Gentle & Safe Cleaning
+            <div className="pt-10 pb-10 md:pt-16 md:pb-16 border-b border-surface-border">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-primary mb-8 md:mb-10 tracking-tight text-center">Hand Bucket Wash Packages</h1>
+                    <div className="max-w-5xl mx-auto rounded-3xl overflow-hidden border-2 border-surface-border shadow-2xl">
+                        <img
+                            src="/bgs/hand-bucket-wash-hero.jpg"
+                            alt="Hand Bucket Wash"
+                            className="w-full h-auto object-cover"
+                        />
                     </div>
-                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-primary mb-6 tracking-tight"> <br className="hidden md:block" /> Hand Bucket Wash Packages</h1>
-                    <p className="text-muted max-w-2xl mx-auto text-lg md:text-xl font-light leading-relaxed">Experience the safest way to clean your car. Our premium two-bucket wash method prevents swirl marks and scratches, leaving a brilliant showroom shine right at your doorstep.</p>
                 </div>
             </div>
 

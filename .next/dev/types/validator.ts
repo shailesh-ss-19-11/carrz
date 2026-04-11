@@ -72,10 +72,28 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../../src/app/detailing-studio/engine-restoration/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/detailing-studio/engine-restoration">> = Specific
+  const handler = {} as typeof import("../../../src/app/detailing-studio/engine-restoration/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../src/app/detailing-studio/exterior-polishing/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/detailing-studio/exterior-polishing">> = Specific
   const handler = {} as typeof import("../../../src/app/detailing-studio/exterior-polishing/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../src/app/detailing-studio/glass-polishing-coating/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/detailing-studio/glass-polishing-coating">> = Specific
+  const handler = {} as typeof import("../../../src/app/detailing-studio/glass-polishing-coating/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
@@ -121,6 +139,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 {
   type __IsExpected<Specific extends AppPageConfig<"/detailing-studio/premium-car-wash">> = Specific
   const handler = {} as typeof import("../../../src/app/detailing-studio/premium-car-wash/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../src/app/detailing-studio/salt-cleaning/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/detailing-studio/salt-cleaning">> = Specific
+  const handler = {} as typeof import("../../../src/app/detailing-studio/salt-cleaning/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

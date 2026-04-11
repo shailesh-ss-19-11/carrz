@@ -58,16 +58,16 @@ export default function DetailingStudioPage() {
     return (
         <div className="bg-background min-h-screen relative overflow-hidden">
             {/* Hero Section */}
-            <div className="relative py-12 md:py-24 lg:py-32 overflow-hidden border-b border-surface-border">
-
-
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary font-semibold text-sm mb-6 border border-primary/20 backdrop-blur-sm">
-                        <Stars className="w-4 h-4" />
-                        Premium Quality Care
+            <div className="pt-10 pb-10 md:pt-16 md:pb-16 border-b border-surface-border">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-primary mb-8 md:mb-10 tracking-tight text-center">Car Detailing Services</h1>
+                    <div className="max-w-5xl mx-auto rounded-3xl overflow-hidden border-2 border-surface-border shadow-2xl">
+                        <img
+                            src="/bgs/detailing-studio-hero.jpg"
+                            alt="Car Detailing Services"
+                            className="w-full h-auto object-cover"
+                        />
                     </div>
-                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-primary mb-6 tracking-tight">Car Detailing <br className="hidden md:block" /> Services</h1>
-                    <p className="text-muted max-w-2xl mx-auto text-lg md:text-xl font-light leading-relaxed">Elevate your vehicle's gloss, protection, and interior comfort to the absolute highest standard with our expert studio services.</p>
                 </div>
             </div>
 
