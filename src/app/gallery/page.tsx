@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { Camera, Sparkles } from 'lucide-react';
 import fs from 'fs';
 import path from 'path';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
     title: 'Car Detailing Portfolio & Gallery Nagpur',
@@ -97,10 +98,12 @@ export default function GalleryPage() {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
                         {displayImages.map((img, idx) => (
                             <div key={idx} className="group relative rounded-2xl overflow-hidden aspect-[4/3] border border-surface-border hover:border-primary/50 transition-colors">
-                                <img
+                                <Image
                                     src={img.src}
                                     alt={img.alt}
-                                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                                    fill
+                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                    className="object-cover group-hover:scale-110 transition-transform duration-700"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300"></div>
 
@@ -122,11 +125,23 @@ export default function GalleryPage() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full max-w-4xl">
                         <div className="relative rounded-2xl overflow-hidden aspect-video border-2 border-red-500/20">
                             <div className="absolute top-4 left-4 z-10 bg-red-500 text-foreground text-xs font-bold px-3 py-1 rounded">BEFORE</div>
-                            <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=2070&auto=format&fit=crop&grayscale=1" alt="Before" className="w-full h-full object-cover opacity-50 sepia-[.3]" />
+                            <Image 
+                                src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=2070&auto=format&fit=crop&grayscale=1" 
+                                alt="Before" 
+                                fill
+                                sizes="(max-width: 768px) 100vw, 50vw"
+                                className="object-cover opacity-50 sepia-[.3]" 
+                            />
                         </div>
                         <div className="relative rounded-2xl overflow-hidden aspect-video border-2 border-green-500/20">
                             <div className="absolute top-4 left-4 z-10 bg-green-500 text-foreground text-xs font-bold px-3 py-1 rounded">AFTER</div>
-                            <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=2070&auto=format&fit=crop" alt="After" className="w-full h-full object-cover" />
+                            <Image 
+                                src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=2070&auto=format&fit=crop" 
+                                alt="After" 
+                                fill
+                                sizes="(max-width: 768px) 100vw, 50vw"
+                                className="object-cover" 
+                            />
                         </div>
                     </div>
                 </div>

@@ -14,7 +14,7 @@ const doorstepServices = [
         image: "/service-cards/image1.jpeg",
         desc: "Premium two-bucket hand wash method that prevents swirl marks and scratches. Safe, gentle & effective.",
         link: "/handbucket-wash",
-        price: "From ₹299"
+        price: "From ₹499"
     },
     {
         title: "Pressure Wash",
