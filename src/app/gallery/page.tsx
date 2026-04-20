@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     keywords: ['car detailing gallery', 'ceramic coating before after', 'interior deep clean results nagpur', 'best car wash nagpur photos']
 };
 
-export const dynamic = 'force-dynamic';
+export const dynamic = 'force-static';
 
 export default function GalleryPage() {
     // Dynamically read the public/gallery folder

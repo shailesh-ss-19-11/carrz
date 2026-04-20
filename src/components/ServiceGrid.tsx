@@ -95,6 +95,7 @@ export default function ServiceGrid() {
                                 <img
                                     src={service.image}
                                     alt={service.title}
+                                    loading="lazy"
                                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent group-hover:from-black/60 transition-colors duration-300" />
@@ -134,6 +135,7 @@ export default function ServiceGrid() {
                                 <img
                                     src={service.image}
                                     alt={service.title}
+                                    loading="lazy"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                                 />
                                 <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-300" />
@@ -164,6 +166,7 @@ export default function ServiceGrid() {
                                     <img
                                         src={item.image}
                                         alt={item.alt}
+                                        loading="lazy"
                                         className="w-full h-[340px] sm:h-[400px] md:h-[440px] object-cover"
                                     />
                                     <p className="text-center text-foreground font-semibold text-sm md:text-base px-4 py-3">{item.desc}</p>

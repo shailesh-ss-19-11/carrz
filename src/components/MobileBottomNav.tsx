@@ -22,7 +22,7 @@ export default function MobileBottomNav() {
                     href="https://wa.me/917709959881?text=Hello%20Carrz%20Care!%20I%20need%20help%20choosing%20a%20service."
                     className="w-14 h-14 bg-transparent rounded-full flex flex-col items-center justify-center text-white shadow-[0_4px_15px_rgba(255,0,0,0.4)] border-4 border-background animate-pulse"
                 >
-                    <img src={"/whts-app.png"} className="w-full h-full rounded-full" />
+                    <img src={"/whts-app.png"} loading="lazy" className="w-full h-full rounded-full" />
                 </a>
                 <span className="text-[10px] font-bold text-[#ff4d4d] absolute -bottom-5 left-1/2 -translate-x-1/2 w-max">Whatts App</span>
             </div>

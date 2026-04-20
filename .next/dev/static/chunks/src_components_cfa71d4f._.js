@@ -53,7 +53,7 @@ function HeroSlider() {
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "jsx-d85a9e251b1d0aef" + " " + "w-full md:rounded-2xl overflow-hidden md:shadow-2xl relative group",
+        className: "jsx-150d63c2b478ff45" + " " + "w-full md:rounded-2xl overflow-hidden md:shadow-2xl relative group",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Swiper"], {
                 modules: [
@@ -85,7 +85,7 @@ function HeroSlider() {
                                     const url = `https://wa.me/917709959881?text=${encodeURIComponent(slide.message)}`;
                                     window.open(url, "_blank");
                                 },
-                                className: "jsx-d85a9e251b1d0aef" + " " + "relative w-[89%] md:w-full h-full mx-auto cursor-pointer rounded-[10px] md:rounded-3xl overflow-hidden shadow-none md:shadow-[0_8px_30px_rgb(0,0,0,0.12)] md:dark:shadow-[0_8px_30px_rgba(255,0,0,0.15)] md:ring-1 ring-black/5 dark:ring-white/10 group-hover:shadow-[0_8px_30px_rgba(255,0,0,0.3)] transition-all duration-300",
+                                className: "jsx-150d63c2b478ff45" + " " + "relative w-[89%] md:w-full h-full mx-auto cursor-pointer rounded-[10px] md:rounded-3xl overflow-hidden shadow-none md:shadow-[0_8px_30px_rgb(0,0,0,0.12)] md:dark:shadow-[0_8px_30px_rgba(255,0,0,0.15)] md:ring-1 ring-black/5 dark:ring-white/10 group-hover:shadow-[0_8px_30px_rgba(255,0,0,0.3)] transition-all duration-300",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     src: slide.image,
                                     alt: slide.title,
@@ -108,19 +108,19 @@ function HeroSlider() {
                             columnNumber: 21
                         }, this)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-d85a9e251b1d0aef" + " " + "swiper-button-prev-custom absolute top-1/2 left-4 z-10 -translate-y-1/2 w-12 h-12 bg-black/50 hover:bg-black/80 text-white rounded-full flex items-center justify-center cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity backdrop-blur-sm border border-white/20",
+                        className: "jsx-150d63c2b478ff45" + " " + "swiper-button-prev-custom absolute top-1/2 left-4 z-10 -translate-y-1/2 w-12 h-12 bg-black/50 hover:bg-black/80 text-white rounded-full flex items-center justify-center cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity backdrop-blur-sm border border-white/20",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                             xmlns: "http://www.w3.org/2000/svg",
                             fill: "none",
                             viewBox: "0 0 24 24",
                             strokeWidth: 2.5,
                             stroke: "currentColor",
-                            className: "jsx-d85a9e251b1d0aef" + " " + "w-6 h-6",
+                            className: "jsx-150d63c2b478ff45" + " " + "w-6 h-6",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                 strokeLinecap: "round",
                                 strokeLinejoin: "round",
                                 d: "M15.75 19.5L8.25 12l7.5-7.5",
-                                className: "jsx-d85a9e251b1d0aef"
+                                className: "jsx-150d63c2b478ff45"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroSlider.tsx",
                                 lineNumber: 76,
@@ -137,19 +137,19 @@ function HeroSlider() {
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-d85a9e251b1d0aef" + " " + "swiper-button-next-custom absolute top-1/2 right-4 z-10 -translate-y-1/2 w-12 h-12 bg-black/50 hover:bg-black/80 text-white rounded-full flex items-center justify-center cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity backdrop-blur-sm border border-white/20",
+                        className: "jsx-150d63c2b478ff45" + " " + "swiper-button-next-custom absolute top-1/2 right-4 z-10 -translate-y-1/2 w-12 h-12 bg-black/50 hover:bg-black/80 text-white rounded-full flex items-center justify-center cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity backdrop-blur-sm border border-white/20",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                             xmlns: "http://www.w3.org/2000/svg",
                             fill: "none",
                             viewBox: "0 0 24 24",
                             strokeWidth: 2.5,
                             stroke: "currentColor",
-                            className: "jsx-d85a9e251b1d0aef" + " " + "w-6 h-6",
+                            className: "jsx-150d63c2b478ff45" + " " + "w-6 h-6",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                 strokeLinecap: "round",
                                 strokeLinejoin: "round",
                                 d: "M8.25 4.5l7.5 7.5-7.5 7.5",
-                                className: "jsx-d85a9e251b1d0aef"
+                                className: "jsx-150d63c2b478ff45"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroSlider.tsx",
                                 lineNumber: 81,
@@ -172,7 +172,7 @@ function HeroSlider() {
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                id: "d85a9e251b1d0aef",
+                id: "150d63c2b478ff45",
                 children: ".swiper-pagination-bullet{opacity:.5;background-color:#fff!important}.swiper-pagination-bullet-active{opacity:1;background-color:var(--primary-color)!important}"
             }, void 0, false, void 0, this)
         ]
@@ -312,6 +312,7 @@ function ServiceGrid() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                 src: service.image,
                                                 alt: service.title,
+                                                loading: "lazy",
                                                 className: "w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/ServiceGrid.tsx",
@@ -322,7 +323,7 @@ function ServiceGrid() {
                                                 className: "absolute inset-0 bg-gradient-to-t from-black/40 to-transparent group-hover:from-black/60 transition-colors duration-300"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/ServiceGrid.tsx",
-                                                lineNumber: 100,
+                                                lineNumber: 101,
                                                 columnNumber: 33
                                             }, this)
                                         ]
@@ -339,7 +340,7 @@ function ServiceGrid() {
                                                 children: service.title
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/ServiceGrid.tsx",
-                                                lineNumber: 105,
+                                                lineNumber: 106,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -347,7 +348,7 @@ function ServiceGrid() {
                                                 children: service.desc
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/ServiceGrid.tsx",
-                                                lineNumber: 108,
+                                                lineNumber: 109,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -359,7 +360,7 @@ function ServiceGrid() {
                                                         children: "See More"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/ServiceGrid.tsx",
-                                                        lineNumber: 117,
+                                                        lineNumber: 118,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -367,26 +368,26 @@ function ServiceGrid() {
                                                         children: "View Packages"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/ServiceGrid.tsx",
-                                                        lineNumber: 118,
+                                                        lineNumber: 119,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
                                                         className: "w-2 h-2 sm:w-3 h-3 md:w-4 md:h-4"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/ServiceGrid.tsx",
-                                                        lineNumber: 119,
+                                                        lineNumber: 120,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/ServiceGrid.tsx",
-                                                lineNumber: 113,
+                                                lineNumber: 114,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/ServiceGrid.tsx",
-                                        lineNumber: 104,
+                                        lineNumber: 105,
                                         columnNumber: 29
                                     }, this)
                                 ]
@@ -407,12 +408,12 @@ function ServiceGrid() {
                             children: " Car Detailing Studio"
                         }, void 0, false, {
                             fileName: "[project]/src/components/ServiceGrid.tsx",
-                            lineNumber: 127,
+                            lineNumber: 128,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/ServiceGrid.tsx",
-                        lineNumber: 126,
+                        lineNumber: 127,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -427,23 +428,24 @@ function ServiceGrid() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                 src: service.image,
                                                 alt: service.title,
+                                                loading: "lazy",
                                                 className: "w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/ServiceGrid.tsx",
-                                                lineNumber: 134,
+                                                lineNumber: 135,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-300"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/ServiceGrid.tsx",
-                                                lineNumber: 139,
+                                                lineNumber: 141,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/ServiceGrid.tsx",
-                                        lineNumber: 133,
+                                        lineNumber: 134,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -451,18 +453,18 @@ function ServiceGrid() {
                                         children: service.title
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/ServiceGrid.tsx",
-                                        lineNumber: 141,
+                                        lineNumber: 143,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, index, true, {
                                 fileName: "[project]/src/components/ServiceGrid.tsx",
-                                lineNumber: 132,
+                                lineNumber: 133,
                                 columnNumber: 25
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/components/ServiceGrid.tsx",
-                        lineNumber: 130,
+                        lineNumber: 131,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -476,7 +478,7 @@ function ServiceGrid() {
                                         children: "Why Choose Us?"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/ServiceGrid.tsx",
-                                        lineNumber: 151,
+                                        lineNumber: 153,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -484,13 +486,13 @@ function ServiceGrid() {
                                         children: "Experience the difference with Rediance premium doorstep services and expert care."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/ServiceGrid.tsx",
-                                        lineNumber: 152,
+                                        lineNumber: 154,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/ServiceGrid.tsx",
-                                lineNumber: 150,
+                                lineNumber: 152,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -524,10 +526,11 @@ function ServiceGrid() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                     src: item.image,
                                                     alt: item.alt,
+                                                    loading: "lazy",
                                                     className: "w-full h-[340px] sm:h-[400px] md:h-[440px] object-cover"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/ServiceGrid.tsx",
-                                                    lineNumber: 164,
+                                                    lineNumber: 166,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -535,29 +538,29 @@ function ServiceGrid() {
                                                     children: item.desc
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/ServiceGrid.tsx",
-                                                    lineNumber: 169,
+                                                    lineNumber: 172,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, idx, true, {
                                             fileName: "[project]/src/components/ServiceGrid.tsx",
-                                            lineNumber: 163,
+                                            lineNumber: 165,
                                             columnNumber: 33
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ServiceGrid.tsx",
-                                    lineNumber: 156,
+                                    lineNumber: 158,
                                     columnNumber: 25
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ServiceGrid.tsx",
-                                lineNumber: 155,
+                                lineNumber: 157,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/ServiceGrid.tsx",
-                        lineNumber: 149,
+                        lineNumber: 151,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -567,7 +570,7 @@ function ServiceGrid() {
                                 className: "absolute top-[-50%] right-[-10%] w-64 h-64 bg-primary/30 rounded-full blur-3xl group-hover:bg-primary/40 transition-colors duration-500"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ServiceGrid.tsx",
-                                lineNumber: 180,
+                                lineNumber: 183,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -578,7 +581,7 @@ function ServiceGrid() {
                                         children: "Need help choosing a service?"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/ServiceGrid.tsx",
-                                        lineNumber: 183,
+                                        lineNumber: 186,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -586,13 +589,13 @@ function ServiceGrid() {
                                         children: "Our experts will inspect your car and recommend the best bespoke care package."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/ServiceGrid.tsx",
-                                        lineNumber: 184,
+                                        lineNumber: 187,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/ServiceGrid.tsx",
-                                lineNumber: 182,
+                                lineNumber: 185,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -603,13 +606,13 @@ function ServiceGrid() {
                                 children: "Talk to an Expert"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ServiceGrid.tsx",
-                                lineNumber: 187,
+                                lineNumber: 190,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/ServiceGrid.tsx",
-                        lineNumber: 178,
+                        lineNumber: 181,
                         columnNumber: 17
                     }, this)
                 ]

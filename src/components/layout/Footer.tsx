@@ -12,6 +12,7 @@ export default function Footer() {
                             <img
                                 src="/logo.png"
                                 alt="Rediance Car Care Services Logo"
+                                loading="lazy"
                                 className="rounded-full h-16 w-auto object-contain drop-shadow-[0_0_8px_rgba(255,0,0,0.1)] group-hover:drop-shadow-[0_0_12px_rgba(255,0,0,0.6)] transition-all duration-300"
                             />
                             <span className="font-bold text-2xl tracking-tight text-foreground group-hover:text-primary transition-colors">Rediance Car Care Services</span>
