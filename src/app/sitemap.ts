@@ -2,7 +2,8 @@ import { MetadataRoute } from 'next'
 export const dynamic = 'force-static'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://carrzcare.in'
+    const baseUrl = 'https://www.rediancecarcare.com'
+
     return [
         {
             url: baseUrl,

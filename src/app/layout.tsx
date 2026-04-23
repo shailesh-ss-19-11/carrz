@@ -60,12 +60,12 @@ export const metadata: Metadata = {
   creator: "Rediance Car Care Services",
   publisher: "Rediance Car Care Services",
   alternates: {
-    canonical: 'https://carrzcare.in',
+    canonical: 'https://www.rediancecarcare.com',
   },
   openGraph: {
     title: "Rediance Car Care Services | Premium Doorstep Car Detailing in Nagpur",
     description: "Professional doorstep car cleaning, detailing, and ceramic coating services in Nagpur. Book your slot today for a showroom shine at home.",
-    url: "https://carrzcare.in",
+    url: "https://www.rediancecarcare.com",
     siteName: "Rediance Car Care Services",
     locale: "en_IN",
     type: "website",
@@ -98,9 +98,9 @@ export default function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'AutomotiveBusiness',
     name: 'Rediance Car Care Services',
-    image: 'https://carrzcare.in/logo.png', // Placeholder
-    '@id': 'https://carrzcare.in',
-    url: 'https://carrzcare.in',
+    image: 'https://www.rediancecarcare.com/logo.png', // Placeholder
+    '@id': 'https://www.rediancecarcare.com',
+    url: 'https://www.rediancecarcare.com',
     telephone: '+917709959881',
     address: {
       '@type': 'PostalAddress',
@@ -161,7 +161,7 @@ export default function RootLayout({
       <body className={`${inter.variable} antialiased bg-background text-foreground min-h-screen flex flex-col transition-colors duration-300`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <Navbar />
-          <Loader />
+          {/* <Loader /> */}
           <ScrollAnimations />
           <main className="flex-1 pt-20">
             {children}

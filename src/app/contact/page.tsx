@@ -28,7 +28,7 @@ export default function ContactPage() {
         if (!formData.name || !formData.phone || !formData.location) return alert("Please fill all fields first.");
         const subject = encodeURIComponent(`New Booking Request: ${formData.service}`);
         const body = encodeURIComponent(`Name: ${formData.name}\nPhone: ${formData.phone}\nService Required: ${formData.service}\nLocation in Nagpur: ${formData.location}\n\nSent via website booking form.`);
-        window.location.href = `mailto:hello@carrzcare.in?subject=${subject}&body=${body}`;
+        window.location.href = `mailto:hello@www.rediancecarcare.com?subject=${subject}&body=${body}`;
     };
 
     const handleCall = () => {
@@ -174,7 +174,7 @@ export default function ContactPage() {
                                     </div>
                                     <div>
                                         <span className="block text-sm text-muted font-medium mb-1">Email Us</span>
-                                        <span className="text-lg">hello@carrzcare.in</span>
+                                        <span className="text-lg">hello@www.rediancecarcare.com</span>
                                     </div>
                                 </li>
                                 <li className="flex items-start gap-4 text-muted">

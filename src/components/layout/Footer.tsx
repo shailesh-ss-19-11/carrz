@@ -76,7 +76,7 @@ export default function Footer() {
                             </li>
                             <li className="flex items-center gap-3 text-muted">
                                 <Mail className="h-5 w-5 text-primary shrink-0" />
-                                <span>hello@carrzcare.in</span>
+                                <span>hello@www.rediancecarcare.com</span>
                             </li>
                             <li className="flex items-center gap-3 text-muted">
                                 <Clock className="h-5 w-5 text-primary shrink-0" />

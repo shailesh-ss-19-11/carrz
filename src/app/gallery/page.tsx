@@ -1,28 +1,29 @@
-import { Metadata } from 'next';
-import { Camera, Sparkles } from 'lucide-react';
-import fs from 'fs';
-import path from 'path';
-import Image from 'next/image';
+import { Metadata } from "next";
+import { Camera, Sparkles } from "lucide-react";
+import fs from "node:fs";
+import path from "node:path";
+import Image from "next/image";
 
 export const metadata: Metadata = {
-    title: 'Car Detailing Portfolio & Gallery Nagpur',
-    description: 'See the results! Check out our before/after photos, ceramic coating reflections, and interior detailing transformations done for customers across Nagpur.',
-    keywords: ['car detailing gallery', 'ceramic coating before after', 'interior deep clean results nagpur', 'best car wash nagpur photos']
+    title: "Car Detailing Portfolio & Gallery Nagpur",
+    description: "See the results! Check out our before/after photos, ceramic coating reflections, and interior detailing transformations done for customers across Nagpur.",
+    keywords: ["car detailing gallery", "ceramic coating before after", "interior deep clean results nagpur", "best car wash nagpur photos"]
 };
 
 export const dynamic = 'force-static';
 
 export default function GalleryPage() {
-    // Dynamically read the public/gallery folder
-    const galleryDirectory = path.join(process.cwd(), 'public/gallery');
+    // Read the local gallery folder at build time so the page can be statically exported.
+    const galleryDirectory = path.join(process.cwd(), "public/gallery");
     let localImages: string[] = [];
 
     try {
         if (fs.existsSync(galleryDirectory)) {
             const files = fs.readdirSync(galleryDirectory);
             localImages = files
-                .filter(file => /\.(jpg|jpeg|png|webp|gif|avif)$/i.test(file))
-                .map(file => `/gallery/${file}`);
+                .filter((file) => /\.(jpg|jpeg|png|webp|gif|avif)$/i.test(file))
+                .sort((a, b) => a.localeCompare(b))
+                .map((file) => `/gallery/${file}`);
         }
     } catch (error) {
         console.error("Failed to read gallery directory", error);
@@ -65,8 +66,8 @@ export default function GalleryPage() {
     // Map local images to the same display format
     const dynamicImages = localImages.map((src, index) => {
         // Create a nicer alt text from filename, removing extensions and hyphens
-        const filename = src.split('/').pop()?.split('.')[0] || '';
-        const cleanName = filename.replace(/[-_]/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+        const filename = src.split("/").pop()?.split(".")[0] || "";
+        const cleanName = filename.replace(/[-_]/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 
         return {
             src,

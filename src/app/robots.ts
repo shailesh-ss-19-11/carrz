@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: '/',
             disallow: ['/api/'],
         },
-        sitemap: 'https://carrzcare.in/sitemap.xml',
+        sitemap: 'https://www.rediancecarcare.com/sitemap.xml',
     }
 }
