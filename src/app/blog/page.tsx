@@ -103,7 +103,7 @@ export default function BlogPage() {
 
           <div className="flex items-center gap-4">
             <Link
-              href="https://wa.me/917709959881"
+              href="https://wa.me/917559379755"
               className="flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition-all text-sm font-semibold"
             >
               <MessageCircle size={18} />
@@ -141,9 +141,9 @@ export default function BlogPage() {
               <div className="mt-8 pt-8 border-t border-white/10">
                 <p className="text-sm font-semibold mb-4 text-gray-400 uppercase tracking-wider">Quick Contact</p>
                 <div className="space-y-4">
-                  <a href="tel:+917709959881" className="flex items-center gap-3 text-white hover:text-primary transition-colors">
+                  <a href="tel:+917559379755" className="flex items-center gap-3 text-white hover:text-primary transition-colors">
                     <PhoneCall size={18} />
-                    <span>77099 59881</span>
+                    <span>7559379755</span>
                   </a>
                   <p className="text-xs text-gray-500 leading-relaxed">
                     Premium Doorstep Car Detailing Nagpur. Professional care for your luxury vehicles.
@@ -208,14 +208,14 @@ export default function BlogPage() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Link
-                    href="tel:+917709959881"
+                    href="tel:+917559379755"
                     className="flex items-center justify-center gap-2 bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-xl transition-all font-bold text-lg shadow-[0_10px_30px_rgba(var(--primary),0.4)] hover:-translate-y-1"
                   >
                     <PhoneCall size={18} />
-                    Call Now: 77099 59881
+                    Call Now: 7559379755
                   </Link>
                   <Link
-                    href="https://wa.me/917709959881"
+                    href="https://wa.me/917559379755"
                     className="flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20ba59] text-white px-8 py-4 rounded-xl transition-all font-bold text-lg shadow-[0_10px_30px_rgba(37,211,102,0.3)] hover:-translate-y-1"
                   >
                     <MessageCircle size={18} />

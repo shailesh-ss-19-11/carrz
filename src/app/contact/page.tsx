@@ -14,13 +14,13 @@ export default function ContactPage() {
     const handleWhatsApp = () => {
         if (!formData.name || !formData.phone || !formData.location) return alert("Please fill all fields first.");
         const text = `Hello Carrz Care! 🚗✨%0A%0A*Name:* ${formData.name}%0A*Phone:* ${formData.phone}%0A*Service Required:* ${formData.service}%0A*Location in Nagpur:* ${formData.location}%0A%0A_Sent via website booking form._`;
-        const phoneNum = "917709959881"; // Using actual WhatsApp number
+        const phoneNum = "917559379755"; // Using actual WhatsApp number
         window.open(`https://wa.me/${phoneNum}?text=${text}`, '_blank');
     };
 
     const handleDirectWhatsApp = () => {
         const text = `Hello Carrz Care! 🚗✨%0A%0AI'm interested in booking a service.`;
-        const phoneNum = "917709959881";
+        const phoneNum = "917559379755";
         window.open(`https://wa.me/${phoneNum}?text=${text}`, '_blank');
     };
 
@@ -28,11 +28,11 @@ export default function ContactPage() {
         if (!formData.name || !formData.phone || !formData.location) return alert("Please fill all fields first.");
         const subject = encodeURIComponent(`New Booking Request: ${formData.service}`);
         const body = encodeURIComponent(`Name: ${formData.name}\nPhone: ${formData.phone}\nService Required: ${formData.service}\nLocation in Nagpur: ${formData.location}\n\nSent via website booking form.`);
-        window.location.href = `mailto:hello@www.rediancecarcare.com?subject=${subject}&body=${body}`;
+        window.location.href = `mailto:hello@rediancecarcare.com?subject=${subject}&body=${body}`;
     };
 
     const handleCall = () => {
-        window.location.href = `tel:+917709959881`;
+        window.location.href = `tel:+917559379755`;
     };
 
     return (
@@ -98,7 +98,7 @@ export default function ContactPage() {
                                     value={formData.phone}
                                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                                     className="w-full bg-background border border-surface-border rounded-xl px-4 py-3 text-foreground focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all"
-                                    placeholder="+91 77099 59881"
+                                    placeholder="+91 7559379755"
                                 />
                             </div>
 
@@ -165,7 +165,7 @@ export default function ContactPage() {
                                     </div>
                                     <div>
                                         <span className="block text-sm text-muted font-medium mb-1">Call / WhatsApp</span>
-                                        <span className="text-lg">+91 7709 959 881</span>
+                                        <span className="text-lg">+91 7559379755</span>
                                     </div>
                                 </li>
                                 <li className="flex items-start gap-4 text-muted">
@@ -174,7 +174,7 @@ export default function ContactPage() {
                                     </div>
                                     <div>
                                         <span className="block text-sm text-muted font-medium mb-1">Email Us</span>
-                                        <span className="text-lg">hello@www.rediancecarcare.com</span>
+                                        <span className="text-lg">hello@rediancecarcare.com</span>
                                     </div>
                                 </li>
                                 <li className="flex items-start gap-4 text-muted">
@@ -197,31 +197,6 @@ export default function ContactPage() {
                                     </div>
                                 </li>
                             </ul>
-                        </div>
-
-                        <div className="bg-surface p-8 rounded-3xl border border-surface-border">
-                            <h3 className="text-lg font-bold text-foreground mb-4 flex items-center gap-2">
-                                <MapPin className="w-5 h-5 text-primary" />
-                                Service Areas in Nagpur
-                            </h3>
-                            <div className="flex flex-wrap gap-2">
-                                {[
-                                    "Sitabuldi", "Mahal", "Itwari", "Mominpura", "Dharampeth", "Civil Lines", "Ramdaspeth", "Sadar",
-                                    "Manish Nagar", "Narendra Nagar", "Besa", "Trimurti Nagar", "MIHAN", "Wardha Road", "Butibori",
-                                    "Hingna", "Gorewada", "Seminary Hills", "Pratap Nagar", "Laxmi Nagar", "Shankar Nagar", "Hanuman Nagar",
-                                    "Ayodhya Nagar", "Nandanvan", "Jaripatka", "Kamptee Road", "Koradi Road", "Hudkeshwar", "Pardi",
-                                    "Kalamna", "Wadi", "Amravati Road", "Friends Colony", "Indora", "Teka Naka", "Gittikhadan",
-                                    "Zingabai Takli", "Omkar Nagar", "Chinchbhavan", "Sonegaon"
-                                ].map((area) => (
-                                    <span
-                                        key={area}
-                                        className="text-xs md:text-sm px-3 md:px-4 py-1.5 md:py-2 bg-background border border-surface-border rounded-full text-muted hover:text-primary hover:bg-primary/5 hover:border-primary/30 transition-all duration-300 shadow-[0_2px_10px_rgba(0,0,0,0.1)] hover:shadow-[0_4px_15px_rgba(0,240,255,0.15)] hover:-translate-y-0.5 cursor-default flex items-center gap-1.5"
-                                    >
-                                        <MapPin className="w-3 h-3 text-primary/70" />
-                                        {area}
-                                    </span>
-                                ))}
-                            </div>
                         </div>
 
                         {/* Interactive Google Map */}

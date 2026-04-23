@@ -55,7 +55,7 @@ export default function HeroSlider() {
                 {slides.map((slide) => (
                     <SwiperSlide key={slide.id} className="p-0 md:p-4 pb-10">
                         <div className="relative w-[89%] md:w-full h-full mx-auto cursor-pointer rounded-[10px] md:rounded-3xl overflow-hidden shadow-none md:shadow-[0_8px_30px_rgb(0,0,0,0.12)] md:dark:shadow-[0_8px_30px_rgba(255,0,0,0.15)] md:ring-1 ring-black/5 dark:ring-white/10 group-hover:shadow-[0_8px_30px_rgba(255,0,0,0.3)] transition-all duration-300" onClick={() => {
-                            const url = `https://wa.me/917709959881?text=${encodeURIComponent(slide.message)}`;
+                            const url = `https://wa.me/917559379755?text=${encodeURIComponent(slide.message)}`;
                             window.open(url, "_blank");
                         }}>
                             {/* Main prominent uncropped banner image */}

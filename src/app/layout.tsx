@@ -18,6 +18,11 @@ export const metadata: Metadata = {
     default: "Rediance Car Care Services | Premium Doorstep Car Detailing in Nagpur",
     template: "%s | Rediance Car Care Services Nagpur",
   },
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
   description: "Nagpur's #1 professional doorstep car cleaning, interior deep detailing, and premium ceramic coating services. Best doorstep car wash service in Manish Nagar, Narendra Nagar, Besa & all Nagpur areas. Affordable car detailing packages. Book your slot today!",
   keywords: [
     // Core brand & service
@@ -101,7 +106,7 @@ export default function RootLayout({
     image: 'https://www.rediancecarcare.com/logo.png', // Placeholder
     '@id': 'https://www.rediancecarcare.com',
     url: 'https://www.rediancecarcare.com',
-    telephone: '+917709959881',
+    telephone: '+917559379755',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Dharampeth',
@@ -131,7 +136,7 @@ export default function RootLayout({
     },
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+917709959881',
+      telephone: '+917559379755',
       contactType: 'customer service',
       areaServed: [
         'Nagpur', 'Manish Nagar', 'Besa-Pipla', 'Belatrodi', 'Manewada',

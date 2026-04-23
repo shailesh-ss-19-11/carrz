@@ -72,11 +72,11 @@ export default function Footer() {
                             </li>
                             <li className="flex items-center gap-3 text-muted">
                                 <Phone className="h-5 w-5 text-primary shrink-0" />
-                                <span>+91 7709 959 881</span>
+                                <span>+91 7559379755</span>
                             </li>
                             <li className="flex items-center gap-3 text-muted">
                                 <Mail className="h-5 w-5 text-primary shrink-0" />
-                                <span>hello@www.rediancecarcare.com</span>
+                                <span>hello@rediancecarcare.com</span>
                             </li>
                             <li className="flex items-center gap-3 text-muted">
                                 <Clock className="h-5 w-5 text-primary shrink-0" />

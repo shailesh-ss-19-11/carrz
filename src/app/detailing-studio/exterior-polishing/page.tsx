@@ -23,7 +23,7 @@ export default function ExteriorPolishingPage() {
                             <span className="text-primary font-extrabold text-lg md:text-xl">Starting from ₹1,999</span>
                         </div>
                         <a
-                            href="https://wa.me/917709959881?text=Hi%2C%20I%27m%20interested%20in%20Exterior%20Polishing.%20Please%20share%20more%20details."
+                            href="https://wa.me/917559379755?text=Hi%2C%20I%27m%20interested%20in%20Exterior%20Polishing.%20Please%20share%20more%20details."
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-2 px-6 py-3 bg-[#25D366] text-white font-bold text-lg rounded-full hover:bg-[#1ebe57] shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5"
@@ -125,7 +125,7 @@ export default function ExteriorPolishingPage() {
                     {/* Call to Action */}
                     <div className="pt-8 text-center">
                         <a
-                            href="tel:+917709959881"
+                            href="tel:+917559379755"
                             className="inline-flex items-center justify-center gap-3 w-full md:w-auto px-10 py-5 bg-primary text-white font-bold text-xl rounded-full hover:bg-primary-dark shadow-[0_10px_30px_rgba(255,0,0,0.3)] hover:shadow-[0_15px_40px_rgba(255,0,0,0.5)] transition-all duration-300 hover:-translate-y-1"
                         >
                             <PhoneCall className="w-6 h-6" />
