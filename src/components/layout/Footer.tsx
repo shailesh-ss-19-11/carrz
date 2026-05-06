@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CarFront, Facebook, Instagram, Twitter, MapPin, Phone, Mail, Clock } from "lucide-react";
+import { CarFront, Facebook, Instagram, Twitter, MapPin, Phone, Mail, Clock, Youtube } from "lucide-react";
 
 export default function Footer() {
     return (
@@ -22,14 +22,14 @@ export default function Footer() {
                             We bring the showroom shine right to your home.
                         </p>
                         <div className="flex space-x-4 pt-2">
-                            <a href="#" className="w-10 h-10 rounded-full bg-surface flex items-center justify-center text-muted hover:text-primary hover:glow-box transition-all">
+                            <a href="https://www.facebook.com/Rediancewash" target="_blank" className="w-10 h-10 rounded-full bg-surface flex items-center justify-center text-muted hover:text-primary hover:glow-box transition-all">
                                 <Facebook className="h-5 w-5" />
                             </a>
-                            <a href="#" className="w-10 h-10 rounded-full bg-surface flex items-center justify-center text-muted hover:text-primary hover:glow-box transition-all">
+                            <a href="https://www.instagram.com/rediancecarcareservice?utm_source=qr&igsh=MXFrY2FvbnM5aHFmOQ==" target="_blank" className="w-10 h-10 rounded-full bg-surface flex items-center justify-center text-muted hover:text-primary hover:glow-box transition-all">
                                 <Instagram className="h-5 w-5" />
                             </a>
-                            <a href="#" className="w-10 h-10 rounded-full bg-surface flex items-center justify-center text-muted hover:text-primary hover:glow-box transition-all">
-                                <Twitter className="h-5 w-5" />
+                            <a href="https://youtube.com/@rediancecarcareservice?si=OcvdejO93s4Hr6Sr" target="_blank" className="w-10 h-10 rounded-full bg-surface flex items-center justify-center text-muted hover:text-primary hover:glow-box transition-all">
+                                <Youtube className="h-5 w-5" />
                             </a>
                         </div>
                     </div>

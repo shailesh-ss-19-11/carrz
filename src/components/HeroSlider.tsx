@@ -17,7 +17,7 @@ export default function HeroSlider() {
             // image: "https://images.unsplash.com/photo-1580757468214-c73f7062a5cb?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             title: "Showroom Shine",
             subtitle: "Delivered to Your Door.",
-            message: "Hello Carrz Care! Can we get more info about your Showroom Shine service?",
+            message: "Hello Rediance Car Care! Can we get more info about your Showroom Shine service?",
         },
         {
             id: 2,
@@ -25,7 +25,7 @@ export default function HeroSlider() {
             image: "/offers/offer2.jpeg",
             title: "Premium Ceramic Coating",
             subtitle: "Long-lasting Protection & Gloss.",
-            message: "Hello Carrz Care! Can we get more info about Ceramic Coating?",
+            message: "Hello Rediance Car Care! Can we get more info about Ceramic Coating?",
         },
         {
             id: 3,
@@ -33,7 +33,7 @@ export default function HeroSlider() {
             image: "/offers/offer3.jpeg",
             title: "Deep Interior Detailing",
             subtitle: "Spotless inside Out.",
-            message: "Hello Carrz Care! Can we get more info about Interior Detailing?",
+            message: "Hello Rediance Car Care! Can we get more info about Interior Detailing?",
         },
     ];
 

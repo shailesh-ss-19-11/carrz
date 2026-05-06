@@ -42,7 +42,7 @@ export default function CustomerReviews() {
         <div className="pt-10 md:pt-16 border-t border-surface-border mt-10 md:mt-16">
             <div className="text-center mb-10">
                 <h2 className="text-2xl md:text-3xl font-extrabold text-primary tracking-tight mb-2">What Our Customers Say</h2>
-                <p className="text-muted text-sm md:text-base font-light">Join thousands of satisfied car owners relying on Carrz.</p>
+                <p className="text-muted text-sm md:text-base font-light">Join thousands of satisfied car owners relying on Rediance Car Care.</p>
             </div>
 
             <div className="w-full max-w-5xl mx-auto px-2 relative">

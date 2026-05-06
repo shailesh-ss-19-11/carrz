@@ -13,13 +13,13 @@ export default function ContactPage() {
 
     const handleWhatsApp = () => {
         if (!formData.name || !formData.phone || !formData.location) return alert("Please fill all fields first.");
-        const text = `Hello Carrz Care! 🚗✨%0A%0A*Name:* ${formData.name}%0A*Phone:* ${formData.phone}%0A*Service Required:* ${formData.service}%0A*Location in Nagpur:* ${formData.location}%0A%0A_Sent via website booking form._`;
+        const text = `Hello Rediance Car Care! 🚗✨%0A%0A*Name:* ${formData.name}%0A*Phone:* ${formData.phone}%0A*Service Required:* ${formData.service}%0A*Location in Nagpur:* ${formData.location}%0A%0A_Sent via website booking form._`;
         const phoneNum = "917559379755"; // Using actual WhatsApp number
         window.open(`https://wa.me/${phoneNum}?text=${text}`, '_blank');
     };
 
     const handleDirectWhatsApp = () => {
-        const text = `Hello Carrz Care! 🚗✨%0A%0AI'm interested in booking a service.`;
+        const text = `Hello Rediance Car Care! 🚗✨%0A%0AI'm interested in booking a service.`;
         const phoneNum = "917559379755";
         window.open(`https://wa.me/${phoneNum}?text=${text}`, '_blank');
     };
@@ -110,7 +110,7 @@ export default function ContactPage() {
                                     className="w-full bg-background border border-surface-border rounded-xl px-4 py-3 text-foreground focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all appearance-none"
                                 >
                                     <option>Basic Wash (₹499)</option>
-                                    <option>Monthly Subscription (₹999)</option>
+                                    <option>Pressure Wash (₹999)</option>
                                     <option>Interior Detailing (₹1499)</option>
                                     <option>Full Detailing (₹2499)</option>
                                     <option>Ceramic Coating</option>
@@ -192,7 +192,7 @@ export default function ContactPage() {
                                     </div>
                                     <div>
                                         <span className="block text-sm text-muted font-medium mb-1">Our Studio</span>
-                                        <span className="text-lg">Carrz Care Nagpur</span>
+                                        <span className="text-lg">Rediance Car Care Nagpur</span>
                                         <a href="https://share.google/BULSstNk8zMjcB7JF" target="_blank" rel="noopener noreferrer" className="block text-sm text-primary mt-1 hover:underline">Get Directions</a>
                                     </div>
                                 </li>
